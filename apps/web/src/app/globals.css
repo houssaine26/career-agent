@@ -1,0 +1,316 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 210 40% 98%;
+    --foreground: 222 47% 11%;
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+    --primary: 199 89% 40%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 210 40% 96%;
+    --secondary-foreground: 222 47% 11%;
+    --muted: 210 40% 96%;
+    --muted-foreground: 215 16% 42%;
+    --accent: 237 67% 55%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 199 89% 40%;
+    --radius: 0.75rem;
+
+    /* Section Spacing Tokens */
+    --section-gap-sm: 4rem;  /* 64px */
+    --section-gap-md: 6rem;  /* 96px */
+    --section-gap-lg: 8rem;  /* 128px */
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground antialiased selection:bg-cyan-500/30 selection:text-cyan-200;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+  
+  /* Fluid Typography Heading Scale */
+  h1 {
+    font-size: clamp(2.25rem, 5vw + 1rem, 4.5rem);
+    line-height: 1.08;
+    letter-spacing: -0.03em;
+  }
+  h2 {
+    font-size: clamp(1.75rem, 3.5vw + 0.5rem, 3rem);
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+  }
+  h3 {
+    font-size: clamp(1.25rem, 2vw + 0.25rem, 1.75rem);
+    line-height: 1.25;
+    letter-spacing: -0.01em;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-white/10 rounded-full hover:bg-cyan-500/30 transition-colors;
+  }
+}
+
+@layer utilities {
+  /* Design System Card Variant 1: Glass Card */
+  .card-glass {
+    background: rgba(9, 13, 24, 0.75);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  .card-glass:hover {
+    border-color: rgba(56, 189, 248, 0.3);
+    box-shadow: 0 0 30px rgba(56, 189, 248, 0.1);
+  }
+
+  /* Design System Card Variant 2: Dashboard Container */
+  .card-dashboard {
+    background: rgba(5, 8, 18, 0.95);
+    border: 1px solid rgba(56, 189, 248, 0.2);
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(24px);
+  }
+
+  /* Design System Card Variant 3: Metric Badge */
+  .card-metric {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.04) 0%, rgba(255, 255, 255, 0.01) 100%);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(12px);
+    transition: all 0.2s ease;
+  }
+  .card-metric:hover {
+    border-color: rgba(56, 189, 248, 0.4);
+    transform: translateY(-2px);
+  }
+
+  /* Design System Card Variant 4: Interactive Selection Card */
+  .card-interactive {
+    background: rgba(13, 18, 34, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+    cursor: pointer;
+  }
+  .card-interactive:hover {
+    background: rgba(13, 18, 34, 0.9);
+    border-color: rgba(99, 102, 241, 0.4);
+    box-shadow: 0 0 25px rgba(99, 102, 241, 0.15);
+  }
+
+  /* Gradient text utilities */
+  .text-gradient-cyan {
+    background: linear-gradient(135deg, #38bdf8 0%, #818cf8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .text-gradient-purple {
+    background: linear-gradient(135deg, #c084fc 0%, #38bdf8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+}
+
+  .site-light {
+    color-scheme: light;
+    color: #0f172a;
+    background:
+      radial-gradient(ellipse at 50% -12rem, rgba(186, 230, 253, 0.52), transparent 42rem),
+      #f8fafc;
+  }
+
+  .landing-hero-backdrop {
+    background-image: radial-gradient(rgba(14, 116, 144, 0.11) 1px, transparent 1px);
+    background-position: center top;
+    background-size: 24px 24px;
+    mask-image: linear-gradient(to bottom, black, transparent 88%);
+  }
+
+  .landing-hero-glow {
+    background: radial-gradient(ellipse, rgba(125, 211, 252, 0.38), transparent 68%);
+    filter: blur(56px);
+  }
+
+  .site-light [class~="text-white"],
+  .site-light [class*="text-white/"],
+  .site-light [class~="text-slate-100"],
+  .site-light [class~="text-slate-200"],
+  .site-light [class~="text-slate-300"] {
+    color: #1e293b;
+  }
+
+  .site-light [class~="text-slate-400"],
+  .site-light [class~="text-slate-500"],
+  .site-light [class~="text-slate-600"] {
+    color: #64748b;
+  }
+
+  .site-light [class*="text-sky-300"],
+  .site-light [class*="text-sky-400"],
+  .site-light [class*="text-cyan-300"],
+  .site-light [class*="text-cyan-400"] {
+    color: #0369a1;
+  }
+
+  .site-light [class*="text-emerald-300"],
+  .site-light [class*="text-emerald-400"],
+  .site-light [class*="text-green-300"],
+  .site-light [class*="text-green-400"] {
+    color: #047857;
+  }
+
+  .site-light [class*="text-amber-300"],
+  .site-light [class*="text-amber-400"],
+  .site-light [class*="text-yellow-300"],
+  .site-light [class*="text-yellow-400"],
+  .site-light [class*="text-orange-300"],
+  .site-light [class*="text-orange-400"] {
+    color: #a16207;
+  }
+
+  .site-light [class*="text-red-300"],
+  .site-light [class*="text-red-400"],
+  .site-light [class*="text-rose-300"],
+  .site-light [class*="text-rose-400"],
+  .site-light [class*="text-pink-300"],
+  .site-light [class*="text-pink-400"] {
+    color: #be123c;
+  }
+
+  .site-light [class*="text-indigo-300"],
+  .site-light [class*="text-indigo-400"],
+  .site-light [class*="text-violet-300"],
+  .site-light [class*="text-violet-400"],
+  .site-light [class*="text-purple-300"],
+  .site-light [class*="text-purple-400"],
+  .site-light [class*="text-fuchsia-300"],
+  .site-light [class*="text-fuchsia-400"] {
+    color: #6d28d9;
+  }
+
+  .site-light [class*="text-blue-300"],
+  .site-light [class*="text-blue-400"],
+  .site-light [class*="text-teal-300"],
+  .site-light [class*="text-teal-400"] {
+    color: #0369a1;
+  }
+
+  .site-light [class*="bg-slate-950"],
+  .site-light [class*="bg-slate-900"],
+  .site-light [class*="bg-slate-800"],
+  .site-light [class*="bg-gray-950"],
+  .site-light [class*="bg-gray-900"],
+  .site-light [class*="bg-gray-800"],
+  .site-light [class*="bg-zinc-950"],
+  .site-light [class*="bg-zinc-900"],
+  .site-light [class*="bg-zinc-800"],
+  .site-light [class*="bg-neutral-950"],
+  .site-light [class*="bg-neutral-900"],
+  .site-light [class*="bg-neutral-800"],
+  .site-light [class*="bg-stone-950"],
+  .site-light [class*="bg-stone-900"],
+  .site-light [class*="bg-stone-800"] {
+    background-color: #ffffff;
+  }
+
+  .site-light [class*="bg-[#02050f]"],
+  .site-light [class*="bg-[#03050a]"],
+  .site-light [class*="bg-[#03060f]"],
+  .site-light [class*="bg-[#030612]"],
+  .site-light [class*="bg-[#030712]"],
+  .site-light [class*="bg-[#04060f]"],
+  .site-light [class*="bg-[#040e1a]"],
+  .site-light [class*="bg-[#05070f]"],
+  .site-light [class*="bg-[#050811]"],
+  .site-light [class*="bg-[#050814]"],
+  .site-light [class*="bg-[#060a14]"],
+  .site-light [class*="bg-[#070911]"],
+  .site-light [class*="bg-[#070912]"],
+  .site-light [class*="bg-[#070b14]"],
+  .site-light [class*="bg-[#070d1e]"],
+  .site-light [class*="bg-[#070d1f]"],
+  .site-light [class*="bg-[#080d18]"],
+  .site-light [class*="bg-[#080d21]"],
+  .site-light [class*="bg-[#090d18]"],
+  .site-light [class*="bg-[#090e1c]"],
+  .site-light [class*="bg-[#0a0f1d]"],
+  .site-light [class*="bg-[#0b0c14]"],
+  .site-light [class*="bg-[#0b0e17]"],
+  .site-light [class*="bg-[#0b0f19]"],
+  .site-light [class*="bg-[#0b1029]"],
+  .site-light [class*="bg-[#0b1220]"],
+  .site-light [class*="bg-[#0c0d0e]"],
+  .site-light [class*="bg-[#0c0d17]"],
+  .site-light [class*="bg-[#0d1117]"],
+  .site-light [class*="bg-[#10070c]"],
+  .site-light [class*="bg-[#161b22]"] {
+    background-color: #ffffff;
+  }
+
+  .site-light [class*="bg-white/"] {
+    background-color: rgba(15, 23, 42, 0.035);
+  }
+
+  .site-light [class*="bg-black/"] {
+    background-color: #f1f5f9;
+  }
+
+  .site-light [class*="bg-emerald-950/"] {
+    background-color: rgba(16, 185, 129, 0.1);
+  }
+
+  .site-light [class*="bg-indigo-950/"] {
+    background-color: rgba(99, 102, 241, 0.08);
+  }
+
+  .site-light [class*="bg-red-950/"],
+  .site-light [class*="bg-rose-950/"] {
+    background-color: rgba(244, 63, 94, 0.08);
+  }
+
+  .site-light [class*="border-white/"] {
+    border-color: rgba(15, 23, 42, 0.1);
+  }
+
+  .site-light input,
+  .site-light textarea,
+  .site-light select {
+    color-scheme: light;
+  }
+
+  .site-light :focus-visible {
+    outline: 2px solid #0284c7;
+    outline-offset: 3px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .site-light *,
+    .site-light *::before,
+    .site-light *::after {
+      scroll-behavior: auto !important;
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }

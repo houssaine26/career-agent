@@ -1,0 +1,28 @@
+{
+  "id": "stripe",
+  "name": "Stripe",
+  "interview_process": [
+    "Recruiter screening phone call (30 min)",
+    "Technical screen: Practical API design / Coding round (60 min)",
+    "Onsite loop: 4-5 rounds covering Practical Engineering (Bug Hunting / Extension), API Design, System Architecture (Financial Systems & Idempotency), and Culture/Integration"
+  ],
+  "skills": [
+    "Practical API & SDK Ergonomics Design",
+    "Codebase Refactoring & Defensive Error Handling",
+    "Financial System Design & Idempotency",
+    "Backward Compatibility & Integration Testing"
+  ],
+  "preparation_workflow": "technical-interview-week",
+  "agents": [
+    "stripe-interview-coach",
+    "code-reviewer",
+    "backend-architect",
+    "technical-interview-coach",
+    "mock-interviewer"
+  ],
+  "resources": [
+    "Stripe API Documentation & Engineering Blog",
+    "Stripe Developer Guides & Patterns",
+    "Idempotency in Financial APIs Whitepaper"
+  ]
+}

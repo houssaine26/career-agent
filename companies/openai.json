@@ -1,0 +1,28 @@
+{
+  "id": "openai",
+  "name": "OpenAI",
+  "interview_process": [
+    "Recruiter screen & domain alignment call (30 min)",
+    "Technical phone screen: PyTorch / Distributed Coding or Systems Deep Dive (60 min)",
+    "Onsite loop: 4-5 rounds covering Neural Network Coding / Autograd, Distributed ML Systems Architecture, Applied AI / Infrastructure, and Mission & Safety Alignment (60 min each)"
+  ],
+  "skills": [
+    "PyTorch & Triton Distributed Training Mechanics",
+    "Transformer Architecture & KV Cache Optimizations",
+    "Frontier AI Infrastructure & LLM Serving",
+    "AI Safety, Alignment & Scaling Laws"
+  ],
+  "preparation_workflow": "faang-preparation",
+  "agents": [
+    "openai-interview-coach",
+    "openai-career-coach",
+    "technical-interview-coach",
+    "system-design-coach",
+    "mock-interviewer"
+  ],
+  "resources": [
+    "OpenAI Research Publications & Blog",
+    "Triton GPU Compiler Guides",
+    "Scaling Laws for Neural Language Models Papers"
+  ]
+}

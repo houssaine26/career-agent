@@ -1,0 +1,28 @@
+{
+  "id": "databricks",
+  "name": "Databricks",
+  "interview_process": [
+    "Recruiter screening phone call (30 min)",
+    "Technical phone screen: Systems Coding / Database Algorithm round (60 min)",
+    "Onsite loop: 4-5 rounds covering High-Concurrency Systems Coding, Storage Engine & Query Architecture, Distributed Infrastructure System Design, and Culture"
+  ],
+  "skills": [
+    "Distributed Query Engines & Vectorized Execution",
+    "Database Internals (LSM-trees, MVCC, Concurrency)",
+    "Apache Spark & Delta Lake Internals",
+    "Systems Programming & Memory Management"
+  ],
+  "preparation_workflow": "technical-interview-week",
+  "agents": [
+    "databricks-interview-coach",
+    "database-engineer",
+    "backend-architect",
+    "system-design-coach",
+    "mock-interviewer"
+  ],
+  "resources": [
+    "Databricks Engineering Blog & Lakehouse Whitepapers",
+    "Apache Spark Internals Documentation",
+    "Delta Lake Architecture Specifications"
+  ]
+}

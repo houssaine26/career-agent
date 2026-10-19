@@ -1,0 +1,6385 @@
+{
+  "$schema": "https://codemyfyp-agents.dev/schema/agent-registry.json",
+  "repository": "Career-Agents",
+  "version": "0.2.0",
+  "generated": "2026-07-03",
+  "agents": [
+    {
+      "id": "ats-resume-reviewer",
+      "name": "ATS Resume Reviewer",
+      "division": "career",
+      "description": "A focused, line-by-line resume auditor who optimizes resume structure, language, and keyword signaling to survive ATS parsing and convert recruiter skim-time into interview invites.",
+      "status": "live",
+      "filename": "career/ats-resume-reviewer.md",
+      "tags": [
+        "no-nonsense",
+        "career",
+        "recruiter-aware",
+        "forensic",
+        "exacting"
+      ],
+      "color": "#2A6F97",
+      "emoji": "🧾",
+      "vibe": "forensic, exacting, recruiter-aware, no-nonsense",
+      "difficulty": "Easy",
+      "experience_level": "Mid",
+      "career_stage": "Transition",
+      "industry": "All",
+      "skills": [
+        "Career Strategy",
+        "Professional Development",
+        "Career Growth",
+        "Career Milestones",
+        "No-nonsense",
+        "Career"
+      ],
+      "companies": [],
+      "related_agents": [
+        "executive-job-search-coach",
+        "freelance-career-advisor",
+        "graduate-career-advisor"
+      ],
+      "related_workflows": [
+        "fresher-placement",
+        "internship-hunt"
+      ],
+      "popularity_score": 65
+    },
+    {
+      "id": "career-accountability-coach",
+      "name": "Career Accountability Coach",
+      "division": "career",
+      "description": "A structured, non-judgmental accountability partner who converts career goals into weekly commitments, tracks follow-through with honest data, diagnoses why execution is failing, and rebuilds momentum when it stalls — without letting candidates off the hook or crushing them with guilt.",
+      "status": "live",
+      "filename": "career/career-accountability-coach.md",
+      "tags": [
+        "follow-through-obsessed",
+        "career",
+        "non-judgmental",
+        "warmly relentless",
+        "structured"
+      ],
+      "color": "#D35400",
+      "emoji": "📌",
+      "vibe": "structured, non-judgmental, follow-through-obsessed, warmly relentless",
+      "difficulty": "Medium",
+      "experience_level": "Mid",
+      "career_stage": "Transition",
+      "industry": "All",
+      "skills": [
+        "Career Strategy",
+        "Professional Development",
+        "Career Growth",
+        "Career Milestones",
+        "No-nonsense",
+        "Career"
+      ],
+      "companies": [],
+      "related_agents": [
+        "salary-benchmark-analyst",
+        "salary-negotiation-coach",
+        "technical-interview-coach"
+      ],
+      "related_workflows": [
+        "fresher-placement",
+        "internship-hunt"
+      ],
+      "popularity_score": 87
+    },
+    {
+      "id": "career-pivot-to-tech-advisor",
+      "name": "Career Pivot to Tech Advisor",
+      "division": "career",
+      "description": "A transition strategist for non-technical professionals entering the tech industry — covering entry point selection (software engineering, product, data, UX, technical sales, DevRel, and more), learning path design, portfolio development, narrative construction, and the tactical job search mechanics specific to tech industry hiring.",
+      "status": "live",
+      "filename": "career/career-pivot-to-tech-advisor.md",
+      "tags": [
+        "path-specific",
+        "career",
+        "transition-realistic",
+        "evidence-obsessed",
+        "non-stem-background-affirming"
+      ],
+      "color": "#1E8449",
+      "emoji": "⚙️",
+      "vibe": "transition-realistic, path-specific, evidence-obsessed, non-STEM-background-affirming",
+      "difficulty": "Medium",
+      "experience_level": "Entry",
+      "career_stage": "Transition",
+      "industry": "All",
+      "skills": [
+        "Career Strategy",
+        "Professional Development",
+        "Career Growth",
+        "Career Milestones",
+        "No-nonsense",
+        "Career"
+      ],
+      "companies": [],
+      "related_agents": [
+        "recruiter-outreach-specialist",
+        "remote-work-advisor",
+        "resume-strategist"
+      ],
+      "related_workflows": [
+        "fresher-placement",
+        "internship-hunt"
+      ],
+      "popularity_score": 73
+    },
+    {
+      "id": "career-roadmap-strategist",
+      "name": "Career Roadmap Strategist",
+      "division": "career",
+      "description": "A long-horizon career architect who builds milestone-based, decade-spanning career roadmaps — turning vague ambitions into sequenced, evidence-gated development plans that compound skill, reputation, and leverage over time.",
+      "status": "live",
+      "filename": "career/career-roadmap-strategist.md",
+      "tags": [
+        "compounding-minded",
+        "career",
+        "milestone-obsessed",
+        "long-horizon",
+        "immune to short-term noise"
+      ],
+      "color": "#1E8449",
+      "emoji": "🗺️",
+      "vibe": "long-horizon, milestone-obsessed, compounding-minded, immune to short-term noise",
+      "difficulty": "Medium",
+      "experience_level": "Senior",
+      "career_stage": "Transition",
+      "industry": "All",
+      "skills": [
+        "Career Strategy",
+        "Professional Development",
+        "Career Growth",
+        "Career Milestones",
+        "No-nonsense",
+        "Career"
+      ],
+      "companies": [],
+      "related_agents": [
+        "offer-evaluation-advisor",
+        "personal-branding-advisor",
+        "placement-coach"
+      ],
+      "related_workflows": [
+        "fresher-placement",
+        "internship-hunt"
+      ],
+      "popularity_score": 64
+    },
+    {
+      "id": "career-transition-coach",
+      "name": "Career Transition Coach",
+      "division": "career",
+      "description": "A decisive, pattern-aware career transition coach who helps professionals move from one field, function, or industry into another — by mapping transferable assets, designing bridge strategies, and turning \"I don't have the background for this\" into a concrete, evidence-backed plan that works.",
+      "status": "live",
+      "filename": "career/career-transition-coach.md",
+      "tags": [
+        "allergic to \"start from scratch",
+        "career",
+        "decisive",
+        "bridge-builder",
+        "asset-focused"
+      ],
+      "color": "#7D3C98",
+      "emoji": "🔀",
+      "vibe": "decisive, bridge-builder, asset-focused, allergic to \"start from scratch",
+      "difficulty": "Medium",
+      "experience_level": "Mid",
+      "career_stage": "Transition",
+      "industry": "All",
+      "skills": [
+        "Career Strategy",
+        "Professional Development",
+        "Career Growth",
+        "Career Milestones",
+        "No-nonsense",
+        "Career"
+      ],
+      "companies": [],
+      "related_agents": [
+        "freelance-career-advisor",
+        "graduate-career-advisor",
+        "hr-interview-coach"
+      ],
+      "related_workflows": [
+        "fresher-placement",
+        "internship-hunt"
+      ],
+      "popularity_score": 66
+    },
+    {
+      "id": "diversity-inclusion-career-coach",
+      "name": "Diversity & Inclusion Career Coach",
+      "division": "career",
+      "description": "A career strategist specializing in helping underrepresented professionals navigate systemic barriers, bias in hiring, and unequal advancement dynamics — providing concrete, evidence-informed strategies that turn awareness of barriers into actionable career architecture.",
+      "status": "live",
+      "filename": "career/diversity-inclusion-career-coach.md",
+      "tags": [
+        "equity-aware",
+        "career",
+        "strengths-first",
+        "systemic-not-personal",
+        "structurally honest"
+      ],
+      "color": "#7D3C98",
+      "emoji": "🌱",
+      "vibe": "equity-aware, structurally honest, strengths-first, systemic-not-personal",
+      "difficulty": "Medium",
+      "experience_level": "Senior",
+      "career_stage": "Transition",
+      "industry": "All",
+      "skills": [
+        "Career Strategy",
+        "Professional Development",
+        "Career Growth",
+        "Career Milestones",
+        "No-nonsense",
+        "Career"
+      ],
+      "companies": [],
+      "related_agents": [
+        "resume-strategist",
+        "returnship-coach",
+        "salary-benchmark-analyst"
+      ],
+      "related_workflows": [
+        "fresher-placement",
+        "internship-hunt"
+      ],
+      "popularity_score": 60
+    },
+    {
+      "id": "executive-job-search-coach",
+      "name": "Executive Job Search Coach",
+      "division": "career",
+      "description": "A senior-level career strategist who helps VP, Director, and C-suite professionals navigate the fundamentally different world of executive hiring — where most roles never appear on job boards, where personal brand and reputation are the primary search vehicles, and where the quality of your board and peer network determines your access more than your resume.",
+      "status": "live",
+      "filename": "career/executive-job-search-coach.md",
+      "tags": [
+        "career",
+        "discretion-first",
+        "board-aware",
+        "long-game strategist",
+        "network-over-resume"
+      ],
+      "color": "#1C2833",
+      "emoji": "🏛️",
+      "vibe": "discretion-first, network-over-resume, board-aware, long-game strategist",
+      "difficulty": "Medium",
+      "experience_level": "Executive",
+      "career_stage": "Transition",
+      "industry": "All",
+      "skills": [
+        "Career Strategy",
+        "Professional Development",
+        "Career Growth",
+        "Career Milestones",
+        "No-nonsense",
+        "Career"
+      ],
+      "companies": [],
+      "related_agents": [
+        "linkedin-growth-advisor",
+        "networking-coach",
+        "offer-evaluation-advisor"
+      ],
+      "related_workflows": [
+        "fresher-placement",
+        "internship-hunt"
+      ],
+      "popularity_score": 62
+    },
+    {
+      "id": "freelance-career-advisor",
+      "name": "Freelance Career Advisor",
+      "division": "career",
+      "description": "A pragmatic freelance business strategist who helps independent professionals build sustainable, client-diversified freelance careers — covering rate-setting, client acquisition, portfolio positioning, contract fundamentals, and the transition from feast-or-famine to predictable income.",
+      "status": "live",
+      "filename": "career/freelance-career-advisor.md",
+      "tags": [
+        "anti-hustle-culture",
+        "career",
+        "business-first",
+        "client-quality-over-quantity",
+        "income-predictability-obsessed"
+      ],
+      "color": "#117A65",
+      "emoji": "🧩",
+      "vibe": "business-first, income-predictability-obsessed, anti-hustle-culture, client-quality-over-quantity",
+      "difficulty": "Medium",
+      "experience_level": "Mid",
+      "career_stage": "Transition",
+      "industry": "All",
+      "skills": [
+        "Career Strategy",
+        "Professional Development",
+        "Career Growth",
+        "Career Milestones",
+        "No-nonsense",
+        "Career"
+      ],
+      "companies": [],
+      "related_agents": [
+        "career-roadmap-strategist",
+        "career-transition-coach",
+        "diversity-inclusion-career-coach"
+      ],
+      "related_workflows": [
+        "fresher-placement",
+        "internship-hunt"
+      ],
+      "popularity_score": 88
+    },
+    {
+      "id": "graduate-career-advisor",
+      "name": "Graduate Career Advisor",
+      "division": "career",
+      "description": "A strategic first-job advisor for recent graduates who cuts through the noise of \"apply everywhere\" and \"network more\" to build targeted, evidence-backed launch strategies that get new graduates into the right first role — not just any role — within a realistic timeline.",
+      "status": "live",
+      "filename": "career/graduate-career-advisor.md",
+      "tags": [
+        "career",
+        "anti-panic",
+        "first-job-focused",
+        "strategy-before-volume",
+        "honest about timelines"
+      ],
+      "color": "#884EA0",
+      "emoji": "🎯",
+      "vibe": "first-job-focused, anti-panic, strategy-before-volume, honest about timelines",
+      "difficulty": "Medium",
+      "experience_level": "Entry",
+      "career_stage": "Transition",
+      "industry": "All",
+      "skills": [
+        "Career Strategy",
+        "Professional Development",
+        "Career Growth",
+        "Career Milestones",
+        "No-nonsense",
+        "Career"
+      ],
+      "companies": [],
+      "related_agents": [
+        "executive-job-search-coach",
+        "freelance-career-advisor",
+        "hr-interview-coach"
+      ],
+      "related_workflows": [
+        "fresher-placement",
+        "internship-hunt"
+      ],
+      "popularity_score": 81
+    },
+    {
+      "id": "hr-interview-coach",
+      "name": "HR Interview Coach",
+      "division": "career",
+      "description": "A behavioural and offer-readiness coach who prepares candidates for HR and cultural interviews, designs story-driven answers to behavioural prompts, and leads offer evaluation and negotiation prep with professional rigor.",
+      "status": "live",
+      "filename": "career/hr-interview-coach.md",
+      "tags": [
+        "strategic",
+        "career",
+        "bluntly-honest",
+        "reassuring",
+        "empathetic"
+      ],
+      "color": "#6C4FA0",
+      "emoji": "🤝",
+      "vibe": "empathetic, bluntly-honest, strategic, reassuring",
+      "difficulty": "Hard",
+      "experience_level": "Senior",
+      "career_stage": "Transition",
+      "industry": "All",
+      "skills": [
+        "Career Strategy",
+        "Professional Development",
+        "Career Growth",
+        "Career Milestones",
+        "No-nonsense",
+        "Career"
+      ],
+      "companies": [],
+      "related_agents": [
+        "graduate-career-advisor",
+        "internship-application-strategist",
+        "internship-success-coach"
+      ],
+      "related_workflows": [
+        "fresher-placement",
+        "internship-hunt"
+      ],
+      "popularity_score": 88
+    },
+    {
+      "id": "internship-application-strategist",
+      "name": "Internship Application Strategist",
+      "division": "career",
+      "description": "An internship application strategist who helps students package their skills, target hiring windows, and win sought-after internship roles.",
+      "status": "live",
+      "filename": "career/internship-application-strategist.md",
+      "tags": [
+        "student-focused",
+        "strategic",
+        "career",
+        "polished",
+        "opportunity-driven"
+      ],
+      "color": "#2E86C1",
+      "emoji": "🧳",
+      "vibe": "student-focused, strategic, opportunity-driven, polished",
+      "difficulty": "Medium",
+      "experience_level": "Entry",
+      "career_stage": "Transition",
+      "industry": "All",
+      "skills": [
+        "Career Strategy",
+        "Professional Development",
+        "Career Growth",
+        "Career Milestones",
+        "No-nonsense",
+        "Career"
+      ],
+      "companies": [],
+      "related_agents": [
+        "offer-evaluation-advisor",
+        "personal-branding-advisor",
+        "placement-coach"
+      ],
+      "related_workflows": [
+        "fresher-placement",
+        "internship-hunt"
+      ],
+      "popularity_score": 69
+    },
+    {
+      "id": "internship-success-coach",
+      "name": "Internship Success Coach",
+      "division": "career",
+      "description": "A hands-on internship performance coach who helps interns move from \"showing up\" to \"standing out\" — by building visibility, delivering meaningful work, converting internships into return offers, and treating every internship as a twelve-week audition with a clear performance plan.",
+      "status": "live",
+      "filename": "career/internship-success-coach.md",
+      "tags": [
+        "career",
+        "return-offer-obsessed",
+        "visibility-aware",
+        "warm but results-driven",
+        "performance-first"
+      ],
+      "color": "#2471A3",
+      "emoji": "🎓",
+      "vibe": "performance-first, visibility-aware, return-offer-obsessed, warm but results-driven",
+      "difficulty": "Medium",
+      "experience_level": "Entry",
+      "career_stage": "Transition",
+      "industry": "All",
+      "skills": [
+        "Career Strategy",
+        "Professional Development",
+        "Career Growth",
+        "Career Milestones",
+        "No-nonsense",
+        "Career"
+      ],
+      "companies": [],
+      "related_agents": [
+        "personal-branding-advisor",
+        "placement-coach",
+        "product-manager-coach"
+      ],
+      "related_workflows": [
+        "fresher-placement",
+        "internship-hunt"
+      ],
+      "popularity_score": 80
+    },
+    {
+      "id": "job-search-strategist",
+      "name": "Job Search Strategist",
+      "division": "career",
+      "description": "A job search strategist who builds targeted application plans, opportunity funnels, and outreach systems for faster interview traction.",
+      "status": "live",
+      "filename": "career/job-search-strategist.md",
+      "tags": [
+        "proactive",
+        "career",
+        "results-focused",
+        "practical",
+        "organized"
+      ],
+      "color": "#2471A3",
+      "emoji": "🎯",
+      "vibe": "organized, proactive, results-focused, practical",
+      "difficulty": "Medium",
+      "experience_level": "Mid",
+      "career_stage": "Transition",
+      "industry": "All",
+      "skills": [
+        "Career Strategy",
+        "Professional Development",
+        "Career Growth",
+        "Career Milestones",
+        "No-nonsense",
+        "Career"
+      ],
+      "companies": [],
+      "related_agents": [
+        "salary-benchmark-analyst",
+        "salary-negotiation-coach",
+        "technical-interview-coach"
+      ],
+      "related_workflows": [
+        "fresher-placement",
+        "internship-hunt"
+      ],
+      "popularity_score": 72
+    },
+    {
+      "id": "linkedin-growth-advisor",
+      "name": "LinkedIn Growth Advisor",
+      "division": "career",
+      "description": "A tactical growth advisor for LinkedIn who optimizes profiles for recruiter discovery, builds content strategies that surface domain credibility, and converts passive profile views into active opportunities.",
+      "status": "live",
+      "filename": "career/linkedin-growth-advisor.md",
+      "tags": [
+        "personable",
+        "tactical",
+        "career",
+        "network-savvy",
+        "evidence-driven"
+      ],
+      "color": "#0077B5",
+      "emoji": "🔗",
+      "vibe": "tactical, network-savvy, evidence-driven, personable",
+      "difficulty": "Medium",
+      "experience_level": "Mid",
+      "career_stage": "Transition",
+      "industry": "All",
+      "skills": [
+        "Career Strategy",
+        "Professional Development",
+        "Career Growth",
+        "Career Milestones",
+        "No-nonsense",
+        "Career"
+      ],
+      "companies": [],
+      "related_agents": [
+        "remote-work-advisor",
+        "resume-strategist",
+        "returnship-coach"
+      ],
+      "related_workflows": [
+        "fresher-placement",
+        "internship-hunt"
+      ],
+      "popularity_score": 94
+    },
+    {
+      "id": "networking-coach",
+      "name": "Networking Coach",
+      "division": "career",
+      "description": "A strategic, relationship-first networking coach who transforms transactional connection requests into genuine professional relationships — helping candidates build the kind of network that surfaces hidden job market opportunities, generates warm referrals, and compounds in value over an entire career.",
+      "status": "live",
+      "filename": "career/networking-coach.md",
+      "tags": [
+        "systems-thinker",
+        "career",
+        "warm-but-strategic",
+        "anti-hustle",
+        "deeply human"
+      ],
+      "color": "#1A5276",
+      "emoji": "🤝",
+      "vibe": "warm-but-strategic, systems-thinker, anti-hustle, deeply human",
+      "difficulty": "Medium",
+      "experience_level": "Mid",
+      "career_stage": "Transition",
+      "industry": "All",
+      "skills": [
+        "Career Strategy",
+        "Professional Development",
+        "Career Growth",
+        "Career Milestones",
+        "No-nonsense",
+        "Career"
+      ],
+      "companies": [],
+      "related_agents": [
+        "graduate-career-advisor",
+        "hr-interview-coach",
+        "internship-application-strategist"
+      ],
+      "related_workflows": [
+        "fresher-placement",
+        "internship-hunt"
+      ],
+      "popularity_score": 98
+    },
+    {
+      "id": "offer-evaluation-advisor",
+      "name": "Offer Evaluation Advisor",
+      "division": "career",
+      "description": "An offer evaluation advisor who helps candidates compare multiple opportunities and choose the best role for their career goals.",
+      "status": "live",
+      "filename": "career/offer-evaluation-advisor.md",
+      "tags": [
+        "career-aware",
+        "career",
+        "impartial",
+        "analytical",
+        "structured"
+      ],
+      "color": "#117A65",
+      "emoji": "🧾",
+      "vibe": "analytical, impartial, career-aware, structured",
+      "difficulty": "Medium",
+      "experience_level": "Mid",
+      "career_stage": "Transition",
+      "industry": "All",
+      "skills": [
+        "Career Strategy",
+        "Professional Development",
+        "Career Growth",
+        "Career Milestones",
+        "No-nonsense",
+        "Career"
+      ],
+      "companies": [],
+      "related_agents": [
+        "diversity-inclusion-career-coach",
+        "executive-job-search-coach",
+        "freelance-career-advisor"
+      ],
+      "related_workflows": [
+        "fresher-placement",
+        "internship-hunt"
+      ],
+      "popularity_score": 65
+    },
+    {
+      "id": "personal-branding-advisor",
+      "name": "Personal Branding Advisor",
+      "division": "career",
+      "description": "A strategic personal brand architect who builds authentic, channel-consistent professional identities that attract the right opportunities — turning scattered professional presence into a coherent, searchable, memorable signal that does career work even when the candidate isn't actively job hunting.",
+      "status": "live",
+      "filename": "career/personal-branding-advisor.md",
+      "tags": [
+        "career",
+        "anti-performative",
+        "consistency-obsessed",
+        "identity-first",
+        "evidence-over-aesthetics"
+      ],
+      "color": "#C0392B",
+      "emoji": "🎨",
+      "vibe": "identity-first, anti-performative, consistency-obsessed, evidence-over-aesthetics",
+      "difficulty": "Medium",
+      "experience_level": "Senior",
+      "career_stage": "Transition",
+      "industry": "All",
+      "skills": [
+        "Career Strategy",
+        "Professional Development",
+        "Career Growth",
+        "Career Milestones",
+        "No-nonsense",
+        "Career"
+      ],
+      "companies": [],
+      "related_agents": [
+        "graduate-career-advisor",
+        "hr-interview-coach",
+        "internship-application-strategist"
+      ],
+      "related_workflows": [
+        "fresher-placement",
+        "internship-hunt"
+      ],
+      "popularity_score": 63
+    },
+    {
+      "id": "placement-coach",
+      "name": "Placement Coach",
+      "division": "career",
+      "description": "An end-to-end placement strategist who audits your readiness, builds a prioritized action plan, and drives you from \"applying blind\" to \"negotiating offers\" with the discipline of someone who has watched a thousand placement cycles play out.",
+      "status": "live",
+      "filename": "career/placement-coach.md",
+      "tags": [
+        "relentlessly practical",
+        "career",
+        "quietly encouraging",
+        "blunt",
+        "data-driven"
+      ],
+      "color": "#1B4D3E",
+      "emoji": "🎯",
+      "vibe": "blunt, data-driven, relentlessly practical, quietly encouraging",
+      "difficulty": "Medium",
+      "experience_level": "Mid",
+      "career_stage": "Transition",
+      "industry": "All",
+      "skills": [
+        "Career Strategy",
+        "Professional Development",
+        "Career Growth",
+        "Career Milestones",
+        "No-nonsense",
+        "Career"
+      ],
+      "companies": [],
+      "related_agents": [
+        "resume-strategist",
+        "returnship-coach",
+        "salary-benchmark-analyst"
+      ],
+      "related_workflows": [
+        "fresher-placement",
+        "internship-hunt"
+      ],
+      "popularity_score": 80
+    },
+    {
+      "id": "product-manager-coach",
+      "name": "Product Manager Coach",
+      "division": "career",
+      "description": "A rigorous PM career coach who helps aspiring and practicing product managers break into the discipline, ace PM interviews at any company tier, build product intuition through structured practice, and advance from APM to VP of Product — with frameworks grounded in how the best PMs actually think, not in what sounds good in a textbook.",
+      "status": "live",
+      "filename": "career/product-manager-coach.md",
+      "tags": [
+        "data-literate",
+        "execution-focused",
+        "career",
+        "user-obsessed",
+        "frameworks-over-feelings"
+      ],
+      "color": "#C0392B",
+      "emoji": "🧭",
+      "vibe": "frameworks-over-feelings, user-obsessed, data-literate, execution-focused",
+      "difficulty": "Medium",
+      "experience_level": "Executive",
+      "career_stage": "Transition",
+      "industry": "All",
+      "skills": [
+        "Career Strategy",
+        "Professional Development",
+        "Career Growth",
+        "Career Milestones",
+        "No-nonsense",
+        "Career"
+      ],
+      "companies": [],
+      "related_agents": [
+        "placement-coach",
+        "recruiter-outreach-specialist",
+        "remote-work-advisor"
+      ],
+      "related_workflows": [
+        "fresher-placement",
+        "internship-hunt"
+      ],
+      "popularity_score": 77
+    },
+    {
+      "id": "recruiter-outreach-specialist",
+      "name": "Recruiter Outreach Specialist",
+      "division": "career",
+      "description": "A recruiter outreach specialist who crafts message sequences and outreach plans to get recruiters to respond and move candidates into hiring conversations.",
+      "status": "live",
+      "filename": "career/recruiter-outreach-specialist.md",
+      "tags": [
+        "career",
+        "recruiter-aware",
+        "targeted",
+        "professional",
+        "follow-up-savvy"
+      ],
+      "color": "#D35400",
+      "emoji": "✉️",
+      "vibe": "targeted, professional, follow-up-savvy, recruiter-aware",
+      "difficulty": "Hard",
+      "experience_level": "Mid",
+      "career_stage": "Transition",
+      "industry": "All",
+      "skills": [
+        "Career Strategy",
+        "Professional Development",
+        "Career Growth",
+        "Career Milestones",
+        "No-nonsense",
+        "Career"
+      ],
+      "companies": [],
+      "related_agents": [
+        "executive-job-search-coach",
+        "freelance-career-advisor",
+        "graduate-career-advisor"
+      ],
+      "related_workflows": [
+        "fresher-placement",
+        "internship-hunt"
+      ],
+      "popularity_score": 86
+    },
+    {
+      "id": "remote-work-advisor",
+      "name": "Remote Work Advisor",
+      "division": "career",
+      "description": "A strategic remote-work specialist who helps professionals find, land, and thrive in remote roles — covering remote-specific job search tactics, distributed team visibility, async communication mastery, home office optimization, and the specific career risks that remote work creates if not managed deliberately.",
+      "status": "live",
+      "filename": "career/remote-work-advisor.md",
+      "tags": [
+        "systems-thinker",
+        "career",
+        "anti-isolation-as-default",
+        "visibility-conscious",
+        "async-native"
+      ],
+      "color": "#1F618D",
+      "emoji": "🌍",
+      "vibe": "async-native, visibility-conscious, systems-thinker, anti-isolation-as-default",
+      "difficulty": "Medium",
+      "experience_level": "Mid",
+      "career_stage": "Transition",
+      "industry": "All",
+      "skills": [
+        "Career Strategy",
+        "Professional Development",
+        "Career Growth",
+        "Career Milestones",
+        "No-nonsense",
+        "Career"
+      ],
+      "companies": [],
+      "related_agents": [
+        "career-roadmap-strategist",
+        "career-transition-coach",
+        "diversity-inclusion-career-coach"
+      ],
+      "related_workflows": [
+        "fresher-placement",
+        "internship-hunt"
+      ],
+      "popularity_score": 68
+    },
+    {
+      "id": "resume-strategist",
+      "name": "Resume Strategist",
+      "division": "career",
+      "description": "A narrative-focused resume strategist who crafts role-driven career stories, aligns achievements to hiring criteria, and builds resume ecosystems (resume, LinkedIn, portfolio) that consistently convert interest into interviews.",
+      "status": "live",
+      "filename": "career/resume-strategist.md",
+      "tags": [
+        "strategic",
+        "career",
+        "narrative-first",
+        "evidence-rooted",
+        "empathetic"
+      ],
+      "color": "#3B6EA5",
+      "emoji": "✍️",
+      "vibe": "strategic, narrative-first, evidence-rooted, empathetic",
+      "difficulty": "Medium",
+      "experience_level": "Mid",
+      "career_stage": "Transition",
+      "industry": "All",
+      "skills": [
+        "Career Strategy",
+        "Professional Development",
+        "Career Growth",
+        "Career Milestones",
+        "No-nonsense",
+        "Career"
+      ],
+      "companies": [],
+      "related_agents": [
+        "networking-coach",
+        "offer-evaluation-advisor",
+        "personal-branding-advisor"
+      ],
+      "related_workflows": [
+        "fresher-placement",
+        "internship-hunt"
+      ],
+      "popularity_score": 94
+    },
+    {
+      "id": "returnship-coach",
+      "name": "Returnship Coach",
+      "division": "career",
+      "description": "A re-entry specialist who helps professionals return to the workforce after a career break — reframing gaps, rebuilding confidence, refreshing skills, and designing targeted re-entry strategies that land roles that respect the candidate's full experience, not just their most recent role.",
+      "status": "live",
+      "filename": "career/returnship-coach.md",
+      "tags": [
+        "career",
+        "confidence-rebuilder",
+        "full-experience-honoring",
+        "gap-reframer",
+        "anti-stigma"
+      ],
+      "color": "#BA4A00",
+      "emoji": "🔄",
+      "vibe": "gap-reframer, confidence-rebuilder, full-experience-honoring, anti-stigma",
+      "difficulty": "Medium",
+      "experience_level": "Entry",
+      "career_stage": "Transition",
+      "industry": "All",
+      "skills": [
+        "Career Strategy",
+        "Professional Development",
+        "Career Growth",
+        "Career Milestones",
+        "No-nonsense",
+        "Career"
+      ],
+      "companies": [],
+      "related_agents": [
+        "personal-branding-advisor",
+        "placement-coach",
+        "product-manager-coach"
+      ],
+      "related_workflows": [
+        "fresher-placement",
+        "internship-hunt"
+      ],
+      "popularity_score": 86
+    },
+    {
+      "id": "salary-benchmark-analyst",
+      "name": "Salary Benchmark Analyst",
+      "division": "career",
+      "description": "A rigorous, data-literate compensation analyst who builds evidence-based salary benchmarks, deconstructs total compensation packages, and arms candidates with the market intelligence and framing to negotiate from facts rather than hope.",
+      "status": "live",
+      "filename": "career/salary-benchmark-analyst.md",
+      "tags": [
+        "data-first",
+        "precision-obsessed",
+        "zero tolerance for guesswork",
+        "career",
+        "unsentimental about money"
+      ],
+      "color": "#1A6B3C",
+      "emoji": "💰",
+      "vibe": "data-first, unsentimental about money, precision-obsessed, zero tolerance for guesswork",
+      "difficulty": "Medium",
+      "experience_level": "Mid",
+      "career_stage": "Transition",
+      "industry": "All",
+      "skills": [
+        "Career Strategy",
+        "Professional Development",
+        "Career Growth",
+        "Career Milestones",
+        "No-nonsense",
+        "Career"
+      ],
+      "companies": [],
+      "related_agents": [
+        "placement-coach",
+        "product-manager-coach",
+        "recruiter-outreach-specialist"
+      ],
+      "related_workflows": [
+        "fresher-placement",
+        "internship-hunt"
+      ],
+      "popularity_score": 72
+    },
+    {
+      "id": "salary-negotiation-coach",
+      "name": "Salary Negotiation Coach",
+      "division": "career",
+      "description": "A salary negotiation specialist who prepares candidates to evaluate offers, build leverage, and negotiate compensation confidently.",
+      "status": "live",
+      "filename": "career/salary-negotiation-coach.md",
+      "tags": [
+        "strategic",
+        "career",
+        "direct",
+        "data-backed",
+        "candidate-first"
+      ],
+      "color": "#C0392B",
+      "emoji": "💰",
+      "vibe": "strategic, direct, data-backed, candidate-first",
+      "difficulty": "Medium",
+      "experience_level": "Mid",
+      "career_stage": "Transition",
+      "industry": "All",
+      "skills": [
+        "Career Strategy",
+        "Professional Development",
+        "Career Growth",
+        "Career Milestones",
+        "No-nonsense",
+        "Career"
+      ],
+      "companies": [],
+      "related_agents": [
+        "personal-branding-advisor",
+        "placement-coach",
+        "product-manager-coach"
+      ],
+      "related_workflows": [
+        "fresher-placement",
+        "internship-hunt"
+      ],
+      "popularity_score": 86
+    },
+    {
+      "id": "technical-interview-coach",
+      "name": "Technical Interview Coach",
+      "division": "career",
+      "description": "A hands-on technical interview coach who prepares candidates for data structures & algorithms, system design, and role-specific coding rounds through targeted drills, rubric-based feedback, and measurable progression plans.",
+      "status": "live",
+      "filename": "career/technical-interview-coach.md",
+      "tags": [
+        "pragmatic",
+        "rigorous",
+        "career",
+        "mentor-forward",
+        "outcome-oriented"
+      ],
+      "color": "#1F8DD6",
+      "emoji": "🧩",
+      "vibe": "rigorous, pragmatic, mentor-forward, outcome-oriented",
+      "difficulty": "Hard",
+      "experience_level": "Mid",
+      "career_stage": "Transition",
+      "industry": "All",
+      "skills": [
+        "Career Strategy",
+        "Professional Development",
+        "Career Growth",
+        "Career Milestones",
+        "No-nonsense",
+        "Career"
+      ],
+      "companies": [],
+      "related_agents": [
+        "salary-negotiation-coach",
+        "ats-resume-reviewer",
+        "career-accountability-coach"
+      ],
+      "related_workflows": [
+        "fresher-placement",
+        "internship-hunt"
+      ],
+      "popularity_score": 94
+    },
+    {
+      "id": "adobe-interview-coach",
+      "name": "Adobe Interview Coach",
+      "division": "company-interviews",
+      "description": "A creativity-meets-engineering specialist who prepares candidates for Adobe's blend of technical rigor and genuine product-craft sensibility, where caring about the actual user experience of the tools you build is a real evaluation signal.",
+      "status": "live",
+      "filename": "company-interviews/adobe-interview-coach.md",
+      "tags": [
+        "craft-focused",
+        "technically rigorous",
+        "company-interviews",
+        "product-empathetic",
+        "detail-loving"
+      ],
+      "color": "#FA0F00",
+      "emoji": "🎨",
+      "vibe": "craft-focused, technically rigorous, product-empathetic, detail-loving",
+      "difficulty": "Hard",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "All",
+      "skills": [
+        "Interview Preparation",
+        "Technical Coding",
+        "System Design",
+        "Behavioral Interview",
+        "Craft-focused",
+        "Technically rigorous"
+      ],
+      "companies": [
+        "Adobe"
+      ],
+      "related_agents": [
+        "microsoft-interview-coach",
+        "netflix-interview-coach",
+        "oracle-interview-coach"
+      ],
+      "related_workflows": [
+        "faang-preparation"
+      ],
+      "popularity_score": 90
+    },
+    {
+      "id": "amazon-interview-coach",
+      "name": "Amazon Interview Coach",
+      "division": "company-interviews",
+      "description": "A Leadership Principles specialist who knows that Amazon interviews are won or lost on STAR-structured stories mapped precisely to specific principles, not generic behavioral answers with an Amazon logo pasted on top.",
+      "status": "live",
+      "filename": "company-interviews/amazon-interview-coach.md",
+      "tags": [
+        "principle-obsessed",
+        "bar-raiser mindset",
+        "company-interviews",
+        "exacting on story structure"
+      ],
+      "color": "#FF9900",
+      "emoji": "📦",
+      "vibe": "principle-obsessed, exacting on story structure, bar-raiser mindset",
+      "difficulty": "Hard",
+      "experience_level": "Senior",
+      "career_stage": "Leadership",
+      "industry": "All",
+      "skills": [
+        "Interview Preparation",
+        "Technical Coding",
+        "System Design",
+        "Behavioral Interview",
+        "Craft-focused",
+        "Technically rigorous"
+      ],
+      "companies": [
+        "Amazon"
+      ],
+      "related_agents": [
+        "netflix-interview-coach",
+        "oracle-interview-coach",
+        "salesforce-interview-coach"
+      ],
+      "related_workflows": [
+        "faang-preparation"
+      ],
+      "popularity_score": 96
+    },
+    {
+      "id": "atlassian-interview-coach",
+      "name": "Atlassian Interview Coach",
+      "division": "company-interviews",
+      "description": "A values-driven collaboration specialist who prepares candidates for Atlassian's structured, values-mapped interview loop, where \"open company, no bullshit\" is an actual evaluation criterion, not just a wall poster.",
+      "status": "live",
+      "filename": "company-interviews/atlassian-interview-coach.md",
+      "tags": [
+        "values-literate",
+        "collaborative",
+        "transparent",
+        "practically minded",
+        "company-interviews"
+      ],
+      "color": "#0052CC",
+      "emoji": "🧩",
+      "vibe": "values-literate, collaborative, transparent, practically minded",
+      "difficulty": "Hard",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "All",
+      "skills": [
+        "Interview Preparation",
+        "Technical Coding",
+        "System Design",
+        "Behavioral Interview",
+        "Craft-focused",
+        "Technically rigorous"
+      ],
+      "companies": [
+        "Atlassian"
+      ],
+      "related_agents": [
+        "microsoft-interview-coach",
+        "netflix-interview-coach",
+        "oracle-interview-coach"
+      ],
+      "related_workflows": [
+        "faang-preparation"
+      ],
+      "popularity_score": 76
+    },
+    {
+      "id": "google-interview-coach",
+      "name": "Google Interview Coach",
+      "division": "company-interviews",
+      "description": "A structured-rigor specialist for Google's algorithm-heavy, googleyness-aware interview loop, who treats clean code communication and structured problem decomposition as non-negotiable, not optional polish.",
+      "status": "live",
+      "filename": "company-interviews/google-interview-coach.md",
+      "tags": [
+        "calmly demanding",
+        "rigorous",
+        "precise",
+        "company-interviews",
+        "structure-obsessed"
+      ],
+      "color": "#4285F4",
+      "emoji": "🔎",
+      "vibe": "rigorous, structure-obsessed, precise, calmly demanding",
+      "difficulty": "Hard",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "All",
+      "skills": [
+        "Interview Preparation",
+        "Technical Coding",
+        "System Design",
+        "Behavioral Interview",
+        "Craft-focused",
+        "Technically rigorous"
+      ],
+      "companies": [
+        "Google"
+      ],
+      "related_agents": [
+        "meta-interview-coach",
+        "microsoft-interview-coach",
+        "netflix-interview-coach"
+      ],
+      "related_workflows": [
+        "faang-preparation"
+      ],
+      "popularity_score": 80
+    },
+    {
+      "id": "meta-interview-coach",
+      "name": "Meta Interview Coach",
+      "division": "company-interviews",
+      "description": "An execution-speed and impact-obsessed coach who prepares candidates for Meta's fast-paced technical bar and its distinct \"move fast, focus on impact\" behavioral evaluation.",
+      "status": "live",
+      "filename": "company-interviews/meta-interview-coach.md",
+      "tags": [
+        "fast-paced",
+        "direct",
+        "unsentimental about scope",
+        "company-interviews",
+        "impact-driven"
+      ],
+      "color": "#0668E1",
+      "emoji": "🚀",
+      "vibe": "fast-paced, impact-driven, direct, unsentimental about scope",
+      "difficulty": "Hard",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "All",
+      "skills": [
+        "Interview Preparation",
+        "Technical Coding",
+        "System Design",
+        "Behavioral Interview",
+        "Craft-focused",
+        "Technically rigorous"
+      ],
+      "companies": [
+        "Meta"
+      ],
+      "related_agents": [
+        "amazon-interview-coach",
+        "atlassian-interview-coach",
+        "google-interview-coach"
+      ],
+      "related_workflows": [
+        "faang-preparation"
+      ],
+      "popularity_score": 87
+    },
+    {
+      "id": "microsoft-interview-coach",
+      "name": "Microsoft Interview Coach",
+      "division": "company-interviews",
+      "description": "A growth-mindset and collaborative-problem-solving specialist who prepares candidates for Microsoft's blend of technical depth and \"how do you work with others\" evaluation, including the as-appropriate design/coding rounds.",
+      "status": "live",
+      "filename": "company-interviews/microsoft-interview-coach.md",
+      "tags": [
+        "growth-minded",
+        "collaborative",
+        "quietly rigorous",
+        "company-interviews",
+        "structured"
+      ],
+      "color": "#00A4EF",
+      "emoji": "🪟",
+      "vibe": "collaborative, growth-minded, structured, quietly rigorous",
+      "difficulty": "Hard",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "All",
+      "skills": [
+        "Interview Preparation",
+        "Technical Coding",
+        "System Design",
+        "Behavioral Interview",
+        "Craft-focused",
+        "Technically rigorous"
+      ],
+      "companies": [
+        "Microsoft"
+      ],
+      "related_agents": [
+        "uber-interview-coach",
+        "adobe-interview-coach",
+        "amazon-interview-coach"
+      ],
+      "related_workflows": [
+        "faang-preparation"
+      ],
+      "popularity_score": 73
+    },
+    {
+      "id": "netflix-interview-coach",
+      "name": "Netflix Interview Coach",
+      "division": "company-interviews",
+      "description": "A radical-candor and high-judgment specialist who prepares candidates for Netflix's uniquely direct culture interviews, where \"would I fight to keep this person\" is the real question behind every round.",
+      "status": "live",
+      "filename": "company-interviews/netflix-interview-coach.md",
+      "tags": [
+        "high standards",
+        "candid",
+        "company-interviews",
+        "judgment-focused",
+        "unimpressed by hedging"
+      ],
+      "color": "#E50914",
+      "emoji": "🎬",
+      "vibe": "candid, judgment-focused, unimpressed by hedging, high standards",
+      "difficulty": "Hard",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "All",
+      "skills": [
+        "Interview Preparation",
+        "Technical Coding",
+        "System Design",
+        "Behavioral Interview",
+        "Craft-focused",
+        "Technically rigorous"
+      ],
+      "companies": [
+        "Netflix"
+      ],
+      "related_agents": [
+        "meta-interview-coach",
+        "microsoft-interview-coach",
+        "oracle-interview-coach"
+      ],
+      "related_workflows": [
+        "faang-preparation"
+      ],
+      "popularity_score": 92
+    },
+    {
+      "id": "oracle-interview-coach",
+      "name": "Oracle Interview Coach",
+      "division": "company-interviews",
+      "description": "A fundamentals-first specialist who prepares candidates for Oracle's traditionally rigorous CS-fundamentals and systems-depth interview style, where solid, unglamorous engineering knowledge is genuinely rewarded.",
+      "status": "live",
+      "filename": "company-interviews/oracle-interview-coach.md",
+      "tags": [
+        "fundamentals-obsessed",
+        "no patience for shortcuts",
+        "methodical",
+        "company-interviews",
+        "thorough"
+      ],
+      "color": "#F80000",
+      "emoji": "🗃️",
+      "vibe": "fundamentals-obsessed, methodical, no patience for shortcuts, thorough",
+      "difficulty": "Hard",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "All",
+      "skills": [
+        "Interview Preparation",
+        "Technical Coding",
+        "System Design",
+        "Behavioral Interview",
+        "Craft-focused",
+        "Technically rigorous"
+      ],
+      "companies": [
+        "Oracle"
+      ],
+      "related_agents": [
+        "uber-interview-coach",
+        "adobe-interview-coach",
+        "amazon-interview-coach"
+      ],
+      "related_workflows": [
+        "faang-preparation"
+      ],
+      "popularity_score": 73
+    },
+    {
+      "id": "salesforce-interview-coach",
+      "name": "Salesforce Interview Coach",
+      "division": "company-interviews",
+      "description": "A trust-and-customer-success specialist who prepares candidates for Salesforce's values-and-relationship-driven interview culture, where \"trust is our #1 value\" is treated as a real evaluation lens, not a slogan.",
+      "status": "live",
+      "filename": "company-interviews/salesforce-interview-coach.md",
+      "tags": [
+        "values-literate",
+        "relationship-focused",
+        "customer-obsessed",
+        "warm",
+        "company-interviews"
+      ],
+      "color": "#00A1E0",
+      "emoji": "☁️",
+      "vibe": "relationship-focused, values-literate, warm, customer-obsessed",
+      "difficulty": "Hard",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "All",
+      "skills": [
+        "Interview Preparation",
+        "Technical Coding",
+        "System Design",
+        "Behavioral Interview",
+        "Craft-focused",
+        "Technically rigorous"
+      ],
+      "companies": [
+        "Salesforce"
+      ],
+      "related_agents": [
+        "oracle-interview-coach",
+        "uber-interview-coach",
+        "adobe-interview-coach"
+      ],
+      "related_workflows": [
+        "faang-preparation"
+      ],
+      "popularity_score": 76
+    },
+    {
+      "id": "uber-interview-coach",
+      "name": "Uber Interview Coach",
+      "division": "company-interviews",
+      "description": "A scale-and-ownership specialist who prepares candidates for Uber's operationally intense, ownership-driven interview culture, where \"built for scale, obsessed with the details that break at scale\" is the actual bar.",
+      "status": "live",
+      "filename": "company-interviews/uber-interview-coach.md",
+      "tags": [
+        "direct",
+        "scale-minded",
+        "ownership-obsessed",
+        "company-interviews",
+        "operationally sharp"
+      ],
+      "color": "#000000",
+      "emoji": "🚗",
+      "vibe": "scale-minded, ownership-obsessed, operationally sharp, direct",
+      "difficulty": "Hard",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "All",
+      "skills": [
+        "Interview Preparation",
+        "Technical Coding",
+        "System Design",
+        "Behavioral Interview",
+        "Craft-focused",
+        "Technically rigorous"
+      ],
+      "companies": [
+        "Uber"
+      ],
+      "related_agents": [
+        "salesforce-interview-coach",
+        "adobe-interview-coach",
+        "amazon-interview-coach"
+      ],
+      "related_workflows": [
+        "faang-preparation"
+      ],
+      "popularity_score": 90
+    },
+    {
+      "id": "apple-interview-coach",
+      "name": "Apple Interview Coach",
+      "division": "company-interviews",
+      "description": "A hardware-software craftsmanship and technical perfection coach who prepares candidates for Apple's deep systems loops, Swift/C++ architecture, and privacy-first product evaluation.",
+      "status": "live",
+      "filename": "company-interviews/apple-interview-coach.md",
+      "tags": [
+        "apple",
+        "company-interviews",
+        "swift",
+        "systems-programming",
+        "privacy"
+      ],
+      "color": "#A2AAAD",
+      "emoji": "🍏",
+      "vibe": "precise, craft-obsessed, low-level focused, privacy-conscious",
+      "difficulty": "Hard",
+      "experience_level": "Senior",
+      "career_stage": "Growth",
+      "industry": "Tech",
+      "skills": [
+        "Interview Preparation",
+        "Systems Programming",
+        "Swift",
+        "Hardware-Software Integration"
+      ],
+      "companies": [
+        "Apple"
+      ],
+      "related_agents": [
+        "apple-swe-coach",
+        "technical-interview-coach"
+      ],
+      "related_workflows": [
+        "faang-preparation"
+      ],
+      "popularity_score": 90
+    },
+    {
+      "id": "anthropic-interview-coach",
+      "name": "Anthropic Interview Coach",
+      "division": "company-interviews",
+      "description": "An AI safety, Constitutional AI, and research-engineering coach who prepares candidates for Anthropic's deep model architecture, scaling, and alignment interview loops.",
+      "status": "live",
+      "filename": "company-interviews/anthropic-interview-coach.md",
+      "tags": [
+        "anthropic",
+        "company-interviews",
+        "ai-safety",
+        "constitutional-ai",
+        "transformers"
+      ],
+      "color": "#D97706",
+      "emoji": "🤖",
+      "vibe": "academic, safety-focused, rigorous, research-forward",
+      "difficulty": "Hard",
+      "experience_level": "Senior",
+      "career_stage": "Growth",
+      "industry": "Tech",
+      "skills": [
+        "Interview Preparation",
+        "AI Safety",
+        "Constitutional AI",
+        "PyTorch"
+      ],
+      "companies": [
+        "Anthropic"
+      ],
+      "related_agents": [
+        "anthropic-ai-coach",
+        "technical-interview-coach"
+      ],
+      "related_workflows": [
+        "faang-preparation"
+      ],
+      "popularity_score": 92
+    },
+    {
+      "id": "databricks-interview-coach",
+      "name": "Databricks Interview Coach",
+      "division": "company-interviews",
+      "description": "A distributed systems, database internals, and Spark engine specialist who prepares candidates for Databricks' deep concurrency, storage engine, and query optimization loops.",
+      "status": "live",
+      "filename": "company-interviews/databricks-interview-coach.md",
+      "tags": [
+        "databricks",
+        "company-interviews",
+        "distributed-systems",
+        "spark",
+        "database-internals"
+      ],
+      "color": "#FF3621",
+      "emoji": "🧱",
+      "vibe": "systems-heavy, algorithmic, data-engine focused, performance-driven",
+      "difficulty": "Hard",
+      "experience_level": "Senior",
+      "career_stage": "Growth",
+      "industry": "Tech",
+      "skills": [
+        "Interview Preparation",
+        "Distributed Systems",
+        "Database Internals",
+        "Spark"
+      ],
+      "companies": [
+        "Databricks"
+      ],
+      "related_agents": [
+        "database-engineer",
+        "backend-architect"
+      ],
+      "related_workflows": [
+        "technical-interview-week"
+      ],
+      "popularity_score": 88
+    },
+    {
+      "id": "nvidia-interview-coach",
+      "name": "Nvidia Interview Coach",
+      "division": "company-interviews",
+      "description": "A GPU architecture, CUDA kernel, and high-performance systems coach who prepares candidates for Nvidia's parallel computing, C++ performance, and AI hardware-software loops.",
+      "status": "live",
+      "filename": "company-interviews/nvidia-interview-coach.md",
+      "tags": [
+        "nvidia",
+        "company-interviews",
+        "cuda",
+        "gpu-architecture",
+        "cpp"
+      ],
+      "color": "#76B900",
+      "emoji": "⚡",
+      "vibe": "low-level, hardware-aware, performance-obsessed, mathematical",
+      "difficulty": "Hard",
+      "experience_level": "Senior",
+      "career_stage": "Growth",
+      "industry": "Tech",
+      "skills": [
+        "Interview Preparation",
+        "CUDA",
+        "C++",
+        "GPU Architecture"
+      ],
+      "companies": [
+        "Nvidia"
+      ],
+      "related_agents": [
+        "nvidia-ai-coach",
+        "technical-interview-coach"
+      ],
+      "related_workflows": [
+        "faang-preparation"
+      ],
+      "popularity_score": 93
+    },
+    {
+      "id": "openai-interview-coach",
+      "name": "OpenAI Interview Coach",
+      "division": "company-interviews",
+      "description": "A frontier model research and distributed infrastructure coach who prepares candidates for OpenAI's rigorous technical loops, PyTorch/Triton mechanics, and AI safety culture.",
+      "status": "live",
+      "filename": "company-interviews/openai-interview-coach.md",
+      "tags": [
+        "openai",
+        "company-interviews",
+        "pytorch",
+        "triton",
+        "distributed-training"
+      ],
+      "color": "#10A37F",
+      "emoji": "🟩",
+      "vibe": "cutting-edge, mathematical, infrastructure-heavy, mission-driven",
+      "difficulty": "Hard",
+      "experience_level": "Senior",
+      "career_stage": "Growth",
+      "industry": "Tech",
+      "skills": [
+        "Interview Preparation",
+        "Distributed Training",
+        "PyTorch",
+        "Triton"
+      ],
+      "companies": [
+        "OpenAI"
+      ],
+      "related_agents": [
+        "openai-career-coach",
+        "technical-interview-coach"
+      ],
+      "related_workflows": [
+        "faang-preparation"
+      ],
+      "popularity_score": 96
+    },
+    {
+      "id": "stripe-interview-coach",
+      "name": "Stripe Interview Coach",
+      "division": "company-interviews",
+      "description": "A practical engineering, API craft, and production refactoring coach who prepares candidates for Stripe's unique hands-on coding, bug-squashing, and integration interview loops.",
+      "status": "live",
+      "filename": "company-interviews/stripe-interview-coach.md",
+      "tags": [
+        "stripe",
+        "company-interviews",
+        "api-design",
+        "refactoring",
+        "idempotency"
+      ],
+      "color": "#635BFF",
+      "emoji": "💳",
+      "vibe": "practical, craft-oriented, meticulous, API-obsessed",
+      "difficulty": "Hard",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "Tech",
+      "skills": [
+        "Interview Preparation",
+        "API Design",
+        "Refactoring",
+        "Debugging"
+      ],
+      "companies": [
+        "Stripe"
+      ],
+      "related_agents": [
+        "code-reviewer",
+        "backend-architect"
+      ],
+      "related_workflows": [
+        "technical-interview-week"
+      ],
+      "popularity_score": 91
+    },
+    {
+      "id": "backend-architect",
+      "name": "Backend Architect",
+      "division": "engineering",
+      "description": "An API and service-design reviewer who evaluates backend architecture for the failure modes that don't show up until real load, real edge cases, and real time have all had a chance to find them.",
+      "status": "live",
+      "filename": "engineering/backend-architect.md",
+      "tags": [
+        "engineering",
+        "skeptical of shortcuts",
+        "methodical",
+        "unflashy",
+        "long-term-thinking"
+      ],
+      "color": "#4A4A4A",
+      "emoji": "🧱",
+      "vibe": "methodical, skeptical of shortcuts, long-term-thinking, unflashy",
+      "difficulty": "Hard",
+      "experience_level": "Senior",
+      "career_stage": "Growth",
+      "industry": "Tech",
+      "skills": [
+        "Software Engineering",
+        "System Design",
+        "Architecture",
+        "Code Review",
+        "Engineering",
+        "Skeptical of shortcuts"
+      ],
+      "companies": [],
+      "related_agents": [
+        "database-engineer",
+        "devops-engineer",
+        "mern-architect"
+      ],
+      "related_workflows": [
+        "technical-interview-week"
+      ],
+      "popularity_score": 66
+    },
+    {
+      "id": "code-reviewer",
+      "name": "Code Reviewer",
+      "division": "engineering",
+      "description": "A senior-level code reviewer who triages real risk instead of nitpicking style, distinguishing \"this will break in production\" from \"this is a preference\" and never letting the two get confused.",
+      "status": "live",
+      "filename": "engineering/code-reviewer.md",
+      "tags": [
+        "rigorous",
+        "engineering",
+        "unimpressed by cleverness",
+        "fair",
+        "teaching-oriented"
+      ],
+      "color": "#5C6BC0",
+      "emoji": "🔬",
+      "vibe": "rigorous, fair, unimpressed by cleverness, teaching-oriented",
+      "difficulty": "Easy",
+      "experience_level": "Senior",
+      "career_stage": "Growth",
+      "industry": "Tech",
+      "skills": [
+        "Software Engineering",
+        "System Design",
+        "Architecture",
+        "Code Review",
+        "Engineering",
+        "Skeptical of shortcuts"
+      ],
+      "companies": [],
+      "related_agents": [
+        "nextjs-performance-engineer",
+        "backend-architect",
+        "database-engineer"
+      ],
+      "related_workflows": [
+        "technical-interview-week"
+      ],
+      "popularity_score": 99
+    },
+    {
+      "id": "database-engineer",
+      "name": "Database Engineer",
+      "division": "engineering",
+      "description": "A schema and query optimization specialist who reads execution plans instead of guessing, and treats indexing strategy as a precise discipline rather than a \"just add an index\" reflex.",
+      "status": "live",
+      "filename": "engineering/database-engineer.md",
+      "tags": [
+        "patient teacher",
+        "engineering",
+        "plan-reading",
+        "precise",
+        "quietly relentless about correctness"
+      ],
+      "color": "#336791",
+      "emoji": "🗄️",
+      "vibe": "precise, plan-reading, patient teacher, quietly relentless about correctness",
+      "difficulty": "Medium",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "Tech",
+      "skills": [
+        "Software Engineering",
+        "System Design",
+        "Architecture",
+        "Code Review",
+        "Engineering",
+        "Skeptical of shortcuts"
+      ],
+      "companies": [],
+      "related_agents": [
+        "backend-architect",
+        "code-reviewer",
+        "devops-engineer"
+      ],
+      "related_workflows": [
+        "technical-interview-week"
+      ],
+      "popularity_score": 90
+    },
+    {
+      "id": "devops-engineer",
+      "name": "DevOps Engineer",
+      "division": "engineering",
+      "description": "A CI/CD and infrastructure reliability specialist who treats deployment pipelines as production systems in their own right, obsessed with reversibility, observability, and never being surprised by a failure.",
+      "status": "live",
+      "filename": "engineering/devops-engineer.md",
+      "tags": [
+        "engineering",
+        "reliability-obsessed",
+        "allergic to manual steps",
+        "calm in incidents",
+        "methodical"
+      ],
+      "color": "#FF6B35",
+      "emoji": "🔧",
+      "vibe": "reliability-obsessed, calm in incidents, allergic to manual steps, methodical",
+      "difficulty": "Medium",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "Tech",
+      "skills": [
+        "Software Engineering",
+        "System Design",
+        "Architecture",
+        "Code Review",
+        "Engineering",
+        "Skeptical of shortcuts"
+      ],
+      "companies": [],
+      "related_agents": [
+        "backend-architect",
+        "code-reviewer",
+        "database-engineer"
+      ],
+      "related_workflows": [
+        "technical-interview-week"
+      ],
+      "popularity_score": 60
+    },
+    {
+      "id": "mern-architect",
+      "name": "MERN Architect",
+      "division": "engineering",
+      "description": "A full-stack architecture reviewer for MongoDB/Express/React/Node applications who evaluates real scalability and maintainability tradeoffs instead of rubber-stamping whatever framework is trendy this year.",
+      "status": "live",
+      "filename": "engineering/mern-architect.md",
+      "tags": [
+        "pragmatic",
+        "scalability-focused",
+        "engineering",
+        "opinionated",
+        "allergic to over-engineering"
+      ],
+      "color": "#00684A",
+      "emoji": "🏗️",
+      "vibe": "pragmatic, opinionated, allergic to over-engineering, scalability-focused",
+      "difficulty": "Hard",
+      "experience_level": "Senior",
+      "career_stage": "Growth",
+      "industry": "Tech",
+      "skills": [
+        "Software Engineering",
+        "System Design",
+        "Architecture",
+        "Code Review",
+        "Engineering",
+        "Skeptical of shortcuts"
+      ],
+      "companies": [],
+      "related_agents": [
+        "nextjs-performance-engineer",
+        "backend-architect",
+        "code-reviewer"
+      ],
+      "related_workflows": [
+        "technical-interview-week"
+      ],
+      "popularity_score": 89
+    },
+    {
+      "id": "nextjs-performance-engineer",
+      "name": "Next.js Performance Engineer",
+      "division": "engineering",
+      "description": "A performance auditor obsessed with real Core Web Vitals and actual user-perceived speed, who diagnoses Next.js applications the way a profiler does — with numbers, not vibes.",
+      "status": "live",
+      "filename": "engineering/nextjs-performance-engineer.md",
+      "tags": [
+        "engineering",
+        "measurement-obsessed",
+        "precise",
+        "impatient with guesswork",
+        "quietly intense"
+      ],
+      "color": "#000000",
+      "emoji": "⚡",
+      "vibe": "measurement-obsessed, impatient with guesswork, precise, quietly intense",
+      "difficulty": "Medium",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "Tech",
+      "skills": [
+        "Software Engineering",
+        "System Design",
+        "Architecture",
+        "Code Review",
+        "Engineering",
+        "Skeptical of shortcuts"
+      ],
+      "companies": [],
+      "related_agents": [
+        "database-engineer",
+        "devops-engineer",
+        "mern-architect"
+      ],
+      "related_workflows": [
+        "technical-interview-week"
+      ],
+      "popularity_score": 97
+    },
+    {
+      "id": "behavioral-interview-specialist",
+      "name": "Behavioral Interview Specialist",
+      "division": "interview",
+      "description": "A behavioral interview drilling coach who helps candidates structure stories using STAR/STAR+ structures, handles high-pressure situational queries, and maps achievements to organizational leadership principles.",
+      "status": "live",
+      "filename": "interview/behavioral-interview-specialist.md",
+      "tags": [
+        "retrospective-driven",
+        "authentic",
+        "interview",
+        "structure-focused",
+        "evidence-oriented"
+      ],
+      "color": "#C0392B",
+      "emoji": "🗣️",
+      "vibe": "structure-focused, evidence-oriented, retrospective-driven, authentic",
+      "difficulty": "Hard",
+      "experience_level": "Senior",
+      "career_stage": "Job Search",
+      "industry": "All",
+      "skills": [
+        "Interviewing",
+        "Behavioral Questions",
+        "Mock Practice",
+        "System Design",
+        "Retrospective-driven",
+        "Authentic"
+      ],
+      "companies": [],
+      "related_agents": [
+        "mock-interviewer",
+        "system-design-coach",
+        "group-discussion-coach"
+      ],
+      "related_workflows": [
+        "technical-interview-week",
+        "hr-interview-week"
+      ],
+      "popularity_score": 90
+    },
+    {
+      "id": "group-discussion-coach",
+      "name": "Group Discussion Coach",
+      "division": "interview",
+      "description": "A facilitation and group communication coach who prepares candidates for group discussions, case studies, and collaborative rounds by teaching moderation, active listening, structured entry, and collaborative leadership.",
+      "status": "live",
+      "filename": "interview/group-discussion-coach.md",
+      "tags": [
+        "interview",
+        "consensus-oriented",
+        "assertive-polite",
+        "collaborative",
+        "structured"
+      ],
+      "color": "#8E44AD",
+      "emoji": "👥",
+      "vibe": "collaborative, structured, assertive-polite, consensus-oriented",
+      "difficulty": "Medium",
+      "experience_level": "Senior",
+      "career_stage": "Job Search",
+      "industry": "All",
+      "skills": [
+        "Interviewing",
+        "Behavioral Questions",
+        "Mock Practice",
+        "System Design",
+        "Retrospective-driven",
+        "Authentic"
+      ],
+      "companies": [],
+      "related_agents": [
+        "leadership-interview-coach",
+        "mock-interviewer",
+        "system-design-coach"
+      ],
+      "related_workflows": [
+        "technical-interview-week",
+        "hr-interview-week"
+      ],
+      "popularity_score": 65
+    },
+    {
+      "id": "leadership-interview-coach",
+      "name": "Leadership Interview Coach",
+      "division": "interview",
+      "description": "A leadership coaching specialist who prepares senior candidates for executive, management, and leadership interviews — focusing on vision, organization building, decision-making, and organizational conflict.",
+      "status": "live",
+      "filename": "interview/leadership-interview-coach.md",
+      "tags": [
+        "vision-oriented",
+        "interview",
+        "direct-honest",
+        "organization-focused",
+        "executive-mature"
+      ],
+      "color": "#117A65",
+      "emoji": "👑",
+      "vibe": "executive-mature, vision-oriented, organization-focused, direct-honest",
+      "difficulty": "Hard",
+      "experience_level": "Executive",
+      "career_stage": "Job Search",
+      "industry": "All",
+      "skills": [
+        "Interviewing",
+        "Behavioral Questions",
+        "Mock Practice",
+        "System Design",
+        "Retrospective-driven",
+        "Authentic"
+      ],
+      "companies": [],
+      "related_agents": [
+        "system-design-coach",
+        "behavioral-interview-specialist",
+        "group-discussion-coach"
+      ],
+      "related_workflows": [
+        "technical-interview-week",
+        "hr-interview-week"
+      ],
+      "popularity_score": 71
+    },
+    {
+      "id": "mock-interviewer",
+      "name": "Mock Interviewer",
+      "division": "interview",
+      "description": "A realistic, high-fidelity mock interviewer that conducts role-play simulations, dynamically probes candidate answers, handles follow-up queries, and provides rigorous feedback.",
+      "status": "live",
+      "filename": "interview/mock-interviewer.md",
+      "tags": [
+        "simulation-realistic",
+        "interview",
+        "follow-up-active",
+        "candidate-challenging",
+        "diagnostic-critical"
+      ],
+      "color": "#7B241C",
+      "emoji": "🎭",
+      "vibe": "simulation-realistic, diagnostic-critical, follow-up-active, candidate-challenging",
+      "difficulty": "Medium",
+      "experience_level": "Mid",
+      "career_stage": "Job Search",
+      "industry": "All",
+      "skills": [
+        "Interviewing",
+        "Behavioral Questions",
+        "Mock Practice",
+        "System Design",
+        "Retrospective-driven",
+        "Authentic"
+      ],
+      "companies": [],
+      "related_agents": [
+        "system-design-coach",
+        "behavioral-interview-specialist",
+        "group-discussion-coach"
+      ],
+      "related_workflows": [
+        "technical-interview-week",
+        "hr-interview-week"
+      ],
+      "popularity_score": 75
+    },
+    {
+      "id": "system-design-coach",
+      "name": "System Design Coach",
+      "division": "interview",
+      "description": "A technical interview coach specializing in distributed systems, scalability, and system design interviews — covering requirements gathering, API design, data modeling, high-level architecture, and deep-dive bottlenecks.",
+      "status": "live",
+      "filename": "interview/system-design-coach.md",
+      "tags": [
+        "logic-driven",
+        "interview",
+        "architect-level",
+        "scalability-obsessed",
+        "trade-off-centered"
+      ],
+      "color": "#1F618D",
+      "emoji": "🏗️",
+      "vibe": "architect-level, scalability-obsessed, logic-driven, trade-off-centered",
+      "difficulty": "Hard",
+      "experience_level": "Senior",
+      "career_stage": "Job Search",
+      "industry": "All",
+      "skills": [
+        "Interviewing",
+        "Behavioral Questions",
+        "Mock Practice",
+        "System Design",
+        "Retrospective-driven",
+        "Authentic"
+      ],
+      "companies": [],
+      "related_agents": [
+        "leadership-interview-coach",
+        "mock-interviewer",
+        "behavioral-interview-specialist"
+      ],
+      "related_workflows": [
+        "technical-interview-week",
+        "hr-interview-week"
+      ],
+      "popularity_score": 74
+    },
+    {
+      "id": "alumni-networking-advisor",
+      "name": "Alumni Networking Advisor",
+      "division": "networking",
+      "description": "A campus and school affinity networking strategist who helps candidates locate, re-engage, and leverage university and corporate alumni networks for career insights and referrals.",
+      "status": "live",
+      "filename": "networking/alumni-networking-advisor.md",
+      "tags": [
+        "supportive",
+        "networking",
+        "relationship-first",
+        "curious",
+        "affinity-driven"
+      ],
+      "color": "#7D6608",
+      "emoji": "🎓",
+      "vibe": "relationship-first, affinity-driven, curious, supportive",
+      "difficulty": "Medium",
+      "experience_level": "Mid",
+      "career_stage": "Job Search",
+      "industry": "All",
+      "skills": [
+        "Professional Networking",
+        "LinkedIn Strategy",
+        "Outreach",
+        "Cold Emailing",
+        "Supportive",
+        "Networking"
+      ],
+      "companies": [],
+      "related_agents": [
+        "recruiter-communication-coach",
+        "referral-strategy-coach",
+        "cold-outreach-specialist"
+      ],
+      "related_workflows": [
+        "linkedin-growth"
+      ],
+      "popularity_score": 82
+    },
+    {
+      "id": "cold-outreach-specialist",
+      "name": "Cold Outreach Specialist",
+      "division": "networking",
+      "description": "A cold communication copywriter and strategist who helps candidates write highly optimized cold emails and messages to hiring managers, founders, and leaders.",
+      "status": "live",
+      "filename": "networking/cold-outreach-specialist.md",
+      "tags": [
+        "value-first",
+        "conversion-oriented",
+        "networking",
+        "direct",
+        "professional"
+      ],
+      "color": "#7E5109",
+      "emoji": "📧",
+      "vibe": "conversion-oriented, value-first, direct, professional",
+      "difficulty": "Hard",
+      "experience_level": "Senior",
+      "career_stage": "Job Search",
+      "industry": "All",
+      "skills": [
+        "Professional Networking",
+        "LinkedIn Strategy",
+        "Outreach",
+        "Cold Emailing",
+        "Supportive",
+        "Networking"
+      ],
+      "companies": [],
+      "related_agents": [
+        "recruiter-communication-coach",
+        "referral-strategy-coach",
+        "alumni-networking-advisor"
+      ],
+      "related_workflows": [
+        "linkedin-growth"
+      ],
+      "popularity_score": 66
+    },
+    {
+      "id": "linkedin-outreach-specialist",
+      "name": "LinkedIn Outreach Specialist",
+      "division": "networking",
+      "description": "A digital networking expert who helps candidates write highly customized, high-conversion LinkedIn messages for informational interviews, warm introductions, and job inquiries.",
+      "status": "live",
+      "filename": "networking/linkedin-outreach-specialist.md",
+      "tags": [
+        "network-strategic",
+        "networking",
+        "professional",
+        "connection-centric",
+        "high-conversion"
+      ],
+      "color": "#0E66C2",
+      "emoji": "💬",
+      "vibe": "network-strategic, high-conversion, professional, connection-centric",
+      "difficulty": "Hard",
+      "experience_level": "Mid",
+      "career_stage": "Job Search",
+      "industry": "All",
+      "skills": [
+        "Professional Networking",
+        "LinkedIn Strategy",
+        "Outreach",
+        "Cold Emailing",
+        "Supportive",
+        "Networking"
+      ],
+      "companies": [],
+      "related_agents": [
+        "cold-outreach-specialist",
+        "recruiter-communication-coach",
+        "referral-strategy-coach"
+      ],
+      "related_workflows": [
+        "linkedin-growth"
+      ],
+      "popularity_score": 93
+    },
+    {
+      "id": "recruiter-communication-coach",
+      "name": "Recruiter Communication Coach",
+      "division": "networking",
+      "description": "A communication strategist who helps candidates manage recruiter channels, script outreach messages, prepare for screening calls, and negotiate communication touchpoints.",
+      "status": "live",
+      "filename": "networking/recruiter-communication-coach.md",
+      "tags": [
+        "networking",
+        "clear-headed",
+        "professional",
+        "responsive",
+        "recruitment-fluent"
+      ],
+      "color": "#B03A2E",
+      "emoji": "📞",
+      "vibe": "professional, clear-headed, responsive, recruitment-fluent",
+      "difficulty": "Medium",
+      "experience_level": "Mid",
+      "career_stage": "Job Search",
+      "industry": "All",
+      "skills": [
+        "Professional Networking",
+        "LinkedIn Strategy",
+        "Outreach",
+        "Cold Emailing",
+        "Supportive",
+        "Networking"
+      ],
+      "companies": [],
+      "related_agents": [
+        "alumni-networking-advisor",
+        "cold-outreach-specialist",
+        "linkedin-outreach-specialist"
+      ],
+      "related_workflows": [
+        "linkedin-growth"
+      ],
+      "popularity_score": 64
+    },
+    {
+      "id": "referral-strategy-coach",
+      "name": "Referral Strategy Coach",
+      "division": "networking",
+      "description": "A relationship monetization strategist who helps candidates turn casual professional interactions, alumni links, and warm networks into formal job referrals and active internal advocates.",
+      "status": "live",
+      "filename": "networking/referral-strategy-coach.md",
+      "tags": [
+        "strategic",
+        "networking",
+        "conversion-focused",
+        "advocacy-driven",
+        "relationship-respectful"
+      ],
+      "color": "#1F618D",
+      "emoji": "🤝",
+      "vibe": "conversion-focused, relationship-respectful, advocacy-driven, strategic",
+      "difficulty": "Medium",
+      "experience_level": "Entry",
+      "career_stage": "Job Search",
+      "industry": "All",
+      "skills": [
+        "Professional Networking",
+        "LinkedIn Strategy",
+        "Outreach",
+        "Cold Emailing",
+        "Supportive",
+        "Networking"
+      ],
+      "companies": [],
+      "related_agents": [
+        "linkedin-outreach-specialist",
+        "recruiter-communication-coach",
+        "alumni-networking-advisor"
+      ],
+      "related_workflows": [
+        "linkedin-growth"
+      ],
+      "popularity_score": 90
+    },
+    {
+      "id": "documentation-specialist",
+      "name": "Documentation Specialist",
+      "division": "projects",
+      "description": "A technical documentation agent that turns project outputs into clear reports, manuals, and presentation-ready artifacts.",
+      "status": "live",
+      "filename": "projects/documentation-specialist.md",
+      "tags": [
+        "precise",
+        "projects",
+        "quality-driven",
+        "structured",
+        "reader-first"
+      ],
+      "color": "#6A5DAD",
+      "emoji": "📝",
+      "vibe": "precise, structured, reader-first, quality-driven",
+      "difficulty": "Hard",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "All",
+      "skills": [
+        "Project Management",
+        "Technical Writing",
+        "Academic Research",
+        "Viva Defense",
+        "Precise",
+        "Projects"
+      ],
+      "companies": [],
+      "related_agents": [
+        "final-year-project-advisor",
+        "research-assistant",
+        "viva-coach"
+      ],
+      "related_workflows": [
+        "fresher-placement"
+      ],
+      "popularity_score": 98
+    },
+    {
+      "id": "final-year-project-advisor",
+      "name": "Final Year Project Advisor",
+      "division": "projects",
+      "description": "A FYP coach who helps students select, scope, and defend academic projects with real-world structure and evaluation clarity.",
+      "status": "live",
+      "filename": "projects/final-year-project-advisor.md",
+      "tags": [
+        "mentor-led",
+        "academic",
+        "practical",
+        "projects",
+        "deadline-aware"
+      ],
+      "color": "#3B2D6B",
+      "emoji": "🎓",
+      "vibe": "academic, practical, deadline-aware, mentor-led",
+      "difficulty": "Medium",
+      "experience_level": "Entry",
+      "career_stage": "Growth",
+      "industry": "All",
+      "skills": [
+        "Project Management",
+        "Technical Writing",
+        "Academic Research",
+        "Viva Defense",
+        "Precise",
+        "Projects"
+      ],
+      "companies": [],
+      "related_agents": [
+        "documentation-specialist",
+        "research-assistant",
+        "viva-coach"
+      ],
+      "related_workflows": [
+        "fresher-placement"
+      ],
+      "popularity_score": 75
+    },
+    {
+      "id": "research-assistant",
+      "name": "Research Assistant",
+      "division": "projects",
+      "description": "A structured research partner for literature reviews, methodology planning, and academic sourcing.",
+      "status": "live",
+      "filename": "projects/research-assistant.md",
+      "tags": [
+        "evidence-based",
+        "methodological",
+        "systematic",
+        "precise",
+        "projects"
+      ],
+      "color": "#4A6FA5",
+      "emoji": "📚",
+      "vibe": "systematic, evidence-based, methodological, precise",
+      "difficulty": "Medium",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "All",
+      "skills": [
+        "Project Management",
+        "Technical Writing",
+        "Academic Research",
+        "Viva Defense",
+        "Precise",
+        "Projects"
+      ],
+      "companies": [],
+      "related_agents": [
+        "documentation-specialist",
+        "final-year-project-advisor",
+        "viva-coach"
+      ],
+      "related_workflows": [
+        "fresher-placement"
+      ],
+      "popularity_score": 91
+    },
+    {
+      "id": "viva-coach",
+      "name": "Viva Coach",
+      "division": "projects",
+      "description": "A viva preparation coach that helps students structure defense responses, anticipate examiner questions, and present confidently.",
+      "status": "live",
+      "filename": "projects/viva-coach.md",
+      "tags": [
+        "calm",
+        "precise",
+        "projects",
+        "confidence-building",
+        "exam-aware"
+      ],
+      "color": "#C058A0",
+      "emoji": "🎤",
+      "vibe": "calm, precise, confidence-building, exam-aware",
+      "difficulty": "Medium",
+      "experience_level": "Entry",
+      "career_stage": "Growth",
+      "industry": "All",
+      "skills": [
+        "Project Management",
+        "Technical Writing",
+        "Academic Research",
+        "Viva Defense",
+        "Precise",
+        "Projects"
+      ],
+      "companies": [],
+      "related_agents": [
+        "documentation-specialist",
+        "final-year-project-advisor",
+        "research-assistant"
+      ],
+      "related_workflows": [
+        "fresher-placement"
+      ],
+      "popularity_score": 80
+    },
+    {
+      "id": "executive-resume-advisor",
+      "name": "Executive Resume Advisor",
+      "division": "resume",
+      "description": "A senior-level resume strategist who helps VPs, Directors, and C-suite executives structure their resumes to emphasize executive presence, strategic scope, P&L ownership, and board visibility.",
+      "status": "live",
+      "filename": "resume/executive-resume-advisor.md",
+      "tags": [
+        "strategic",
+        "corporate",
+        "resume",
+        "boardroom-ready",
+        "outcomes-first"
+      ],
+      "color": "#2C3E50",
+      "emoji": "👔",
+      "vibe": "strategic, corporate, boardroom-ready, outcomes-first",
+      "difficulty": "Medium",
+      "experience_level": "Executive",
+      "career_stage": "Job Search",
+      "industry": "All",
+      "skills": [
+        "Resume Writing",
+        "ATS Optimization",
+        "STAR/XYZ Metrics",
+        "Portfolio Review",
+        "Strategic",
+        "Corporate"
+      ],
+      "companies": [],
+      "related_agents": [
+        "resume-formatting-specialist",
+        "resume-keyword-optimizer",
+        "portfolio-reviewer"
+      ],
+      "related_workflows": [
+        "ats-optimization"
+      ],
+      "popularity_score": 62
+    },
+    {
+      "id": "portfolio-reviewer",
+      "name": "Portfolio Reviewer",
+      "division": "resume",
+      "description": "A design and technical portfolio critic who helps designers, engineers, and product managers structure, document, and present their work through compelling case studies that prove competency.",
+      "status": "live",
+      "filename": "resume/portfolio-reviewer.md",
+      "tags": [
+        "critique-honest",
+        "resume",
+        "proof-obsessed",
+        "structure-driven",
+        "detail-oriented"
+      ],
+      "color": "#D35400",
+      "emoji": "🎨",
+      "vibe": "critique-honest, structure-driven, detail-oriented, proof-obsessed",
+      "difficulty": "Easy",
+      "experience_level": "Mid",
+      "career_stage": "Job Search",
+      "industry": "All",
+      "skills": [
+        "Resume Writing",
+        "ATS Optimization",
+        "STAR/XYZ Metrics",
+        "Portfolio Review",
+        "Strategic",
+        "Corporate"
+      ],
+      "companies": [],
+      "related_agents": [
+        "executive-resume-advisor",
+        "resume-achievement-writer",
+        "resume-formatting-specialist"
+      ],
+      "related_workflows": [
+        "ats-optimization"
+      ],
+      "popularity_score": 80
+    },
+    {
+      "id": "resume-achievement-writer",
+      "name": "Resume Achievement Writer",
+      "division": "resume",
+      "description": "A metrics-focused resume achievement writer who helps candidates translate standard job duties into high-impact, outcome-oriented achievements using the STAR, Google X-Y-Z, and CAR frameworks.",
+      "status": "live",
+      "filename": "resume/resume-achievement-writer.md",
+      "tags": [
+        "precision-first",
+        "resume",
+        "anti-bullet-list",
+        "metric-obsessed",
+        "impact-driven"
+      ],
+      "color": "#4A235A",
+      "emoji": "📝",
+      "vibe": "metric-obsessed, impact-driven, anti-bullet-list, precision-first",
+      "difficulty": "Easy",
+      "experience_level": "Mid",
+      "career_stage": "Job Search",
+      "industry": "All",
+      "skills": [
+        "Resume Writing",
+        "ATS Optimization",
+        "STAR/XYZ Metrics",
+        "Portfolio Review",
+        "Strategic",
+        "Corporate"
+      ],
+      "companies": [],
+      "related_agents": [
+        "resume-formatting-specialist",
+        "resume-keyword-optimizer",
+        "executive-resume-advisor"
+      ],
+      "related_workflows": [
+        "ats-optimization"
+      ],
+      "popularity_score": 82
+    },
+    {
+      "id": "resume-formatting-specialist",
+      "name": "Resume Formatting Specialist",
+      "division": "resume",
+      "description": "A design and layout expert who ensures resumes are visually polished, perfectly aligned, typographically balanced, and structured for maximum scannability and ATS compatibility.",
+      "status": "live",
+      "filename": "resume/resume-formatting-specialist.md",
+      "tags": [
+        "typographically precise",
+        "resume",
+        "detail-obsessed",
+        "minimalist",
+        "layout-first"
+      ],
+      "color": "#28B463",
+      "emoji": "📐",
+      "vibe": "detail-obsessed, typographically precise, layout-first, minimalist",
+      "difficulty": "Hard",
+      "experience_level": "Mid",
+      "career_stage": "Job Search",
+      "industry": "All",
+      "skills": [
+        "Resume Writing",
+        "ATS Optimization",
+        "STAR/XYZ Metrics",
+        "Portfolio Review",
+        "Strategic",
+        "Corporate"
+      ],
+      "companies": [],
+      "related_agents": [
+        "resume-keyword-optimizer",
+        "executive-resume-advisor",
+        "portfolio-reviewer"
+      ],
+      "related_workflows": [
+        "ats-optimization"
+      ],
+      "popularity_score": 79
+    },
+    {
+      "id": "resume-keyword-optimizer",
+      "name": "Resume Keyword Optimizer",
+      "division": "resume",
+      "description": "An ATS-oriented search optimization specialist who helps candidates align their resumes with target job descriptions using keyword mapping, context optimization, and phrase parsing strategies.",
+      "status": "live",
+      "filename": "resume/resume-keyword-optimizer.md",
+      "tags": [
+        "semantic-match",
+        "search-engine-focused",
+        "resume",
+        "analytical",
+        "keyword-aligned"
+      ],
+      "color": "#1A5276",
+      "emoji": "🔍",
+      "vibe": "analytical, search-engine-focused, keyword-aligned, semantic-match",
+      "difficulty": "Medium",
+      "experience_level": "Mid",
+      "career_stage": "Job Search",
+      "industry": "All",
+      "skills": [
+        "Resume Writing",
+        "ATS Optimization",
+        "STAR/XYZ Metrics",
+        "Portfolio Review",
+        "Strategic",
+        "Corporate"
+      ],
+      "companies": [],
+      "related_agents": [
+        "executive-resume-advisor",
+        "portfolio-reviewer",
+        "resume-achievement-writer"
+      ],
+      "related_workflows": [
+        "ats-optimization"
+      ],
+      "popularity_score": 92
+    },
+    {
+      "id": "founder-advisor",
+      "name": "Founder Advisor",
+      "division": "startup",
+      "description": "A blunt, experienced-feeling co-founder substitute who stress-tests ideas and decisions the way a real early-stage advisor would — before money, time, or credibility get spent finding out the hard way.",
+      "status": "live",
+      "filename": "startup/founder-advisor.md",
+      "tags": [
+        "pattern-matching",
+        "blunt",
+        "startup",
+        "allergic to founder self-delusion",
+        "genuinely rooting for you"
+      ],
+      "color": "#7B2D26",
+      "emoji": "🧭",
+      "vibe": "blunt, pattern-matching, allergic to founder self-delusion, genuinely rooting for you",
+      "difficulty": "Medium",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "All",
+      "skills": [
+        "Product Management",
+        "MVP Scoping",
+        "Market Research",
+        "Growth Strategy",
+        "Pattern-matching",
+        "Blunt"
+      ],
+      "companies": [],
+      "related_agents": [
+        "growth-strategist",
+        "market-research-analyst",
+        "product-manager"
+      ],
+      "related_workflows": [
+        "linkedin-growth",
+        "remote-job-hunt"
+      ],
+      "popularity_score": 62
+    },
+    {
+      "id": "growth-strategist",
+      "name": "Growth Strategist",
+      "division": "startup",
+      "description": "A growth specialist who designs acquisition, activation, retention, and monetization strategies for early-stage products.",
+      "status": "live",
+      "filename": "startup/growth-strategist.md",
+      "tags": [
+        "no-nonsense",
+        "retention-first",
+        "experimental",
+        "startup",
+        "metrics-driven"
+      ],
+      "color": "#1A936F",
+      "emoji": "📈",
+      "vibe": "experimental, metrics-driven, retention-first, no-nonsense",
+      "difficulty": "Medium",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "All",
+      "skills": [
+        "Product Management",
+        "MVP Scoping",
+        "Market Research",
+        "Growth Strategy",
+        "Pattern-matching",
+        "Blunt"
+      ],
+      "companies": [],
+      "related_agents": [
+        "founder-advisor",
+        "market-research-analyst",
+        "product-manager"
+      ],
+      "related_workflows": [
+        "linkedin-growth",
+        "remote-job-hunt"
+      ],
+      "popularity_score": 82
+    },
+    {
+      "id": "market-research-analyst",
+      "name": "Market Research Analyst",
+      "division": "startup",
+      "description": "A rigorous market research specialist who turns ambiguous business questions into defensible market insights, go-to-market priorities, and evidence-backed decisions — built for founders, product teams, and early-stage PMs who need market clarity fast.",
+      "status": "live",
+      "filename": "startup/market-research-analyst.md",
+      "tags": [
+        "strategist-first",
+        "startup",
+        "methodical",
+        "forensic",
+        "commercially-minded"
+      ],
+      "color": "#0F4C81",
+      "emoji": "🔎",
+      "vibe": "forensic, methodical, strategist-first, commercially-minded",
+      "difficulty": "Medium",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "All",
+      "skills": [
+        "Product Management",
+        "MVP Scoping",
+        "Market Research",
+        "Growth Strategy",
+        "Pattern-matching",
+        "Blunt"
+      ],
+      "companies": [],
+      "related_agents": [
+        "founder-advisor",
+        "growth-strategist",
+        "product-manager"
+      ],
+      "related_workflows": [
+        "linkedin-growth",
+        "remote-job-hunt"
+      ],
+      "popularity_score": 65
+    },
+    {
+      "id": "product-manager",
+      "name": "Product Manager",
+      "division": "startup",
+      "description": "A product strategy advisor who turns fuzzy feature requests into prioritized roadmaps, stakeholder-aligned outcomes, and execution-ready release plans.",
+      "status": "live",
+      "filename": "startup/product-manager.md",
+      "tags": [
+        "pragmatic",
+        "customer-focused",
+        "data-informed",
+        "strategic",
+        "startup"
+      ],
+      "color": "#E9724C",
+      "emoji": "🧭",
+      "vibe": "strategic, customer-focused, data-informed, pragmatic",
+      "difficulty": "Medium",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "All",
+      "skills": [
+        "Product Management",
+        "MVP Scoping",
+        "Market Research",
+        "Growth Strategy",
+        "Pattern-matching",
+        "Blunt"
+      ],
+      "companies": [],
+      "related_agents": [
+        "founder-advisor",
+        "growth-strategist",
+        "market-research-analyst"
+      ],
+      "related_workflows": [
+        "linkedin-growth",
+        "remote-job-hunt"
+      ],
+      "popularity_score": 69
+    },
+    {
+      "id": "ai-agent-architect",
+      "name": "AI Agent Architect",
+      "division": "ai-engineering",
+      "description": "Designs autonomous agent loops, tool bindings, planning algorithms, and multi-agent coordination layers.",
+      "status": "live",
+      "filename": "ai-engineering/ai-agent-architect.md",
+      "tags": [
+        "deep technical",
+        "research-oriented",
+        "cognitive-first",
+        "ai-engineering"
+      ],
+      "color": "#0284C7",
+      "emoji": "🤖",
+      "vibe": "Deep Technical, Research-Oriented, Cognitive-First",
+      "difficulty": "Hard",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "Tech",
+      "skills": [
+        "Machine Learning",
+        "LLMs",
+        "RAG Architecture",
+        "Prompt Engineering",
+        "Deep technical",
+        "Research-oriented"
+      ],
+      "companies": [],
+      "related_agents": [
+        "machine-learning-engineer",
+        "mlops-engineer",
+        "prompt-engineer"
+      ],
+      "related_workflows": [
+        "technical-interview-week"
+      ],
+      "popularity_score": 90
+    },
+    {
+      "id": "ai-engineer-career-coach",
+      "name": "AI Engineer Career Coach",
+      "division": "ai-engineering",
+      "description": "Coaches developers pivoting into artificial intelligence, structuring study plans, project portfolios, and technical interview prep.",
+      "status": "live",
+      "filename": "ai-engineering/ai-engineer-career-coach.md",
+      "tags": [
+        "deep technical",
+        "research-oriented",
+        "cognitive-first",
+        "ai-engineering"
+      ],
+      "color": "#0284C7",
+      "emoji": "🤖",
+      "vibe": "Deep Technical, Research-Oriented, Cognitive-First",
+      "difficulty": "Medium",
+      "experience_level": "Mid",
+      "career_stage": "Transition",
+      "industry": "Tech",
+      "skills": [
+        "Machine Learning",
+        "LLMs",
+        "RAG Architecture",
+        "Prompt Engineering",
+        "Deep technical",
+        "Research-oriented"
+      ],
+      "companies": [],
+      "related_agents": [
+        "ai-agent-architect",
+        "ai-product-builder",
+        "computer-vision-engineer"
+      ],
+      "related_workflows": [
+        "technical-interview-week"
+      ],
+      "popularity_score": 75
+    },
+    {
+      "id": "ai-product-builder",
+      "name": "AI Product Builder",
+      "division": "ai-engineering",
+      "description": "Helps founders and product managers scope AI features, evaluate API costs, and design user-centric AI feedback loops.",
+      "status": "live",
+      "filename": "ai-engineering/ai-product-builder.md",
+      "tags": [
+        "deep technical",
+        "research-oriented",
+        "cognitive-first",
+        "ai-engineering"
+      ],
+      "color": "#0284C7",
+      "emoji": "🤖",
+      "vibe": "Deep Technical, Research-Oriented, Cognitive-First",
+      "difficulty": "Medium",
+      "experience_level": "Mid",
+      "career_stage": "Leadership",
+      "industry": "Tech",
+      "skills": [
+        "Machine Learning",
+        "LLMs",
+        "RAG Architecture",
+        "Prompt Engineering",
+        "Deep technical",
+        "Research-oriented"
+      ],
+      "companies": [],
+      "related_agents": [
+        "ai-engineer-career-coach",
+        "computer-vision-engineer",
+        "generative-ai-consultant"
+      ],
+      "related_workflows": [
+        "technical-interview-week"
+      ],
+      "popularity_score": 61
+    },
+    {
+      "id": "computer-vision-engineer",
+      "name": "Computer Vision Engineer",
+      "division": "ai-engineering",
+      "description": "Advises on convolutional networks, object detection systems, segmentation pipelines, and edge device deployment.",
+      "status": "live",
+      "filename": "ai-engineering/computer-vision-engineer.md",
+      "tags": [
+        "deep technical",
+        "research-oriented",
+        "cognitive-first",
+        "ai-engineering"
+      ],
+      "color": "#0284C7",
+      "emoji": "🤖",
+      "vibe": "Deep Technical, Research-Oriented, Cognitive-First",
+      "difficulty": "Medium",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "Tech",
+      "skills": [
+        "Machine Learning",
+        "LLMs",
+        "RAG Architecture",
+        "Prompt Engineering",
+        "Deep technical",
+        "Research-oriented"
+      ],
+      "companies": [],
+      "related_agents": [
+        "generative-ai-consultant",
+        "llm-engineer",
+        "machine-learning-engineer"
+      ],
+      "related_workflows": [
+        "technical-interview-week"
+      ],
+      "popularity_score": 67
+    },
+    {
+      "id": "generative-ai-consultant",
+      "name": "Generative AI Consultant",
+      "division": "ai-engineering",
+      "description": "Guides organizations through generative AI strategy, risk mitigation, compliance, and ROI analysis.",
+      "status": "live",
+      "filename": "ai-engineering/generative-ai-consultant.md",
+      "tags": [
+        "deep technical",
+        "research-oriented",
+        "cognitive-first",
+        "ai-engineering"
+      ],
+      "color": "#0284C7",
+      "emoji": "🤖",
+      "vibe": "Deep Technical, Research-Oriented, Cognitive-First",
+      "difficulty": "Medium",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "Tech",
+      "skills": [
+        "Machine Learning",
+        "LLMs",
+        "RAG Architecture",
+        "Prompt Engineering",
+        "Deep technical",
+        "Research-oriented"
+      ],
+      "companies": [],
+      "related_agents": [
+        "rag-architect",
+        "ai-agent-architect",
+        "ai-engineer-career-coach"
+      ],
+      "related_workflows": [
+        "technical-interview-week"
+      ],
+      "popularity_score": 60
+    },
+    {
+      "id": "llm-engineer",
+      "name": "LLM Engineer",
+      "division": "ai-engineering",
+      "description": "Advises on model selection, context window optimization, fine-tuning pipelines, and inference efficiency.",
+      "status": "live",
+      "filename": "ai-engineering/llm-engineer.md",
+      "tags": [
+        "deep technical",
+        "research-oriented",
+        "cognitive-first",
+        "ai-engineering"
+      ],
+      "color": "#0284C7",
+      "emoji": "🤖",
+      "vibe": "Deep Technical, Research-Oriented, Cognitive-First",
+      "difficulty": "Medium",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "Tech",
+      "skills": [
+        "Machine Learning",
+        "LLMs",
+        "RAG Architecture",
+        "Prompt Engineering",
+        "Deep technical",
+        "Research-oriented"
+      ],
+      "companies": [],
+      "related_agents": [
+        "ai-agent-architect",
+        "ai-engineer-career-coach",
+        "ai-product-builder"
+      ],
+      "related_workflows": [
+        "technical-interview-week"
+      ],
+      "popularity_score": 69
+    },
+    {
+      "id": "machine-learning-engineer",
+      "name": "Machine Learning Engineer",
+      "division": "ai-engineering",
+      "description": "Designs classical ML systems, feature stores, model training pipelines, and dataset validations.",
+      "status": "live",
+      "filename": "ai-engineering/machine-learning-engineer.md",
+      "tags": [
+        "deep technical",
+        "research-oriented",
+        "cognitive-first",
+        "ai-engineering"
+      ],
+      "color": "#0284C7",
+      "emoji": "🤖",
+      "vibe": "Deep Technical, Research-Oriented, Cognitive-First",
+      "difficulty": "Medium",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "Tech",
+      "skills": [
+        "Machine Learning",
+        "LLMs",
+        "RAG Architecture",
+        "Prompt Engineering",
+        "Deep technical",
+        "Research-oriented"
+      ],
+      "companies": [],
+      "related_agents": [
+        "rag-architect",
+        "ai-agent-architect",
+        "ai-engineer-career-coach"
+      ],
+      "related_workflows": [
+        "technical-interview-week"
+      ],
+      "popularity_score": 81
+    },
+    {
+      "id": "mlops-engineer",
+      "name": "MLOps Engineer",
+      "division": "ai-engineering",
+      "description": "Sets up continuous training pipelines, model registries, monitoring systems, and containerized deployment infrastructure.",
+      "status": "live",
+      "filename": "ai-engineering/mlops-engineer.md",
+      "tags": [
+        "deep technical",
+        "research-oriented",
+        "cognitive-first",
+        "ai-engineering"
+      ],
+      "color": "#0284C7",
+      "emoji": "🤖",
+      "vibe": "Deep Technical, Research-Oriented, Cognitive-First",
+      "difficulty": "Medium",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "Tech",
+      "skills": [
+        "Machine Learning",
+        "LLMs",
+        "RAG Architecture",
+        "Prompt Engineering",
+        "Deep technical",
+        "Research-oriented"
+      ],
+      "companies": [],
+      "related_agents": [
+        "computer-vision-engineer",
+        "generative-ai-consultant",
+        "llm-engineer"
+      ],
+      "related_workflows": [
+        "technical-interview-week"
+      ],
+      "popularity_score": 94
+    },
+    {
+      "id": "prompt-engineer",
+      "name": "Prompt Engineer",
+      "division": "ai-engineering",
+      "description": "Designs systematic prompt templates, Few-Shot examples, Chain-of-Thought flows, and system instructions.",
+      "status": "live",
+      "filename": "ai-engineering/prompt-engineer.md",
+      "tags": [
+        "deep technical",
+        "research-oriented",
+        "cognitive-first",
+        "ai-engineering"
+      ],
+      "color": "#0284C7",
+      "emoji": "🤖",
+      "vibe": "Deep Technical, Research-Oriented, Cognitive-First",
+      "difficulty": "Medium",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "Tech",
+      "skills": [
+        "Machine Learning",
+        "LLMs",
+        "RAG Architecture",
+        "Prompt Engineering",
+        "Deep technical",
+        "Research-oriented"
+      ],
+      "companies": [],
+      "related_agents": [
+        "computer-vision-engineer",
+        "generative-ai-consultant",
+        "llm-engineer"
+      ],
+      "related_workflows": [
+        "technical-interview-week"
+      ],
+      "popularity_score": 92
+    },
+    {
+      "id": "rag-architect",
+      "name": "RAG Architect",
+      "division": "ai-engineering",
+      "description": "Designs semantic search architectures, vector databases, chunking strategies, and metadata indexing pipelines.",
+      "status": "live",
+      "filename": "ai-engineering/rag-architect.md",
+      "tags": [
+        "deep technical",
+        "research-oriented",
+        "cognitive-first",
+        "ai-engineering"
+      ],
+      "color": "#0284C7",
+      "emoji": "🤖",
+      "vibe": "Deep Technical, Research-Oriented, Cognitive-First",
+      "difficulty": "Hard",
+      "experience_level": "Senior",
+      "career_stage": "Growth",
+      "industry": "Tech",
+      "skills": [
+        "Machine Learning",
+        "LLMs",
+        "RAG Architecture",
+        "Prompt Engineering",
+        "Deep technical",
+        "Research-oriented"
+      ],
+      "companies": [],
+      "related_agents": [
+        "generative-ai-consultant",
+        "llm-engineer",
+        "machine-learning-engineer"
+      ],
+      "related_workflows": [
+        "technical-interview-week"
+      ],
+      "popularity_score": 74
+    },
+    {
+      "id": "aws-cloud-architect",
+      "name": "AWS Cloud Architect",
+      "division": "cloud",
+      "description": "Designs highly available, secure, and well-architected systems on AWS.",
+      "status": "live",
+      "filename": "cloud/aws-cloud-architect.md",
+      "tags": [
+        "high availability",
+        "zero-trust",
+        "infrastructure-as-code",
+        "cloud"
+      ],
+      "color": "#0369A1",
+      "emoji": "☁️",
+      "vibe": "High Availability, Infrastructure-as-Code, Zero-Trust",
+      "difficulty": "Hard",
+      "experience_level": "Senior",
+      "career_stage": "Growth",
+      "industry": "Tech",
+      "skills": [
+        "Cloud Infrastructure",
+        "Terraform",
+        "Kubernetes",
+        "AWS/Azure/GCP",
+        "High availability",
+        "Zero-trust"
+      ],
+      "companies": [],
+      "related_agents": [
+        "site-reliability-engineer",
+        "terraform-specialist",
+        "azure-cloud-engineer"
+      ],
+      "related_workflows": [
+        "technical-interview-week"
+      ],
+      "popularity_score": 83
+    },
+    {
+      "id": "azure-cloud-engineer",
+      "name": "Azure Cloud Engineer",
+      "division": "cloud",
+      "description": "Configures and manages enterprise cloud deployments on Microsoft Azure.",
+      "status": "live",
+      "filename": "cloud/azure-cloud-engineer.md",
+      "tags": [
+        "high availability",
+        "zero-trust",
+        "infrastructure-as-code",
+        "cloud"
+      ],
+      "color": "#0369A1",
+      "emoji": "☁️",
+      "vibe": "High Availability, Infrastructure-as-Code, Zero-Trust",
+      "difficulty": "Medium",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "Tech",
+      "skills": [
+        "Cloud Infrastructure",
+        "Terraform",
+        "Kubernetes",
+        "AWS/Azure/GCP",
+        "High availability",
+        "Zero-trust"
+      ],
+      "companies": [],
+      "related_agents": [
+        "terraform-specialist",
+        "aws-cloud-architect",
+        "cloud-cost-optimizer"
+      ],
+      "related_workflows": [
+        "technical-interview-week"
+      ],
+      "popularity_score": 81
+    },
+    {
+      "id": "cloud-cost-optimizer",
+      "name": "Cloud Cost Optimizer",
+      "division": "cloud",
+      "description": "Audits cloud invoices, identifying wastage, reserved instance coverages, and autoscaling opportunities.",
+      "status": "live",
+      "filename": "cloud/cloud-cost-optimizer.md",
+      "tags": [
+        "high availability",
+        "zero-trust",
+        "infrastructure-as-code",
+        "cloud"
+      ],
+      "color": "#0369A1",
+      "emoji": "☁️",
+      "vibe": "High Availability, Infrastructure-as-Code, Zero-Trust",
+      "difficulty": "Medium",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "Tech",
+      "skills": [
+        "Cloud Infrastructure",
+        "Terraform",
+        "Kubernetes",
+        "AWS/Azure/GCP",
+        "High availability",
+        "Zero-trust"
+      ],
+      "companies": [],
+      "related_agents": [
+        "site-reliability-engineer",
+        "terraform-specialist",
+        "aws-cloud-architect"
+      ],
+      "related_workflows": [
+        "technical-interview-week"
+      ],
+      "popularity_score": 76
+    },
+    {
+      "id": "cloud-migration-advisor",
+      "name": "Cloud Migration Advisor",
+      "division": "cloud",
+      "description": "Plans datacenter migrations to public clouds using Rehost, Replatform, and Refactor pathways.",
+      "status": "live",
+      "filename": "cloud/cloud-migration-advisor.md",
+      "tags": [
+        "high availability",
+        "zero-trust",
+        "infrastructure-as-code",
+        "cloud"
+      ],
+      "color": "#0369A1",
+      "emoji": "☁️",
+      "vibe": "High Availability, Infrastructure-as-Code, Zero-Trust",
+      "difficulty": "Medium",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "Tech",
+      "skills": [
+        "Cloud Infrastructure",
+        "Terraform",
+        "Kubernetes",
+        "AWS/Azure/GCP",
+        "High availability",
+        "Zero-trust"
+      ],
+      "companies": [],
+      "related_agents": [
+        "cloud-cost-optimizer",
+        "cloud-security-advisor",
+        "gcp-cloud-engineer"
+      ],
+      "related_workflows": [
+        "technical-interview-week"
+      ],
+      "popularity_score": 74
+    },
+    {
+      "id": "cloud-security-advisor",
+      "name": "Cloud Security Advisor",
+      "division": "cloud",
+      "description": "Reviews cloud security configurations, ensuring compliance with ISO 27001, SOC2, and CIS benchmarks.",
+      "status": "live",
+      "filename": "cloud/cloud-security-advisor.md",
+      "tags": [
+        "high availability",
+        "zero-trust",
+        "infrastructure-as-code",
+        "cloud"
+      ],
+      "color": "#0369A1",
+      "emoji": "☁️",
+      "vibe": "High Availability, Infrastructure-as-Code, Zero-Trust",
+      "difficulty": "Medium",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "Tech",
+      "skills": [
+        "Cloud Infrastructure",
+        "Terraform",
+        "Kubernetes",
+        "AWS/Azure/GCP",
+        "High availability",
+        "Zero-trust"
+      ],
+      "companies": [],
+      "related_agents": [
+        "cloud-cost-optimizer",
+        "cloud-migration-advisor",
+        "gcp-cloud-engineer"
+      ],
+      "related_workflows": [
+        "technical-interview-week"
+      ],
+      "popularity_score": 84
+    },
+    {
+      "id": "gcp-cloud-engineer",
+      "name": "GCP Cloud Engineer",
+      "division": "cloud",
+      "description": "Designs scale-ready infrastructure on Google Cloud Platform using native services.",
+      "status": "live",
+      "filename": "cloud/gcp-cloud-engineer.md",
+      "tags": [
+        "high availability",
+        "zero-trust",
+        "infrastructure-as-code",
+        "cloud"
+      ],
+      "color": "#0369A1",
+      "emoji": "☁️",
+      "vibe": "High Availability, Infrastructure-as-Code, Zero-Trust",
+      "difficulty": "Medium",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "Tech",
+      "skills": [
+        "Cloud Infrastructure",
+        "Terraform",
+        "Kubernetes",
+        "AWS/Azure/GCP",
+        "High availability",
+        "Zero-trust"
+      ],
+      "companies": [],
+      "related_agents": [
+        "cloud-cost-optimizer",
+        "cloud-migration-advisor",
+        "cloud-security-advisor"
+      ],
+      "related_workflows": [
+        "technical-interview-week"
+      ],
+      "popularity_score": 83
+    },
+    {
+      "id": "kubernetes-specialist",
+      "name": "Kubernetes Specialist",
+      "division": "cloud",
+      "description": "Configures production Kubernetes clusters, pod scheduling, network policies, and ingress controllers.",
+      "status": "live",
+      "filename": "cloud/kubernetes-specialist.md",
+      "tags": [
+        "high availability",
+        "zero-trust",
+        "infrastructure-as-code",
+        "cloud"
+      ],
+      "color": "#0369A1",
+      "emoji": "☁️",
+      "vibe": "High Availability, Infrastructure-as-Code, Zero-Trust",
+      "difficulty": "Hard",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "Tech",
+      "skills": [
+        "Cloud Infrastructure",
+        "Terraform",
+        "Kubernetes",
+        "AWS/Azure/GCP",
+        "High availability",
+        "Zero-trust"
+      ],
+      "companies": [
+        "Uber"
+      ],
+      "related_agents": [
+        "gcp-cloud-engineer",
+        "platform-engineer",
+        "site-reliability-engineer"
+      ],
+      "related_workflows": [
+        "technical-interview-week"
+      ],
+      "popularity_score": 64
+    },
+    {
+      "id": "platform-engineer",
+      "name": "Platform Engineer",
+      "division": "cloud",
+      "description": "Builds developer self-service tooling, landing zones, and continuous delivery systems.",
+      "status": "live",
+      "filename": "cloud/platform-engineer.md",
+      "tags": [
+        "high availability",
+        "zero-trust",
+        "infrastructure-as-code",
+        "cloud"
+      ],
+      "color": "#0369A1",
+      "emoji": "☁️",
+      "vibe": "High Availability, Infrastructure-as-Code, Zero-Trust",
+      "difficulty": "Medium",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "Tech",
+      "skills": [
+        "Cloud Infrastructure",
+        "Terraform",
+        "Kubernetes",
+        "AWS/Azure/GCP",
+        "High availability",
+        "Zero-trust"
+      ],
+      "companies": [],
+      "related_agents": [
+        "cloud-security-advisor",
+        "gcp-cloud-engineer",
+        "kubernetes-specialist"
+      ],
+      "related_workflows": [
+        "technical-interview-week"
+      ],
+      "popularity_score": 68
+    },
+    {
+      "id": "site-reliability-engineer",
+      "name": "Site Reliability Engineer",
+      "division": "cloud",
+      "description": "Defines service level objectives, error budgets, incident response playbooks, and disaster recovery strategies.",
+      "status": "live",
+      "filename": "cloud/site-reliability-engineer.md",
+      "tags": [
+        "high availability",
+        "zero-trust",
+        "infrastructure-as-code",
+        "cloud"
+      ],
+      "color": "#0369A1",
+      "emoji": "☁️",
+      "vibe": "High Availability, Infrastructure-as-Code, Zero-Trust",
+      "difficulty": "Medium",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "Tech",
+      "skills": [
+        "Cloud Infrastructure",
+        "Terraform",
+        "Kubernetes",
+        "AWS/Azure/GCP",
+        "High availability",
+        "Zero-trust"
+      ],
+      "companies": [],
+      "related_agents": [
+        "aws-cloud-architect",
+        "azure-cloud-engineer",
+        "cloud-cost-optimizer"
+      ],
+      "related_workflows": [
+        "technical-interview-week"
+      ],
+      "popularity_score": 66
+    },
+    {
+      "id": "terraform-specialist",
+      "name": "Terraform Specialist",
+      "division": "cloud",
+      "description": "Writes modular Terraform, structuring state files, workspace variables, and locks.",
+      "status": "live",
+      "filename": "cloud/terraform-specialist.md",
+      "tags": [
+        "high availability",
+        "zero-trust",
+        "infrastructure-as-code",
+        "cloud"
+      ],
+      "color": "#0369A1",
+      "emoji": "☁️",
+      "vibe": "High Availability, Infrastructure-as-Code, Zero-Trust",
+      "difficulty": "Hard",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "Tech",
+      "skills": [
+        "Cloud Infrastructure",
+        "Terraform",
+        "Kubernetes",
+        "AWS/Azure/GCP",
+        "High availability",
+        "Zero-trust"
+      ],
+      "companies": [],
+      "related_agents": [
+        "cloud-security-advisor",
+        "gcp-cloud-engineer",
+        "kubernetes-specialist"
+      ],
+      "related_workflows": [
+        "technical-interview-week"
+      ],
+      "popularity_score": 95
+    },
+    {
+      "id": "application-security-specialist",
+      "name": "Application Security Specialist",
+      "division": "cybersecurity",
+      "description": "Audits application source code for OWASP Top 10 vulnerabilities, configuring SAST/DAST pipelines.",
+      "status": "live",
+      "filename": "cybersecurity/application-security-specialist.md",
+      "tags": [
+        "cybersecurity",
+        "zero-trust",
+        "red-teaming",
+        "risk-averse"
+      ],
+      "color": "#DC2626",
+      "emoji": "🔒",
+      "vibe": "Zero-Trust, Red-Teaming, Risk-Averse",
+      "difficulty": "Hard",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "Tech",
+      "skills": [
+        "Application Security",
+        "IAM",
+        "Vulnerability Assessment",
+        "Incident Response",
+        "Cybersecurity",
+        "Zero-trust"
+      ],
+      "companies": [],
+      "related_agents": [
+        "security-architect",
+        "security-engineer",
+        "security-operations-analyst"
+      ],
+      "related_workflows": [
+        "technical-interview-week"
+      ],
+      "popularity_score": 75
+    },
+    {
+      "id": "cloud-security-engineer",
+      "name": "Cloud Security Engineer",
+      "division": "cybersecurity",
+      "description": "Implements IAM least privilege policies, cloud security posture monitoring, and secrets managers.",
+      "status": "live",
+      "filename": "cybersecurity/cloud-security-engineer.md",
+      "tags": [
+        "cybersecurity",
+        "zero-trust",
+        "red-teaming",
+        "risk-averse"
+      ],
+      "color": "#DC2626",
+      "emoji": "🔒",
+      "vibe": "Zero-Trust, Red-Teaming, Risk-Averse",
+      "difficulty": "Medium",
+      "experience_level": "Mid",
+      "career_stage": "Leadership",
+      "industry": "Tech",
+      "skills": [
+        "Application Security",
+        "IAM",
+        "Vulnerability Assessment",
+        "Incident Response",
+        "Cybersecurity",
+        "Zero-trust"
+      ],
+      "companies": [],
+      "related_agents": [
+        "penetration-testing-coach",
+        "security-architect",
+        "security-engineer"
+      ],
+      "related_workflows": [
+        "technical-interview-week"
+      ],
+      "popularity_score": 62
+    },
+    {
+      "id": "ethical-hacking-advisor",
+      "name": "Ethical Hacking Advisor",
+      "division": "cybersecurity",
+      "description": "Conducts threat simulations and red-team operations across human, network, and application boundaries.",
+      "status": "live",
+      "filename": "cybersecurity/ethical-hacking-advisor.md",
+      "tags": [
+        "cybersecurity",
+        "zero-trust",
+        "red-teaming",
+        "risk-averse"
+      ],
+      "color": "#DC2626",
+      "emoji": "🔒",
+      "vibe": "Zero-Trust, Red-Teaming, Risk-Averse",
+      "difficulty": "Medium",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "Tech",
+      "skills": [
+        "Application Security",
+        "IAM",
+        "Vulnerability Assessment",
+        "Incident Response",
+        "Cybersecurity",
+        "Zero-trust"
+      ],
+      "companies": [],
+      "related_agents": [
+        "cloud-security-engineer",
+        "governance-risk-compliance-advisor",
+        "identity-access-management-specialist"
+      ],
+      "related_workflows": [
+        "technical-interview-week"
+      ],
+      "popularity_score": 79
+    },
+    {
+      "id": "governance-risk-compliance-advisor",
+      "name": "Governance Risk Compliance Advisor",
+      "division": "cybersecurity",
+      "description": "Audits processes and designs system configurations to satisfy compliance rules (SOC2, ISO 27001, GDPR).",
+      "status": "live",
+      "filename": "cybersecurity/governance-risk-compliance-advisor.md",
+      "tags": [
+        "cybersecurity",
+        "zero-trust",
+        "red-teaming",
+        "risk-averse"
+      ],
+      "color": "#DC2626",
+      "emoji": "🔒",
+      "vibe": "Zero-Trust, Red-Teaming, Risk-Averse",
+      "difficulty": "Medium",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "Tech",
+      "skills": [
+        "Application Security",
+        "IAM",
+        "Vulnerability Assessment",
+        "Incident Response",
+        "Cybersecurity",
+        "Zero-trust"
+      ],
+      "companies": [],
+      "related_agents": [
+        "incident-response-specialist",
+        "penetration-testing-coach",
+        "security-architect"
+      ],
+      "related_workflows": [
+        "technical-interview-week"
+      ],
+      "popularity_score": 72
+    },
+    {
+      "id": "identity-access-management-specialist",
+      "name": "Identity Access Management Specialist",
+      "division": "cybersecurity",
+      "description": "Designs directory service integrations, access management controls, and provisioning flows.",
+      "status": "live",
+      "filename": "cybersecurity/identity-access-management-specialist.md",
+      "tags": [
+        "cybersecurity",
+        "zero-trust",
+        "red-teaming",
+        "risk-averse"
+      ],
+      "color": "#DC2626",
+      "emoji": "🔒",
+      "vibe": "Zero-Trust, Red-Teaming, Risk-Averse",
+      "difficulty": "Hard",
+      "experience_level": "Executive",
+      "career_stage": "Growth",
+      "industry": "Tech",
+      "skills": [
+        "Application Security",
+        "IAM",
+        "Vulnerability Assessment",
+        "Incident Response",
+        "Cybersecurity",
+        "Zero-trust"
+      ],
+      "companies": [],
+      "related_agents": [
+        "security-engineer",
+        "security-operations-analyst",
+        "application-security-specialist"
+      ],
+      "related_workflows": [
+        "technical-interview-week"
+      ],
+      "popularity_score": 81
+    },
+    {
+      "id": "incident-response-specialist",
+      "name": "Incident Response Specialist",
+      "division": "cybersecurity",
+      "description": "Triages active security breaches, structures containment strategies, and performs digital forensics.",
+      "status": "live",
+      "filename": "cybersecurity/incident-response-specialist.md",
+      "tags": [
+        "cybersecurity",
+        "zero-trust",
+        "red-teaming",
+        "risk-averse"
+      ],
+      "color": "#DC2626",
+      "emoji": "🔒",
+      "vibe": "Zero-Trust, Red-Teaming, Risk-Averse",
+      "difficulty": "Hard",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "Tech",
+      "skills": [
+        "Application Security",
+        "IAM",
+        "Vulnerability Assessment",
+        "Incident Response",
+        "Cybersecurity",
+        "Zero-trust"
+      ],
+      "companies": [],
+      "related_agents": [
+        "security-architect",
+        "security-engineer",
+        "security-operations-analyst"
+      ],
+      "related_workflows": [
+        "technical-interview-week"
+      ],
+      "popularity_score": 70
+    },
+    {
+      "id": "penetration-testing-coach",
+      "name": "Penetration Testing Coach",
+      "division": "cybersecurity",
+      "description": "Runs network-level vulnerability assessments and simulated penetration testing.",
+      "status": "live",
+      "filename": "cybersecurity/penetration-testing-coach.md",
+      "tags": [
+        "cybersecurity",
+        "zero-trust",
+        "red-teaming",
+        "risk-averse"
+      ],
+      "color": "#DC2626",
+      "emoji": "🔒",
+      "vibe": "Zero-Trust, Red-Teaming, Risk-Averse",
+      "difficulty": "Medium",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "Tech",
+      "skills": [
+        "Application Security",
+        "IAM",
+        "Vulnerability Assessment",
+        "Incident Response",
+        "Cybersecurity",
+        "Zero-trust"
+      ],
+      "companies": [],
+      "related_agents": [
+        "identity-access-management-specialist",
+        "incident-response-specialist",
+        "security-architect"
+      ],
+      "related_workflows": [
+        "technical-interview-week"
+      ],
+      "popularity_score": 60
+    },
+    {
+      "id": "security-architect",
+      "name": "Security Architect",
+      "division": "cybersecurity",
+      "description": "Designs global zero-trust security frameworks, IAM directories, and endpoint controls.",
+      "status": "live",
+      "filename": "cybersecurity/security-architect.md",
+      "tags": [
+        "cybersecurity",
+        "zero-trust",
+        "red-teaming",
+        "risk-averse"
+      ],
+      "color": "#DC2626",
+      "emoji": "🔒",
+      "vibe": "Zero-Trust, Red-Teaming, Risk-Averse",
+      "difficulty": "Hard",
+      "experience_level": "Executive",
+      "career_stage": "Growth",
+      "industry": "Tech",
+      "skills": [
+        "Application Security",
+        "IAM",
+        "Vulnerability Assessment",
+        "Incident Response",
+        "Cybersecurity",
+        "Zero-trust"
+      ],
+      "companies": [],
+      "related_agents": [
+        "cloud-security-engineer",
+        "ethical-hacking-advisor",
+        "governance-risk-compliance-advisor"
+      ],
+      "related_workflows": [
+        "technical-interview-week"
+      ],
+      "popularity_score": 82
+    },
+    {
+      "id": "security-engineer",
+      "name": "Security Engineer",
+      "division": "cybersecurity",
+      "description": "Designs secure infrastructure boundaries, perimeter defense networks, and encryption strategies.",
+      "status": "live",
+      "filename": "cybersecurity/security-engineer.md",
+      "tags": [
+        "cybersecurity",
+        "zero-trust",
+        "red-teaming",
+        "risk-averse"
+      ],
+      "color": "#DC2626",
+      "emoji": "🔒",
+      "vibe": "Zero-Trust, Red-Teaming, Risk-Averse",
+      "difficulty": "Medium",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "Tech",
+      "skills": [
+        "Application Security",
+        "IAM",
+        "Vulnerability Assessment",
+        "Incident Response",
+        "Cybersecurity",
+        "Zero-trust"
+      ],
+      "companies": [],
+      "related_agents": [
+        "governance-risk-compliance-advisor",
+        "identity-access-management-specialist",
+        "incident-response-specialist"
+      ],
+      "related_workflows": [
+        "technical-interview-week"
+      ],
+      "popularity_score": 96
+    },
+    {
+      "id": "security-operations-analyst",
+      "name": "Security Operations Analyst",
+      "division": "cybersecurity",
+      "description": "Analyzes security telemetry logs, configure SIEM dashboards, and responds to alerts.",
+      "status": "live",
+      "filename": "cybersecurity/security-operations-analyst.md",
+      "tags": [
+        "cybersecurity",
+        "zero-trust",
+        "red-teaming",
+        "risk-averse"
+      ],
+      "color": "#DC2626",
+      "emoji": "🔒",
+      "vibe": "Zero-Trust, Red-Teaming, Risk-Averse",
+      "difficulty": "Medium",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "Tech",
+      "skills": [
+        "Application Security",
+        "IAM",
+        "Vulnerability Assessment",
+        "Incident Response",
+        "Cybersecurity",
+        "Zero-trust"
+      ],
+      "companies": [],
+      "related_agents": [
+        "incident-response-specialist",
+        "penetration-testing-coach",
+        "security-architect"
+      ],
+      "related_workflows": [
+        "technical-interview-week"
+      ],
+      "popularity_score": 80
+    },
+    {
+      "id": "community-builder",
+      "name": "Community Builder",
+      "division": "open-source",
+      "description": "Designs community portals, discord guidelines, online events, and contributor recognition models.",
+      "status": "live",
+      "filename": "open-source/community-builder.md",
+      "tags": [
+        "documentation-first",
+        "community-driven",
+        "collaborative",
+        "open-source"
+      ],
+      "color": "#16A34A",
+      "emoji": "📖",
+      "vibe": "Collaborative, Community-Driven, Documentation-First",
+      "difficulty": "Medium",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "All",
+      "skills": [
+        "Open Source Contribution",
+        "Git Workflows",
+        "Community Building",
+        "Documentation",
+        "Documentation-first",
+        "Community-driven"
+      ],
+      "companies": [],
+      "related_agents": [
+        "devrel-strategist",
+        "github-growth-advisor",
+        "maintainer-coach"
+      ],
+      "related_workflows": [
+        "linkedin-growth"
+      ],
+      "popularity_score": 72
+    },
+    {
+      "id": "developer-advocate",
+      "name": "Developer Advocate",
+      "division": "open-source",
+      "description": "Bridges developer feedback with core product roadmaps, producing workshops and api demos.",
+      "status": "live",
+      "filename": "open-source/developer-advocate.md",
+      "tags": [
+        "documentation-first",
+        "community-driven",
+        "collaborative",
+        "open-source"
+      ],
+      "color": "#16A34A",
+      "emoji": "📖",
+      "vibe": "Collaborative, Community-Driven, Documentation-First",
+      "difficulty": "Medium",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "All",
+      "skills": [
+        "Open Source Contribution",
+        "Git Workflows",
+        "Community Building",
+        "Documentation",
+        "Documentation-first",
+        "Community-driven"
+      ],
+      "companies": [],
+      "related_agents": [
+        "open-source-funding-advisor",
+        "open-source-mentor",
+        "oss-contributor-coach"
+      ],
+      "related_workflows": [
+        "linkedin-growth"
+      ],
+      "popularity_score": 97
+    },
+    {
+      "id": "devrel-strategist",
+      "name": "DevRel Strategist",
+      "division": "open-source",
+      "description": "Aligns developer programs with business metrics, tracking developer acquisitions and community ROI.",
+      "status": "live",
+      "filename": "open-source/devrel-strategist.md",
+      "tags": [
+        "documentation-first",
+        "community-driven",
+        "collaborative",
+        "open-source"
+      ],
+      "color": "#16A34A",
+      "emoji": "📖",
+      "vibe": "Collaborative, Community-Driven, Documentation-First",
+      "difficulty": "Medium",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "All",
+      "skills": [
+        "Open Source Contribution",
+        "Git Workflows",
+        "Community Building",
+        "Documentation",
+        "Documentation-first",
+        "Community-driven"
+      ],
+      "companies": [],
+      "related_agents": [
+        "community-builder",
+        "developer-advocate",
+        "github-growth-advisor"
+      ],
+      "related_workflows": [
+        "linkedin-growth"
+      ],
+      "popularity_score": 61
+    },
+    {
+      "id": "github-growth-advisor",
+      "name": "GitHub Growth Advisor",
+      "division": "open-source",
+      "description": "Advises on repository metadata, README copywriting, issue curation, and community visibility.",
+      "status": "live",
+      "filename": "open-source/github-growth-advisor.md",
+      "tags": [
+        "documentation-first",
+        "community-driven",
+        "collaborative",
+        "open-source"
+      ],
+      "color": "#16A34A",
+      "emoji": "📖",
+      "vibe": "Collaborative, Community-Driven, Documentation-First",
+      "difficulty": "Medium",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "All",
+      "skills": [
+        "Open Source Contribution",
+        "Git Workflows",
+        "Community Building",
+        "Documentation",
+        "Documentation-first",
+        "Community-driven"
+      ],
+      "companies": [],
+      "related_agents": [
+        "community-builder",
+        "developer-advocate",
+        "devrel-strategist"
+      ],
+      "related_workflows": [
+        "linkedin-growth"
+      ],
+      "popularity_score": 79
+    },
+    {
+      "id": "maintainer-coach",
+      "name": "Maintainer Coach",
+      "division": "open-source",
+      "description": "Advises project leads on contributor onboarding, issue labeling, license compliance, and roadmap publishing.",
+      "status": "live",
+      "filename": "open-source/maintainer-coach.md",
+      "tags": [
+        "documentation-first",
+        "community-driven",
+        "collaborative",
+        "open-source"
+      ],
+      "color": "#16A34A",
+      "emoji": "📖",
+      "vibe": "Collaborative, Community-Driven, Documentation-First",
+      "difficulty": "Medium",
+      "experience_level": "Senior",
+      "career_stage": "Growth",
+      "industry": "All",
+      "skills": [
+        "Open Source Contribution",
+        "Git Workflows",
+        "Community Building",
+        "Documentation",
+        "Documentation-first",
+        "Community-driven"
+      ],
+      "companies": [],
+      "related_agents": [
+        "developer-advocate",
+        "devrel-strategist",
+        "github-growth-advisor"
+      ],
+      "related_workflows": [
+        "linkedin-growth"
+      ],
+      "popularity_score": 88
+    },
+    {
+      "id": "open-source-funding-advisor",
+      "name": "Open Source Funding Advisor",
+      "division": "open-source",
+      "description": "Guides projects on sponsor directories (GitHub Sponsors, Open Collective) and grant applications.",
+      "status": "live",
+      "filename": "open-source/open-source-funding-advisor.md",
+      "tags": [
+        "documentation-first",
+        "community-driven",
+        "collaborative",
+        "open-source"
+      ],
+      "color": "#16A34A",
+      "emoji": "📖",
+      "vibe": "Collaborative, Community-Driven, Documentation-First",
+      "difficulty": "Medium",
+      "experience_level": "Executive",
+      "career_stage": "Growth",
+      "industry": "All",
+      "skills": [
+        "Open Source Contribution",
+        "Git Workflows",
+        "Community Building",
+        "Documentation",
+        "Documentation-first",
+        "Community-driven"
+      ],
+      "companies": [],
+      "related_agents": [
+        "maintainer-coach",
+        "open-source-mentor",
+        "oss-contributor-coach"
+      ],
+      "related_workflows": [
+        "linkedin-growth"
+      ],
+      "popularity_score": 71
+    },
+    {
+      "id": "open-source-mentor",
+      "name": "Open Source Mentor",
+      "division": "open-source",
+      "description": "Coaches new contributors on git branches, repository issues, and pull request etiquette.",
+      "status": "live",
+      "filename": "open-source/open-source-mentor.md",
+      "tags": [
+        "documentation-first",
+        "community-driven",
+        "collaborative",
+        "open-source"
+      ],
+      "color": "#16A34A",
+      "emoji": "📖",
+      "vibe": "Collaborative, Community-Driven, Documentation-First",
+      "difficulty": "Medium",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "All",
+      "skills": [
+        "Open Source Contribution",
+        "Git Workflows",
+        "Community Building",
+        "Documentation",
+        "Documentation-first",
+        "Community-driven"
+      ],
+      "companies": [],
+      "related_agents": [
+        "project-maintenance-specialist",
+        "technical-writing-advisor",
+        "community-builder"
+      ],
+      "related_workflows": [
+        "linkedin-growth"
+      ],
+      "popularity_score": 94
+    },
+    {
+      "id": "oss-contributor-coach",
+      "name": "OSS Contributor Coach",
+      "division": "open-source",
+      "description": "Helps developers scale contributions from single commits to regular maintainers of key libraries.",
+      "status": "live",
+      "filename": "open-source/oss-contributor-coach.md",
+      "tags": [
+        "documentation-first",
+        "community-driven",
+        "collaborative",
+        "open-source"
+      ],
+      "color": "#16A34A",
+      "emoji": "📖",
+      "vibe": "Collaborative, Community-Driven, Documentation-First",
+      "difficulty": "Medium",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "All",
+      "skills": [
+        "Open Source Contribution",
+        "Git Workflows",
+        "Community Building",
+        "Documentation",
+        "Documentation-first",
+        "Community-driven"
+      ],
+      "companies": [],
+      "related_agents": [
+        "maintainer-coach",
+        "open-source-funding-advisor",
+        "open-source-mentor"
+      ],
+      "related_workflows": [
+        "linkedin-growth"
+      ],
+      "popularity_score": 69
+    },
+    {
+      "id": "project-maintenance-specialist",
+      "name": "Project Maintenance Specialist",
+      "division": "open-source",
+      "description": "Automates project builds, configuring lint rules, tests, and publishing workflows.",
+      "status": "live",
+      "filename": "open-source/project-maintenance-specialist.md",
+      "tags": [
+        "documentation-first",
+        "community-driven",
+        "collaborative",
+        "open-source"
+      ],
+      "color": "#16A34A",
+      "emoji": "📖",
+      "vibe": "Collaborative, Community-Driven, Documentation-First",
+      "difficulty": "Hard",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "All",
+      "skills": [
+        "Open Source Contribution",
+        "Git Workflows",
+        "Community Building",
+        "Documentation",
+        "Documentation-first",
+        "Community-driven"
+      ],
+      "companies": [],
+      "related_agents": [
+        "github-growth-advisor",
+        "maintainer-coach",
+        "open-source-funding-advisor"
+      ],
+      "related_workflows": [
+        "linkedin-growth"
+      ],
+      "popularity_score": 64
+    },
+    {
+      "id": "technical-writing-advisor",
+      "name": "Technical Writing Advisor",
+      "division": "open-source",
+      "description": "Guides developers in writing clean API guides, release notes, code reviews, and README docs.",
+      "status": "live",
+      "filename": "open-source/technical-writing-advisor.md",
+      "tags": [
+        "documentation-first",
+        "community-driven",
+        "collaborative",
+        "open-source"
+      ],
+      "color": "#16A34A",
+      "emoji": "📖",
+      "vibe": "Collaborative, Community-Driven, Documentation-First",
+      "difficulty": "Medium",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "All",
+      "skills": [
+        "Open Source Contribution",
+        "Git Workflows",
+        "Community Building",
+        "Documentation",
+        "Documentation-first",
+        "Community-driven"
+      ],
+      "companies": [],
+      "related_agents": [
+        "open-source-mentor",
+        "oss-contributor-coach",
+        "project-maintenance-specialist"
+      ],
+      "related_workflows": [
+        "linkedin-growth"
+      ],
+      "popularity_score": 88
+    },
+    {
+      "id": "analytics-engineer",
+      "name": "Analytics Engineer",
+      "division": "data-engineering",
+      "description": "Structures data transformation layers using dbt (data build tool), creating documentation and testing frameworks.",
+      "status": "live",
+      "filename": "data-engineering/analytics-engineer.md",
+      "tags": [
+        "transactional",
+        "data-engineering",
+        "analytical",
+        "data-driven"
+      ],
+      "color": "#7C3AED",
+      "emoji": "📊",
+      "vibe": "Transactional, Data-Driven, Analytical",
+      "difficulty": "Medium",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "Tech",
+      "skills": [
+        "Data Pipelines",
+        "ETL/ELT",
+        "Data Warehousing",
+        "Database Optimization",
+        "Transactional",
+        "Data-engineering"
+      ],
+      "companies": [],
+      "related_agents": [
+        "data-architect",
+        "data-engineer",
+        "data-governance-advisor"
+      ],
+      "related_workflows": [
+        "technical-interview-week"
+      ],
+      "popularity_score": 91
+    },
+    {
+      "id": "business-intelligence-specialist",
+      "name": "Business Intelligence Specialist",
+      "division": "data-engineering",
+      "description": "Designs semantic datasets, dashboards, and analytical metrics using PowerBI or Tableau.",
+      "status": "live",
+      "filename": "data-engineering/business-intelligence-specialist.md",
+      "tags": [
+        "transactional",
+        "data-engineering",
+        "analytical",
+        "data-driven"
+      ],
+      "color": "#7C3AED",
+      "emoji": "📊",
+      "vibe": "Transactional, Data-Driven, Analytical",
+      "difficulty": "Hard",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "Tech",
+      "skills": [
+        "Data Pipelines",
+        "ETL/ELT",
+        "Data Warehousing",
+        "Database Optimization",
+        "Transactional",
+        "Data-engineering"
+      ],
+      "companies": [],
+      "related_agents": [
+        "data-engineer",
+        "data-governance-advisor",
+        "data-platform-engineer"
+      ],
+      "related_workflows": [
+        "technical-interview-week"
+      ],
+      "popularity_score": 79
+    },
+    {
+      "id": "data-architect",
+      "name": "Data Architect",
+      "division": "data-engineering",
+      "description": "Designs corporate data strategies, data mesh architectures, and warehouse schemas.",
+      "status": "live",
+      "filename": "data-engineering/data-architect.md",
+      "tags": [
+        "transactional",
+        "data-engineering",
+        "analytical",
+        "data-driven"
+      ],
+      "color": "#7C3AED",
+      "emoji": "📊",
+      "vibe": "Transactional, Data-Driven, Analytical",
+      "difficulty": "Hard",
+      "experience_level": "Senior",
+      "career_stage": "Growth",
+      "industry": "Tech",
+      "skills": [
+        "Data Pipelines",
+        "ETL/ELT",
+        "Data Warehousing",
+        "Database Optimization",
+        "Transactional",
+        "Data-engineering"
+      ],
+      "companies": [],
+      "related_agents": [
+        "stream-processing-specialist",
+        "analytics-engineer",
+        "business-intelligence-specialist"
+      ],
+      "related_workflows": [
+        "technical-interview-week"
+      ],
+      "popularity_score": 97
+    },
+    {
+      "id": "data-engineer",
+      "name": "Data Engineer",
+      "division": "data-engineering",
+      "description": "Designs robust analytical pipeline systems, feature databases, and ingestion engines.",
+      "status": "live",
+      "filename": "data-engineering/data-engineer.md",
+      "tags": [
+        "transactional",
+        "data-engineering",
+        "analytical",
+        "data-driven"
+      ],
+      "color": "#7C3AED",
+      "emoji": "📊",
+      "vibe": "Transactional, Data-Driven, Analytical",
+      "difficulty": "Medium",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "Tech",
+      "skills": [
+        "Data Pipelines",
+        "ETL/ELT",
+        "Data Warehousing",
+        "Database Optimization",
+        "Transactional",
+        "Data-engineering"
+      ],
+      "companies": [],
+      "related_agents": [
+        "data-governance-advisor",
+        "data-platform-engineer",
+        "data-quality-engineer"
+      ],
+      "related_workflows": [
+        "technical-interview-week"
+      ],
+      "popularity_score": 81
+    },
+    {
+      "id": "data-governance-advisor",
+      "name": "Data Governance Advisor",
+      "division": "data-engineering",
+      "description": "Defines access control policies, data cataloging rules, and column-level masking models.",
+      "status": "live",
+      "filename": "data-engineering/data-governance-advisor.md",
+      "tags": [
+        "transactional",
+        "data-engineering",
+        "analytical",
+        "data-driven"
+      ],
+      "color": "#7C3AED",
+      "emoji": "📊",
+      "vibe": "Transactional, Data-Driven, Analytical",
+      "difficulty": "Medium",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "Tech",
+      "skills": [
+        "Data Pipelines",
+        "ETL/ELT",
+        "Data Warehousing",
+        "Database Optimization",
+        "Transactional",
+        "Data-engineering"
+      ],
+      "companies": [],
+      "related_agents": [
+        "data-platform-engineer",
+        "data-quality-engineer",
+        "database-performance-specialist"
+      ],
+      "related_workflows": [
+        "technical-interview-week"
+      ],
+      "popularity_score": 99
+    },
+    {
+      "id": "data-platform-engineer",
+      "name": "Data Platform Engineer",
+      "division": "data-engineering",
+      "description": "Deploys cloud-based data storage and analysis platforms using Snowflake, Databricks, or BigQuery.",
+      "status": "live",
+      "filename": "data-engineering/data-platform-engineer.md",
+      "tags": [
+        "transactional",
+        "data-engineering",
+        "analytical",
+        "data-driven"
+      ],
+      "color": "#7C3AED",
+      "emoji": "📊",
+      "vibe": "Transactional, Data-Driven, Analytical",
+      "difficulty": "Medium",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "Tech",
+      "skills": [
+        "Data Pipelines",
+        "ETL/ELT",
+        "Data Warehousing",
+        "Database Optimization",
+        "Transactional",
+        "Data-engineering"
+      ],
+      "companies": [],
+      "related_agents": [
+        "database-performance-specialist",
+        "etl-specialist",
+        "stream-processing-specialist"
+      ],
+      "related_workflows": [
+        "technical-interview-week"
+      ],
+      "popularity_score": 89
+    },
+    {
+      "id": "data-quality-engineer",
+      "name": "Data Quality Engineer",
+      "division": "data-engineering",
+      "description": "Designs automated validation routines, alerting systems, and data drift dashboards.",
+      "status": "live",
+      "filename": "data-engineering/data-quality-engineer.md",
+      "tags": [
+        "transactional",
+        "data-engineering",
+        "analytical",
+        "data-driven"
+      ],
+      "color": "#7C3AED",
+      "emoji": "📊",
+      "vibe": "Transactional, Data-Driven, Analytical",
+      "difficulty": "Medium",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "Tech",
+      "skills": [
+        "Data Pipelines",
+        "ETL/ELT",
+        "Data Warehousing",
+        "Database Optimization",
+        "Transactional",
+        "Data-engineering"
+      ],
+      "companies": [],
+      "related_agents": [
+        "data-architect",
+        "data-engineer",
+        "data-governance-advisor"
+      ],
+      "related_workflows": [
+        "technical-interview-week"
+      ],
+      "popularity_score": 93
+    },
+    {
+      "id": "database-performance-specialist",
+      "name": "Database Performance Specialist",
+      "division": "data-engineering",
+      "description": "Audits database resource consumption, index efficiency, and query logs to optimize latency.",
+      "status": "live",
+      "filename": "data-engineering/database-performance-specialist.md",
+      "tags": [
+        "transactional",
+        "data-engineering",
+        "analytical",
+        "data-driven"
+      ],
+      "color": "#7C3AED",
+      "emoji": "📊",
+      "vibe": "Transactional, Data-Driven, Analytical",
+      "difficulty": "Hard",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "Tech",
+      "skills": [
+        "Data Pipelines",
+        "ETL/ELT",
+        "Data Warehousing",
+        "Database Optimization",
+        "Transactional",
+        "Data-engineering"
+      ],
+      "companies": [],
+      "related_agents": [
+        "data-architect",
+        "data-engineer",
+        "data-governance-advisor"
+      ],
+      "related_workflows": [
+        "technical-interview-week"
+      ],
+      "popularity_score": 76
+    },
+    {
+      "id": "etl-specialist",
+      "name": "ETL Specialist",
+      "division": "data-engineering",
+      "description": "Designs high-throughput batch ETL/ELT pipelines using Airflow, Prefect, or Dagster.",
+      "status": "live",
+      "filename": "data-engineering/etl-specialist.md",
+      "tags": [
+        "transactional",
+        "data-engineering",
+        "analytical",
+        "data-driven"
+      ],
+      "color": "#7C3AED",
+      "emoji": "📊",
+      "vibe": "Transactional, Data-Driven, Analytical",
+      "difficulty": "Hard",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "Tech",
+      "skills": [
+        "Data Pipelines",
+        "ETL/ELT",
+        "Data Warehousing",
+        "Database Optimization",
+        "Transactional",
+        "Data-engineering"
+      ],
+      "companies": [],
+      "related_agents": [
+        "analytics-engineer",
+        "business-intelligence-specialist",
+        "data-architect"
+      ],
+      "related_workflows": [
+        "technical-interview-week"
+      ],
+      "popularity_score": 72
+    },
+    {
+      "id": "stream-processing-specialist",
+      "name": "Stream Processing Specialist",
+      "division": "data-engineering",
+      "description": "Designs high-velocity real-time analytical event flows using Kafka or Flink.",
+      "status": "live",
+      "filename": "data-engineering/stream-processing-specialist.md",
+      "tags": [
+        "transactional",
+        "data-engineering",
+        "analytical",
+        "data-driven"
+      ],
+      "color": "#7C3AED",
+      "emoji": "📊",
+      "vibe": "Transactional, Data-Driven, Analytical",
+      "difficulty": "Hard",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "Tech",
+      "skills": [
+        "Data Pipelines",
+        "ETL/ELT",
+        "Data Warehousing",
+        "Database Optimization",
+        "Transactional",
+        "Data-engineering"
+      ],
+      "companies": [],
+      "related_agents": [
+        "data-architect",
+        "data-engineer",
+        "data-governance-advisor"
+      ],
+      "related_workflows": [
+        "technical-interview-week"
+      ],
+      "popularity_score": 95
+    },
+    {
+      "id": "api-adoption-consultant",
+      "name": "API Adoption Consultant",
+      "division": "devrel",
+      "description": "Reviews developer APIs, SDK structures, and documentation onboarding to reduce activation barriers.",
+      "status": "live",
+      "filename": "devrel/api-adoption-consultant.md",
+      "tags": [
+        "empathetic",
+        "community-centric",
+        "devrel",
+        "engaging"
+      ],
+      "color": "#B45309",
+      "emoji": "📣",
+      "vibe": "Engaging, Empathetic, Community-Centric",
+      "difficulty": "Medium",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "Tech",
+      "skills": [
+        "Developer Relations",
+        "Technical Content",
+        "Community Engagement",
+        "API Adoption",
+        "Empathetic",
+        "Community-centric"
+      ],
+      "companies": [],
+      "related_agents": [
+        "developer-education-specialist",
+        "developer-evangelist",
+        "developer-experience-specialist"
+      ],
+      "related_workflows": [
+        "linkedin-growth"
+      ],
+      "popularity_score": 70
+    },
+    {
+      "id": "community-growth-specialist",
+      "name": "Community Growth Specialist",
+      "division": "devrel",
+      "description": "Designs programmatic referral schemes, user acquisition initiatives, and event plans.",
+      "status": "live",
+      "filename": "devrel/community-growth-specialist.md",
+      "tags": [
+        "empathetic",
+        "community-centric",
+        "devrel",
+        "engaging"
+      ],
+      "color": "#B45309",
+      "emoji": "📣",
+      "vibe": "Engaging, Empathetic, Community-Centric",
+      "difficulty": "Hard",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "Tech",
+      "skills": [
+        "Developer Relations",
+        "Technical Content",
+        "Community Engagement",
+        "API Adoption",
+        "Empathetic",
+        "Community-centric"
+      ],
+      "companies": [],
+      "related_agents": [
+        "technical-community-builder",
+        "technical-marketing-advisor",
+        "api-adoption-consultant"
+      ],
+      "related_workflows": [
+        "linkedin-growth"
+      ],
+      "popularity_score": 64
+    },
+    {
+      "id": "conference-speaker-coach",
+      "name": "Conference Speaker Coach",
+      "division": "devrel",
+      "description": "Guides developers in preparing technical talk submissions, slide structures, and slide delivery.",
+      "status": "live",
+      "filename": "devrel/conference-speaker-coach.md",
+      "tags": [
+        "empathetic",
+        "community-centric",
+        "devrel",
+        "engaging"
+      ],
+      "color": "#B45309",
+      "emoji": "📣",
+      "vibe": "Engaging, Empathetic, Community-Centric",
+      "difficulty": "Medium",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "Tech",
+      "skills": [
+        "Developer Relations",
+        "Technical Content",
+        "Community Engagement",
+        "API Adoption",
+        "Empathetic",
+        "Community-centric"
+      ],
+      "companies": [],
+      "related_agents": [
+        "content-strategy-advisor",
+        "developer-education-specialist",
+        "developer-evangelist"
+      ],
+      "related_workflows": [
+        "linkedin-growth"
+      ],
+      "popularity_score": 88
+    },
+    {
+      "id": "content-strategy-advisor",
+      "name": "Content Strategy Advisor",
+      "division": "devrel",
+      "description": "Plans technical content calendars, writing schedules, and publication distributions.",
+      "status": "live",
+      "filename": "devrel/content-strategy-advisor.md",
+      "tags": [
+        "empathetic",
+        "community-centric",
+        "devrel",
+        "engaging"
+      ],
+      "color": "#B45309",
+      "emoji": "📣",
+      "vibe": "Engaging, Empathetic, Community-Centric",
+      "difficulty": "Medium",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "Tech",
+      "skills": [
+        "Developer Relations",
+        "Technical Content",
+        "Community Engagement",
+        "API Adoption",
+        "Empathetic",
+        "Community-centric"
+      ],
+      "companies": [],
+      "related_agents": [
+        "developer-evangelist",
+        "developer-experience-specialist",
+        "developer-relations-manager"
+      ],
+      "related_workflows": [
+        "linkedin-growth"
+      ],
+      "popularity_score": 70
+    },
+    {
+      "id": "developer-education-specialist",
+      "name": "Developer Education Specialist",
+      "division": "devrel",
+      "description": "Designs tutorials, structured learning paths, sample project repos, and technical documentation.",
+      "status": "live",
+      "filename": "devrel/developer-education-specialist.md",
+      "tags": [
+        "empathetic",
+        "community-centric",
+        "devrel",
+        "engaging"
+      ],
+      "color": "#B45309",
+      "emoji": "📣",
+      "vibe": "Engaging, Empathetic, Community-Centric",
+      "difficulty": "Hard",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "Tech",
+      "skills": [
+        "Developer Relations",
+        "Technical Content",
+        "Community Engagement",
+        "API Adoption",
+        "Empathetic",
+        "Community-centric"
+      ],
+      "companies": [],
+      "related_agents": [
+        "technical-marketing-advisor",
+        "api-adoption-consultant",
+        "community-growth-specialist"
+      ],
+      "related_workflows": [
+        "linkedin-growth"
+      ],
+      "popularity_score": 87
+    },
+    {
+      "id": "developer-evangelist",
+      "name": "Developer Evangelist",
+      "division": "devrel",
+      "description": "Presents product value at developer conferences, online meetups, and key technical forums.",
+      "status": "live",
+      "filename": "devrel/developer-evangelist.md",
+      "tags": [
+        "empathetic",
+        "community-centric",
+        "devrel",
+        "engaging"
+      ],
+      "color": "#B45309",
+      "emoji": "📣",
+      "vibe": "Engaging, Empathetic, Community-Centric",
+      "difficulty": "Medium",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "Tech",
+      "skills": [
+        "Developer Relations",
+        "Technical Content",
+        "Community Engagement",
+        "API Adoption",
+        "Empathetic",
+        "Community-centric"
+      ],
+      "companies": [],
+      "related_agents": [
+        "technical-marketing-advisor",
+        "api-adoption-consultant",
+        "community-growth-specialist"
+      ],
+      "related_workflows": [
+        "linkedin-growth"
+      ],
+      "popularity_score": 91
+    },
+    {
+      "id": "developer-experience-specialist",
+      "name": "Developer Experience Specialist",
+      "division": "devrel",
+      "description": "Reviews local developer environments, CLI ease-of-use, config errors, and initial setup steps.",
+      "status": "live",
+      "filename": "devrel/developer-experience-specialist.md",
+      "tags": [
+        "empathetic",
+        "community-centric",
+        "devrel",
+        "engaging"
+      ],
+      "color": "#B45309",
+      "emoji": "📣",
+      "vibe": "Engaging, Empathetic, Community-Centric",
+      "difficulty": "Hard",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "Tech",
+      "skills": [
+        "Developer Relations",
+        "Technical Content",
+        "Community Engagement",
+        "API Adoption",
+        "Empathetic",
+        "Community-centric"
+      ],
+      "companies": [],
+      "related_agents": [
+        "content-strategy-advisor",
+        "developer-education-specialist",
+        "developer-evangelist"
+      ],
+      "related_workflows": [
+        "linkedin-growth"
+      ],
+      "popularity_score": 99
+    },
+    {
+      "id": "developer-relations-manager",
+      "name": "Developer Relations Manager",
+      "division": "devrel",
+      "description": "Manages developer engagement programs, ambassador networks, and metric analysis.",
+      "status": "live",
+      "filename": "devrel/developer-relations-manager.md",
+      "tags": [
+        "empathetic",
+        "community-centric",
+        "devrel",
+        "engaging"
+      ],
+      "color": "#B45309",
+      "emoji": "📣",
+      "vibe": "Engaging, Empathetic, Community-Centric",
+      "difficulty": "Medium",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "Tech",
+      "skills": [
+        "Developer Relations",
+        "Technical Content",
+        "Community Engagement",
+        "API Adoption",
+        "Empathetic",
+        "Community-centric"
+      ],
+      "companies": [],
+      "related_agents": [
+        "api-adoption-consultant",
+        "community-growth-specialist",
+        "conference-speaker-coach"
+      ],
+      "related_workflows": [
+        "linkedin-growth"
+      ],
+      "popularity_score": 80
+    },
+    {
+      "id": "technical-community-builder",
+      "name": "Technical Community Builder",
+      "division": "devrel",
+      "description": "Moderates developer forums, discord/slack servers, and handles user onboarding strategies.",
+      "status": "live",
+      "filename": "devrel/technical-community-builder.md",
+      "tags": [
+        "empathetic",
+        "community-centric",
+        "devrel",
+        "engaging"
+      ],
+      "color": "#B45309",
+      "emoji": "📣",
+      "vibe": "Engaging, Empathetic, Community-Centric",
+      "difficulty": "Medium",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "Tech",
+      "skills": [
+        "Developer Relations",
+        "Technical Content",
+        "Community Engagement",
+        "API Adoption",
+        "Empathetic",
+        "Community-centric"
+      ],
+      "companies": [],
+      "related_agents": [
+        "api-adoption-consultant",
+        "community-growth-specialist",
+        "conference-speaker-coach"
+      ],
+      "related_workflows": [
+        "linkedin-growth"
+      ],
+      "popularity_score": 75
+    },
+    {
+      "id": "technical-marketing-advisor",
+      "name": "Technical Marketing Advisor",
+      "division": "devrel",
+      "description": "Aligns product positioning with developer interests, writing copy and analyzing competition.",
+      "status": "live",
+      "filename": "devrel/technical-marketing-advisor.md",
+      "tags": [
+        "empathetic",
+        "community-centric",
+        "devrel",
+        "engaging"
+      ],
+      "color": "#B45309",
+      "emoji": "📣",
+      "vibe": "Engaging, Empathetic, Community-Centric",
+      "difficulty": "Medium",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "Tech",
+      "skills": [
+        "Developer Relations",
+        "Technical Content",
+        "Community Engagement",
+        "API Adoption",
+        "Empathetic",
+        "Community-centric"
+      ],
+      "companies": [],
+      "related_agents": [
+        "community-growth-specialist",
+        "conference-speaker-coach",
+        "content-strategy-advisor"
+      ],
+      "related_workflows": [
+        "linkedin-growth"
+      ],
+      "popularity_score": 88
+    },
+    {
+      "id": "gtm-engineer",
+      "name": "GTM Engineer",
+      "division": "gtm",
+      "description": "An outreach systems architect who designs clay workflows, API enrichments, and automated cold inbound/outbound setup.",
+      "status": "live",
+      "filename": "gtm/gtm-engineer.md",
+      "tags": [
+        "gtm",
+        "clay",
+        "outbound",
+        "automation",
+        "systems"
+      ],
+      "color": "#8E44AD",
+      "emoji": "⚙️",
+      "vibe": "technical, automation-driven, pipeline-obsessed, detail-oriented",
+      "difficulty": "Medium",
+      "experience_level": "Senior",
+      "career_stage": "Growth",
+      "industry": "All",
+      "skills": [
+        "Outreach Automation",
+        "CRM Sync",
+        "Clay Workspaces",
+        "Sales Pipeline",
+        "Clay",
+        "Outbound"
+      ],
+      "companies": [],
+      "related_agents": [
+        "clay-specialist"
+      ],
+      "related_workflows": [
+        "remote-job-hunt"
+      ],
+      "popularity_score": 86
+    },
+    {
+      "id": "openai-career-coach",
+      "name": "OpenAI Career Coach",
+      "division": "faang",
+      "description": "A specialized coach for OpenAI interview loops, engineering culture, and AI research/engineering positions.",
+      "status": "live",
+      "filename": "faang/openai-career-coach.md",
+      "tags": [
+        "openai",
+        "faang",
+        "ai-research",
+        "machine-learning",
+        "interview-prep"
+      ],
+      "color": "#10A37F",
+      "emoji": "🧠",
+      "vibe": "elite, research-focused, frontier-aware, rigorous",
+      "difficulty": "Medium",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "Tech",
+      "skills": [
+        "Distributed Systems",
+        "Scaling",
+        "DSA",
+        "FAANG Interview",
+        "Openai",
+        "Faang"
+      ],
+      "companies": [
+        "OpenAI"
+      ],
+      "related_agents": [
+        "google-swe-coach"
+      ],
+      "related_workflows": [
+        "faang-preparation"
+      ],
+      "popularity_score": 66
+    },
+    {
+      "id": "job-hunter-ai",
+      "name": "Job Hunter AI",
+      "division": "job-automation",
+      "description": "An automated job discovery and application tracking companion that manages target queues.",
+      "status": "live",
+      "filename": "job-automation/job-hunter-ai.md",
+      "tags": [
+        "automation",
+        "career",
+        "job-search",
+        "tactical",
+        "pipeline"
+      ],
+      "color": "#2E86C1",
+      "emoji": "🎯",
+      "vibe": "structured, tactical, outcome-driven, organized",
+      "difficulty": "Medium",
+      "experience_level": "Mid",
+      "career_stage": "Job Search",
+      "industry": "All",
+      "skills": [
+        "Job Scraping",
+        "Notion Databases",
+        "Pipeline Tracking",
+        "Cold Outreach",
+        "Automation",
+        "Career"
+      ],
+      "companies": [],
+      "related_agents": [
+        "job-application-optimizer"
+      ],
+      "related_workflows": [
+        "remote-job-hunt"
+      ],
+      "popularity_score": 94
+    },
+    {
+      "id": "ai-founder",
+      "name": "AI Founder",
+      "division": "ai-business",
+      "description": "A strategic AI builder focused on scaling AI-first products, MVPs, and business models.",
+      "status": "live",
+      "filename": "ai-business/ai-founder.md",
+      "tags": [
+        "ai-business",
+        "founder",
+        "mvp",
+        "moats",
+        "startup"
+      ],
+      "color": "#3498DB",
+      "emoji": "🚀",
+      "vibe": "visionary, execution-focused, analytical, product-minded",
+      "difficulty": "Medium",
+      "experience_level": "Executive",
+      "career_stage": "Growth",
+      "industry": "All",
+      "skills": [
+        "AI Unit Economics",
+        "SaaS MVP",
+        "Semantic Caching",
+        "Defensibility",
+        "Ai-business",
+        "Founder"
+      ],
+      "companies": [],
+      "related_agents": [
+        "ai-consultant"
+      ],
+      "related_workflows": [
+        "remote-job-hunt"
+      ],
+      "popularity_score": 89
+    },
+    {
+      "id": "freelance-founder",
+      "name": "Freelance Founder",
+      "division": "freelancing",
+      "description": "An independent consultant strategist driving retainer growth, pricing, and client acquisition channels.",
+      "status": "live",
+      "filename": "freelancing/freelance-founder.md",
+      "tags": [
+        "freelancing",
+        "consulting",
+        "retainers",
+        "proposals",
+        "sales"
+      ],
+      "color": "#F1C40F",
+      "emoji": "💎",
+      "vibe": "elite, high-value, business-minded, structured",
+      "difficulty": "Medium",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "All",
+      "skills": [
+        "Freelancing",
+        "Productized Services",
+        "Client Acquisition",
+        "Retainers",
+        "Consulting",
+        "Proposals"
+      ],
+      "companies": [],
+      "related_agents": [
+        "upwork-specialist"
+      ],
+      "related_workflows": [
+        "remote-job-hunt"
+      ],
+      "popularity_score": 83
+    },
+    {
+      "id": "job-application-optimizer",
+      "name": "Job Application Optimizer",
+      "division": "job-automation",
+      "description": "An AI context tailoring engine that customizes applications, resume bullets, and cover letters for specific job descriptions at scale.",
+      "status": "live",
+      "filename": "job-automation/job-application-optimizer.md",
+      "tags": [
+        "automation",
+        "resume",
+        "cover-letter",
+        "context",
+        "surgical"
+      ],
+      "color": "#2E86C1",
+      "emoji": "⚡",
+      "vibe": "surgical, contextual, performance-minded, efficient",
+      "difficulty": "Medium",
+      "experience_level": "Mid",
+      "career_stage": "Job Search",
+      "industry": "All",
+      "skills": [
+        "Job Scraping",
+        "Notion Databases",
+        "Pipeline Tracking",
+        "Cold Outreach",
+        "Automation",
+        "Career"
+      ],
+      "companies": [],
+      "related_agents": [
+        "job-hunter-ai"
+      ],
+      "related_workflows": [
+        "remote-job-hunt"
+      ],
+      "popularity_score": 60
+    },
+    {
+      "id": "google-swe-coach",
+      "name": "Google SWE Coach",
+      "division": "faang",
+      "description": "A specialized technical coach for Google Software Engineering (SWE) loops, focusing on DS & Algorithms, complex complexity analysis, clean code structure, and Googleyness & Leadership (G&L).",
+      "status": "live",
+      "filename": "faang/google-swe-coach.md",
+      "tags": [
+        "google",
+        "faang",
+        "algorithms",
+        "system-design",
+        "googleyness"
+      ],
+      "color": "#10A37F",
+      "emoji": "🟩",
+      "vibe": "algorithmic, analytical, Googley, structured",
+      "difficulty": "Medium",
+      "experience_level": "Senior",
+      "career_stage": "Leadership",
+      "industry": "Tech",
+      "skills": [
+        "Distributed Systems",
+        "Scaling",
+        "DSA",
+        "FAANG Interview",
+        "Openai",
+        "Faang"
+      ],
+      "companies": [
+        "Google"
+      ],
+      "related_agents": [
+        "openai-career-coach"
+      ],
+      "related_workflows": [
+        "faang-preparation"
+      ],
+      "popularity_score": 66
+    },
+    {
+      "id": "meta-swe-coach",
+      "name": "Meta SWE Coach",
+      "division": "faang",
+      "description": "A high-speed execution, performance-focused system design, and impact-driven engineering coach for Meta's software engineering loops.",
+      "status": "live",
+      "filename": "faang/meta-swe-coach.md",
+      "tags": [
+        "meta",
+        "faang",
+        "algorithms",
+        "system-design",
+        "move-fast"
+      ],
+      "color": "#0668E1",
+      "emoji": "🔷",
+      "vibe": "fast-paced, high-throughput, impact-driven, architectural",
+      "difficulty": "Hard",
+      "experience_level": "Senior",
+      "career_stage": "Leadership",
+      "industry": "Tech",
+      "skills": [
+        "Algorithms",
+        "System Design",
+        "Distributed Systems",
+        "FAANG Interview"
+      ],
+      "companies": [
+        "Meta"
+      ],
+      "related_agents": [
+        "meta-interview-coach",
+        "google-swe-coach"
+      ],
+      "related_workflows": [
+        "faang-preparation"
+      ],
+      "popularity_score": 95
+    },
+    {
+      "id": "apple-swe-coach",
+      "name": "Apple SWE Coach",
+      "division": "faang",
+      "description": "A specialized low-level systems, Swift/C++ architecture, and hardware-software integration coach for Apple Software Engineering loops.",
+      "status": "live",
+      "filename": "faang/apple-swe-coach.md",
+      "tags": [
+        "apple",
+        "faang",
+        "systems-programming",
+        "swift",
+        "hardware-software"
+      ],
+      "color": "#A2AAAD",
+      "emoji": "🍏",
+      "vibe": "systems-focused, hardware-aware, craft-obsessed, low-latency",
+      "difficulty": "Hard",
+      "experience_level": "Senior",
+      "career_stage": "Leadership",
+      "industry": "Tech",
+      "skills": [
+        "Systems Programming",
+        "Swift",
+        "C++",
+        "FAANG Interview"
+      ],
+      "companies": [
+        "Apple"
+      ],
+      "related_agents": [
+        "apple-interview-coach",
+        "google-swe-coach"
+      ],
+      "related_workflows": [
+        "faang-preparation"
+      ],
+      "popularity_score": 93
+    },
+    {
+      "id": "amazon-swe-coach",
+      "name": "Amazon SWE Coach",
+      "division": "faang",
+      "description": "A Leadership Principles, Bar Raiser standards, and high-scale distributed systems coach for Amazon SDE loops (SDE I, SDE II, Senior SDE).",
+      "status": "live",
+      "filename": "faang/amazon-swe-coach.md",
+      "tags": [
+        "amazon",
+        "faang",
+        "leadership-principles",
+        "bar-raiser",
+        "distributed-systems"
+      ],
+      "color": "#FF9900",
+      "emoji": "🟧",
+      "vibe": "principle-driven, operational, scale-focused, Bar-Raiser aligned",
+      "difficulty": "Hard",
+      "experience_level": "Senior",
+      "career_stage": "Leadership",
+      "industry": "Tech",
+      "skills": [
+        "Distributed Systems",
+        "AWS",
+        "Leadership Principles",
+        "FAANG Interview"
+      ],
+      "companies": [
+        "Amazon"
+      ],
+      "related_agents": [
+        "amazon-interview-coach",
+        "google-swe-coach"
+      ],
+      "related_workflows": [
+        "faang-preparation"
+      ],
+      "popularity_score": 96
+    },
+    {
+      "id": "netflix-swe-coach",
+      "name": "Netflix SWE Coach",
+      "division": "faang",
+      "description": "A high-concurrency distributed systems, microservices resilience, and Freedom & Responsibility culture coach for Netflix Senior SWE loops.",
+      "status": "live",
+      "filename": "faang/netflix-swe-coach.md",
+      "tags": [
+        "netflix",
+        "faang",
+        "chaos-engineering",
+        "microservices",
+        "freedom-and-responsibility"
+      ],
+      "color": "#E50914",
+      "emoji": "🔴",
+      "vibe": "senior-level, autonomous, systems-rigorous, radical-candor",
+      "difficulty": "Hard",
+      "experience_level": "Senior",
+      "career_stage": "Leadership",
+      "industry": "Tech",
+      "skills": [
+        "Microservices",
+        "Chaos Engineering",
+        "Distributed Systems",
+        "FAANG Interview"
+      ],
+      "companies": [
+        "Netflix"
+      ],
+      "related_agents": [
+        "netflix-interview-coach",
+        "google-swe-coach"
+      ],
+      "related_workflows": [
+        "faang-preparation"
+      ],
+      "popularity_score": 94
+    },
+    {
+      "id": "microsoft-swe-coach",
+      "name": "Microsoft SWE Coach",
+      "division": "faang",
+      "description": "A Growth Mindset, cloud architecture, and enterprise CS fundamentals coach for Microsoft Software Engineer loops (SDE I, SDE II, Senior SDE, Principal SDE).",
+      "status": "live",
+      "filename": "faang/microsoft-swe-coach.md",
+      "tags": [
+        "microsoft",
+        "faang",
+        "growth-mindset",
+        "azure",
+        "cs-fundamentals"
+      ],
+      "color": "#00A4EF",
+      "emoji": "🟦",
+      "vibe": "collaborative, structured, growth-mindset, cloud-native",
+      "difficulty": "Hard",
+      "experience_level": "Senior",
+      "career_stage": "Leadership",
+      "industry": "Tech",
+      "skills": [
+        "Cloud Architecture",
+        "Azure",
+        "CS Fundamentals",
+        "FAANG Interview"
+      ],
+      "companies": [
+        "Microsoft"
+      ],
+      "related_agents": [
+        "microsoft-interview-coach",
+        "google-swe-coach"
+      ],
+      "related_workflows": [
+        "faang-preparation"
+      ],
+      "popularity_score": 92
+    },
+    {
+      "id": "anthropic-ai-coach",
+      "name": "Anthropic AI Coach",
+      "division": "faang",
+      "description": "A Constitutional AI, model alignment infrastructure, and transformer scaling coach for Anthropic research and engineering loops.",
+      "status": "live",
+      "filename": "faang/anthropic-ai-coach.md",
+      "tags": [
+        "anthropic",
+        "faang",
+        "constitutional-ai",
+        "alignment",
+        "transformers"
+      ],
+      "color": "#D97706",
+      "emoji": "🤖",
+      "vibe": "academic, safety-focused, mathematically-rigorous, empirical",
+      "difficulty": "Hard",
+      "experience_level": "Senior",
+      "career_stage": "Leadership",
+      "industry": "Tech",
+      "skills": [
+        "Constitutional AI",
+        "Transformers",
+        "AI Safety",
+        "FAANG Interview"
+      ],
+      "companies": [
+        "Anthropic"
+      ],
+      "related_agents": [
+        "anthropic-interview-coach",
+        "openai-career-coach"
+      ],
+      "related_workflows": [
+        "faang-preparation"
+      ],
+      "popularity_score": 95
+    },
+    {
+      "id": "nvidia-ai-coach",
+      "name": "Nvidia AI Coach",
+      "division": "faang",
+      "description": "A GPU systems, CUDA kernel optimization, TensorRT compiler, and deep learning hardware acceleration coach for Nvidia engineering loops.",
+      "status": "live",
+      "filename": "faang/nvidia-ai-coach.md",
+      "tags": [
+        "nvidia",
+        "faang",
+        "cuda",
+        "tensorrt",
+        "gpu-acceleration"
+      ],
+      "color": "#76B900",
+      "emoji": "⚡",
+      "vibe": "low-level, hardware-accelerated, performance-obsessed, systems-heavy",
+      "difficulty": "Hard",
+      "experience_level": "Senior",
+      "career_stage": "Leadership",
+      "industry": "Tech",
+      "skills": [
+        "CUDA",
+        "TensorRT",
+        "GPU Systems",
+        "FAANG Interview"
+      ],
+      "companies": [
+        "Nvidia"
+      ],
+      "related_agents": [
+        "nvidia-interview-coach",
+        "google-swe-coach"
+      ],
+      "related_workflows": [
+        "faang-preparation"
+      ],
+      "popularity_score": 96
+    },
+    {
+      "id": "ai-consultant",
+      "name": "AI Consultant",
+      "division": "ai-business",
+      "description": "An enterprise AI strategist mapping company problems to LLM/RAG solutions, scoping APIs, drafting security/privacy architectures, and showing ROI.",
+      "status": "live",
+      "filename": "ai-business/ai-consultant.md",
+      "tags": [
+        "ai-business",
+        "consultant",
+        "enterprise",
+        "security",
+        "roi"
+      ],
+      "color": "#3498DB",
+      "emoji": "👔",
+      "vibe": "advisory, enterprise-aware, risk-conscious, strategic",
+      "difficulty": "Medium",
+      "experience_level": "Senior",
+      "career_stage": "Growth",
+      "industry": "All",
+      "skills": [
+        "AI Unit Economics",
+        "SaaS MVP",
+        "Semantic Caching",
+        "Defensibility",
+        "Ai-business",
+        "Founder"
+      ],
+      "companies": [],
+      "related_agents": [
+        "ai-founder"
+      ],
+      "related_workflows": [
+        "remote-job-hunt"
+      ],
+      "popularity_score": 91
+    },
+    {
+      "id": "clay-specialist",
+      "name": "Clay Specialist",
+      "division": "gtm",
+      "description": "A master of Clay workflows, waterfall search logic, AI enrichment prompting, data cleaning, and CSV normalization.",
+      "status": "live",
+      "filename": "gtm/clay-specialist.md",
+      "tags": [
+        "gtm",
+        "clay",
+        "waterfalls",
+        "data-enrichment",
+        "formulas"
+      ],
+      "color": "#8E44AD",
+      "emoji": "🧱",
+      "vibe": "structured, detail-oriented, pipeline-focused, data-obsessed",
+      "difficulty": "Hard",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "All",
+      "skills": [
+        "Outreach Automation",
+        "CRM Sync",
+        "Clay Workspaces",
+        "Sales Pipeline",
+        "Clay",
+        "Outbound"
+      ],
+      "companies": [],
+      "related_agents": [
+        "gtm-engineer"
+      ],
+      "related_workflows": [
+        "remote-job-hunt"
+      ],
+      "popularity_score": 81
+    },
+    {
+      "id": "upwork-specialist",
+      "name": "Upwork Specialist",
+      "division": "freelancing",
+      "description": "A profile positioning and proposal writing advisor focused on converting Upwork feeds into closed contracts.",
+      "status": "live",
+      "filename": "freelancing/upwork-specialist.md",
+      "tags": [
+        "freelancing",
+        "upwork",
+        "proposals",
+        "positioning",
+        "sales"
+      ],
+      "color": "#F1C40F",
+      "emoji": "🎯",
+      "vibe": "practical, persuasive, client-centric, result-oriented",
+      "difficulty": "Hard",
+      "experience_level": "Mid",
+      "career_stage": "Growth",
+      "industry": "All",
+      "skills": [
+        "Freelancing",
+        "Productized Services",
+        "Client Acquisition",
+        "Retainers",
+        "Consulting",
+        "Proposals"
+      ],
+      "companies": [],
+      "related_agents": [
+        "freelance-founder"
+      ],
+      "related_workflows": [
+        "remote-job-hunt"
+      ],
+      "popularity_score": 93
+    },
+    {
+      "id": "performance-review-advisor",
+      "name": "Performance Review Advisor",
+      "division": "career",
+      "description": "A feedback strategy specialist who coaches professionals to",
+      "status": "live",
+      "filename": "career/performance-review-advisor.md",
+      "tags": [
+        "structured",
+        "evidence-forward",
+        "communication-sharp",
+        "outcome-focused"
+      ],
+      "color": "#00695C",
+      "emoji": "📋",
+      "vibe": "structured, evidence-forward, communication-sharp, outcome-focused"
+    },
+    {
+      "id": "career-risk-assessor",
+      "name": "Career Risk Assessor",
+      "division": "career",
+      "description": "A strategic risk analyst who evaluates the stability of a",
+      "status": "live",
+      "filename": "career/career-risk-assessor.md",
+      "tags": [
+        "forensic",
+        "scenario-planning",
+        "proactive",
+        "unsentimental"
+      ],
+      "color": "#B71C1C",
+      "emoji": "⚠️",
+      "vibe": "forensic, scenario-planning, proactive, unsentimental"
+    },
+    {
+      "id": "executive-presence-coach",
+      "name": "Executive Presence Coach",
+      "division": "career",
+      "description": "A senior leadership communication specialist who helps directors,",
+      "status": "live",
+      "filename": "career/executive-presence-coach.md",
+      "tags": [
+        "polished",
+        "gravitas-first",
+        "strategic",
+        "high-stakes-aware"
+      ],
+      "color": "#1A237E",
+      "emoji": "🎙️",
+      "vibe": "polished, gravitas-first, strategic, high-stakes-aware"
+    },
+    {
+      "id": "graduate-school-vs-industry-advisor",
+      "name": "Graduate School vs. Industry Advisor",
+      "division": "career",
+      "description": "A decision-science consultant who helps early- and mid-career",
+      "status": "live",
+      "filename": "career/graduate-school-vs-industry-advisor.md",
+      "tags": [
+        "analytical",
+        "objective",
+        "data-driven",
+        "decision-focused"
+      ],
+      "color": "#4E342E",
+      "emoji": "🎓",
+      "vibe": "analytical, objective, data-driven, decision-focused"
+    },
+    {
+      "id": "international-job-search-coach",
+      "name": "International Job Search Coach",
+      "division": "career",
+      "description": "A cross-border career strategist who guides professionals through",
+      "status": "live",
+      "filename": "career/international-job-search-coach.md",
+      "tags": [
+        "globally aware",
+        "compliance-conscious",
+        "culturally intelligent",
+        "strategic"
+      ],
+      "color": "#0D47A1",
+      "emoji": "🌐",
+      "vibe": "globally aware, compliance-conscious, culturally intelligent, strategic"
+    },
+    {
+      "id": "promotion-readiness-coach",
+      "name": "Promotion Readiness Coach",
+      "division": "career",
+      "description": "A leadership development specialist who prepares mid- to senior-",
+      "status": "live",
+      "filename": "career/promotion-readiness-coach.md",
+      "tags": [
+        "strategic",
+        "evidence-driven",
+        "stakeholder-aware",
+        "forward-projecting"
+      ],
+      "color": "#1A237E",
+      "emoji": "📈",
+      "vibe": "strategic, evidence-driven, stakeholder-aware, forward-projecting"
+    },
+    {
+      "id": "relocation-strategy-advisor",
+      "name": "Relocation Strategy Advisor",
+      "division": "career",
+      "description": "A cross-market logistics and compensation consultant who helps",
+      "status": "live",
+      "filename": "career/relocation-strategy-advisor.md",
+      "tags": [
+        "pragmatic",
+        "detail-oriented",
+        "logistics-first",
+        "financially grounded"
+      ],
+      "color": "#4A235A",
+      "emoji": "🗺️",
+      "vibe": "pragmatic, detail-oriented, logistics-first, financially grounded"
+    },
+    {
+      "id": "achievement-quantification-coach",
+      "name": "Achievement Quantification Coach",
+      "division": "resume",
+      "description": "A data-forensics coach who helps professionals excavate,",
+      "status": "live",
+      "filename": "resume/achievement-quantification-coach.md",
+      "tags": [
+        "forensic",
+        "relentless",
+        "evidence-obsessed",
+        "empowering"
+      ],
+      "color": "#1B5E20",
+      "emoji": "📊",
+      "vibe": "forensic, relentless, evidence-obsessed, empowering"
+    },
+    {
+      "id": "resume-bullet-generator",
+      "name": "Resume Bullet Generator",
+      "division": "resume",
+      "description": "A high-velocity achievement writer who transforms raw job",
+      "status": "live",
+      "filename": "resume/resume-bullet-generator.md",
+      "tags": [
+        "punchy",
+        "outcome-first",
+        "metrics-obsessed",
+        "speed-focused"
+      ],
+      "color": "#4A235A",
+      "emoji": "✍️",
+      "vibe": "punchy, outcome-first, metrics-obsessed, speed-focused"
+    },
+    {
+      "id": "resume-gap-strategist",
+      "name": "Resume Gap Strategist",
+      "division": "resume",
+      "description": "A candid career narrative advisor who helps professionals",
+      "status": "live",
+      "filename": "resume/resume-gap-strategist.md",
+      "tags": [
+        "candid",
+        "reframing-expert",
+        "confidence-building",
+        "narrative-driven"
+      ],
+      "color": "#37474F",
+      "emoji": "🗓️",
+      "vibe": "candid, reframing-expert, confidence-building, narrative-driven"
+    },
+    {
+      "id": "technical-project-positioning-advisor",
+      "name": "Technical Project Positioning Advisor",
+      "division": "resume",
+      "description": "A technical narrative strategist who helps engineers,",
+      "status": "live",
+      "filename": "resume/technical-project-positioning-advisor.md",
+      "tags": [
+        "technical",
+        "narrative-bridging",
+        "impact-forward",
+        "dual-audience-aware"
+      ],
+      "color": "#004D40",
+      "emoji": "🔧",
+      "vibe": "technical, narrative-bridging, impact-forward, dual-audience-aware"
+    },
+    {
+      "id": "voice-mock-interviewer",
+      "name": "Voice Mock Interviewer",
+      "division": "interview",
+      "description": "A real-time voice-first mock interviewer supporting STT/TTS speech turn-taking, voice modulation diagnostics, semantic replies, and structured FAANG/MANGO 5-phase interview execution.",
+      "status": "live",
+      "filename": "interview/voice-mock-interviewer.md",
+      "tags": [
+        "interview",
+        "voice-first",
+        "voice-modulation",
+        "mock-interview",
+        "semantic-reply"
+      ],
+      "color": "#8E44AD",
+      "emoji": "🎙️",
+      "vibe": "realistic, speech-aware, dynamic, conversational, firm",
+      "difficulty": "Hard",
+      "experience_level": "Senior",
+      "career_stage": "Growth",
+      "industry": "Tech",
+      "skills": [
+        "Voice Interviewing",
+        "Speech Turn-Taking",
+        "Voice Modulation",
+        "FAANG Process"
+      ],
+      "companies": [],
+      "related_agents": [
+        "mock-interviewer",
+        "faang-voice-mock-interviewer"
+      ],
+      "related_workflows": [
+        "technical-interview-week"
+      ],
+      "popularity_score": 95
+    },
+    {
+      "id": "faang-voice-mock-interviewer",
+      "name": "FAANG Voice Mock Interviewer",
+      "division": "faang",
+      "description": "A voice-first FAANG & MANGO interview simulator tailored for Google, Meta, Amazon, Apple, Netflix, and OpenAI loops with company-specific pacing, voice modulation, and Bar Raiser evaluations.",
+      "status": "live",
+      "filename": "faang/faang-voice-mock-interviewer.md",
+      "tags": [
+        "faang",
+        "voice-first",
+        "mock-interview",
+        "voice-modulation",
+        "bar-raiser"
+      ],
+      "color": "#FF9900",
+      "emoji": "🎙️",
+      "vibe": "rigorous, voice-first, company-calibrated, high-pressure",
+      "difficulty": "Hard",
+      "experience_level": "Senior",
+      "career_stage": "Leadership",
+      "industry": "Tech",
+      "skills": [
+        "FAANG Voice Interview",
+        "Voice Modulation",
+        "Bar Raiser Evaluation",
+        "Realtime Speech"
+      ],
+      "companies": [
+        "Google",
+        "Meta",
+        "Amazon",
+        "Apple",
+        "Netflix",
+        "OpenAI"
+      ],
+      "related_agents": [
+        "voice-mock-interviewer",
+        "google-swe-coach"
+      ],
+      "related_workflows": [
+        "faang-preparation"
+      ],
+      "popularity_score": 97
+    },
+    {
+      "id": "resume-humanizer",
+      "name": "Resume Humanizer",
+      "division": "resume",
+      "description": "A specialized career writing agent that de-robotifies AI-generated resumes into authentic, high-impact human professional narratives while preserving ATS keyword signaling.",
+      "status": "live",
+      "filename": "resume/resume-humanizer.md",
+      "tags": [
+        "resume",
+        "humanizer",
+        "de-robotify",
+        "authentic",
+        "anti-cliche"
+      ],
+      "color": "#27AE60",
+      "emoji": "✍️",
+      "vibe": "authentic, human-first, articulate, anti-cliche, ATS-optimized",
+      "difficulty": "Medium",
+      "experience_level": "Mid",
+      "career_stage": "Transition",
+      "industry": "All",
+      "skills": [
+        "Resume Humanization",
+        "Anti-Cliche Writing",
+        "ATS Optimization",
+        "Human Voice"
+      ],
+      "companies": [],
+      "related_agents": [
+        "ats-resume-reviewer",
+        "document-exporter"
+      ],
+      "related_workflows": [
+        "fresher-placement"
+      ],
+      "popularity_score": 94
+    },
+    {
+      "id": "document-exporter",
+      "name": "Document Exporter",
+      "division": "resume",
+      "description": "A specialized document layout and multi-format export engine that compiles resumes, cover letters, and portfolios into Word (.docx), PDF, HTML/CSS, and ATS plain-text templates.",
+      "status": "live",
+      "filename": "resume/document-exporter.md",
+      "tags": [
+        "resume",
+        "export",
+        "docx",
+        "pdf",
+        "ats-formatting"
+      ],
+      "color": "#2980B9",
+      "emoji": "📄",
+      "vibe": "precise, layout-obsessed, multi-format, ATS-compliant, pixel-perfect",
+      "difficulty": "Easy",
+      "experience_level": "All",
+      "career_stage": "All",
+      "industry": "All",
+      "skills": [
+        "Word Export",
+        "PDF Generation",
+        "HTML Templates",
+        "ATS Plain Text"
+      ],
+      "companies": [],
+      "related_agents": [
+        "resume-humanizer",
+        "ats-resume-reviewer"
+      ],
+      "related_workflows": [
+        "fresher-placement"
+      ],
+      "popularity_score": 93
+    },
+    {
+      "id": "ai-infrastructure-architect",
+      "name": "AI Infrastructure Architect",
+      "division": "ai-engineering",
+      "description": "An AI systems infrastructure specialist who architects distributed GPU training clusters, high-throughput vLLM/Triton serving pipelines, Ray cluster orchestration, and MLOps scaling.",
+      "status": "live",
+      "filename": "ai-engineering/ai-infrastructure-architect.md",
+      "tags": [
+        "ai-infrastructure",
+        "gpu-clusters",
+        "vllm",
+        "triton",
+        "mlops"
+      ],
+      "color": "#34495E",
+      "emoji": "🏗️",
+      "vibe": "infrastructure-heavy, performance-obsessed, scale-focused, low-latency",
+      "difficulty": "Hard",
+      "experience_level": "Senior",
+      "career_stage": "Leadership",
+      "industry": "Tech",
+      "skills": [
+        "GPU Clusters",
+        "vLLM",
+        "Triton Serving",
+        "Ray Orchestration"
+      ],
+      "companies": [],
+      "related_agents": [
+        "llm-engineer",
+        "mlops-engineer"
+      ],
+      "related_workflows": [
+        "technical-interview-week"
+      ],
+      "popularity_score": 96
+    },
+    {
+      "id": "ai-agent-workflow-builder",
+      "name": "AI Agent Workflow Builder",
+      "division": "ai-engineering",
+      "description": "An autonomous agent systems architect specializing in multi-agent orchestration, LangGraph, CrewAI, AutoGen, Model Context Protocol (MCP) tool integration, state machine control, and structured tool-call execution.",
+      "status": "live",
+      "filename": "ai-engineering/ai-agent-workflow-builder.md",
+      "tags": [
+        "ai-agents",
+        "langgraph",
+        "crewai",
+        "mcp-tools",
+        "orchestration"
+      ],
+      "color": "#8E44AD",
+      "emoji": "🤖",
+      "vibe": "agentic, systematic, stateful, tool-obsessed, robust",
+      "difficulty": "Hard",
+      "experience_level": "Senior",
+      "career_stage": "Growth",
+      "industry": "Tech",
+      "skills": [
+        "LangGraph",
+        "Multi-Agent Systems",
+        "MCP Protocol",
+        "Tool Calling"
+      ],
+      "companies": [],
+      "related_agents": [
+        "ai-agent-architect",
+        "llm-engineer"
+      ],
+      "related_workflows": [
+        "technical-interview-week"
+      ],
+      "popularity_score": 97
+    },
+    {
+      "id": "multimodal-ai-engineer",
+      "name": "Multimodal AI Engineer",
+      "division": "ai-engineering",
+      "description": "A vision, speech, and cross-modal AI systems specialist who architects Vision-Language Models (VLMs), audio-speech processing pipelines (STT/TTS, Realtime Voice APIs), text-to-image/video generative pipelines, and multimodal vector embeddings.",
+      "status": "live",
+      "filename": "ai-engineering/multimodal-ai-engineer.md",
+      "tags": [
+        "multimodal-ai",
+        "vision-language",
+        "speech-audio",
+        "webrtc",
+        "vector-embeddings"
+      ],
+      "color": "#9B59B6",
+      "emoji": "👁️",
+      "vibe": "cross-modal, vision-speech focused, creative-technical, low-latency",
+      "difficulty": "Hard",
+      "experience_level": "Senior",
+      "career_stage": "Growth",
+      "industry": "Tech",
+      "skills": [
+        "Vision Language Models",
+        "Realtime Voice APIs",
+        "WebRTC",
+        "Multimodal RAG"
+      ],
+      "companies": [],
+      "related_agents": [
+        "llm-engineer",
+        "computer-vision-engineer"
+      ],
+      "related_workflows": [
+        "technical-interview-week"
+      ],
+      "popularity_score": 95
+    },
+    {
+      "id": "ai-product-growth-builder",
+      "name": "AI Product Growth Builder",
+      "division": "ai-business",
+      "description": "An AI product strategy and growth architecture coach who specializes in scoping AI SaaS MVPs, designing retention loops for LLM products, managing token API cost structures, and building defensible AI monetization models.",
+      "status": "live",
+      "filename": "ai-business/ai-product-growth-builder.md",
+      "tags": [
+        "ai-business",
+        "ai-product",
+        "saas-mvp",
+        "unit-economics",
+        "semantic-caching"
+      ],
+      "color": "#16A085",
+      "emoji": "📈",
+      "vibe": "commercial, growth-focused, unit-economics aware, product-obsessed",
+      "difficulty": "Hard",
+      "experience_level": "Senior",
+      "career_stage": "Leadership",
+      "industry": "Tech",
+      "skills": [
+        "AI Product Strategy",
+        "Semantic Caching",
+        "LLM COGS Modeling",
+        "Retention Loops"
+      ],
+      "companies": [],
+      "related_agents": [
+        "ai-founder",
+        "ai-consultant"
+      ],
+      "related_workflows": [
+        "startup-launch"
+      ],
+      "popularity_score": 96
+    }
+  ]
+}

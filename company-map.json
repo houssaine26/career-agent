@@ -1,0 +1,267 @@
+{
+  "adobe": {
+    "name": "Adobe",
+    "agents": [
+      "adobe-interview-coach",
+      "mock-interviewer",
+      "system-design-coach"
+    ],
+    "workflows": [],
+    "skills": [
+      "Technical Depth & Product Framing",
+      "Product-Craft Story Development",
+      "Attention-to-Detail & UX Polish",
+      "Cross-Functional Collaboration"
+    ]
+  },
+  "amazon": {
+    "name": "Amazon",
+    "agents": [
+      "amazon-interview-coach",
+      "amazon-swe-coach",
+      "behavioral-interview-specialist",
+      "system-design-coach",
+      "mock-interviewer"
+    ],
+    "workflows": [],
+    "skills": [
+      "16 Leadership Principles (STAR method)",
+      "Customer Obsession & Operational Excellence",
+      "Distributed System Design (AWS Primitives)",
+      "Object-Oriented Design & DSA"
+    ]
+  },
+  "anthropic": {
+    "name": "Anthropic",
+    "agents": [
+      "anthropic-interview-coach",
+      "anthropic-ai-coach",
+      "technical-interview-coach",
+      "system-design-coach",
+      "mock-interviewer"
+    ],
+    "workflows": [],
+    "skills": [
+      "AI Safety & Constitutional AI Frameworks",
+      "Transformer Scaling & Memory Bandwidth Profiling",
+      "PyTorch & Distributed Training Mechanics (FSDP)",
+      "Empirical Research & Experiment Design"
+    ]
+  },
+  "apple": {
+    "name": "Apple",
+    "agents": [
+      "apple-interview-coach",
+      "apple-swe-coach",
+      "technical-interview-coach",
+      "system-design-coach",
+      "mock-interviewer"
+    ],
+    "workflows": [],
+    "skills": [
+      "Swift, SwiftUI & Objective-C / C++ Architecture",
+      "Systems Programming & Memory Management (RAII, ARC, Pointers)",
+      "Hardware-Software Integration & OS Design Fundamentals",
+      "Product Craft, Privacy Principles & Attention to Detail"
+    ]
+  },
+  "atlassian": {
+    "name": "Atlassian",
+    "agents": [
+      "atlassian-interview-coach",
+      "behavioral-interview-specialist",
+      "group-discussion-coach",
+      "mock-interviewer"
+    ],
+    "workflows": [],
+    "skills": [
+      "Atlassian core values (Open Company No Bullshit)",
+      "Collaborative system design structures",
+      "Active listening and giving structured feedback",
+      "Frontend UI performance and layout"
+    ]
+  },
+  "databricks": {
+    "name": "Databricks",
+    "agents": [
+      "databricks-interview-coach",
+      "database-engineer",
+      "backend-architect",
+      "system-design-coach",
+      "mock-interviewer"
+    ],
+    "workflows": [],
+    "skills": [
+      "Distributed Query Engines & Vectorized Execution",
+      "Database Internals (LSM-trees, MVCC, Concurrency)",
+      "Apache Spark & Delta Lake Internals",
+      "Systems Programming & Memory Management"
+    ]
+  },
+  "google": {
+    "name": "Google",
+    "agents": [
+      "google-interview-coach",
+      "google-swe-coach",
+      "technical-interview-coach",
+      "system-design-coach",
+      "mock-interviewer"
+    ],
+    "workflows": [],
+    "skills": [
+      "Data Structures & Algorithms (graphs, dynamic programming, trees)",
+      "System Design & Scalability",
+      "Googliness (cultural fit, collaboration, ambiguity navigation)",
+      "Space & Time Complexity Analysis"
+    ]
+  },
+  "meta": {
+    "name": "Meta",
+    "agents": [
+      "meta-interview-coach",
+      "meta-swe-coach",
+      "technical-interview-coach",
+      "system-design-coach",
+      "mock-interviewer"
+    ],
+    "workflows": [],
+    "skills": [
+      "High-speed coding execution & accuracy",
+      "Meta-scale System Design (Feed, Messenger, TAO Caching)",
+      "Move Fast & Focus on Impact behavioral alignment",
+      "Social Graph & Distributed Systems"
+    ]
+  },
+  "microsoft": {
+    "name": "Microsoft",
+    "agents": [
+      "microsoft-interview-coach",
+      "microsoft-swe-coach",
+      "technical-interview-coach",
+      "system-design-coach",
+      "mock-interviewer"
+    ],
+    "workflows": [],
+    "skills": [
+      "Computer Science Fundamentals (OS, Networking, Data Structures)",
+      "Enterprise & Cloud System Architecture (Azure)",
+      "Collaborative Problem Solving & Growth Mindset",
+      "Multi-tenant SaaS & Identity Management"
+    ]
+  },
+  "netflix": {
+    "name": "Netflix",
+    "agents": [
+      "netflix-interview-coach",
+      "netflix-swe-coach",
+      "behavioral-interview-specialist",
+      "system-design-coach",
+      "mock-interviewer"
+    ],
+    "workflows": [],
+    "skills": [
+      "Freedom & Responsibility Culture Alignment",
+      "High-Concurrency Distributed Microservices",
+      "Chaos Engineering & Fault Isolation",
+      "Global Streaming & Edge CDN Architectures"
+    ]
+  },
+  "nvidia": {
+    "name": "Nvidia",
+    "agents": [
+      "nvidia-interview-coach",
+      "nvidia-ai-coach",
+      "technical-interview-coach",
+      "system-design-coach",
+      "mock-interviewer"
+    ],
+    "workflows": [],
+    "skills": [
+      "C++ Systems Programming & Memory Alignment",
+      "CUDA Parallel Computing & SIMT Execution Model",
+      "GPU Hardware Architecture & NVLink Topology",
+      "Deep Learning Acceleration & TensorRT Quantization"
+    ]
+  },
+  "openai": {
+    "name": "OpenAI",
+    "agents": [
+      "openai-interview-coach",
+      "openai-career-coach",
+      "technical-interview-coach",
+      "system-design-coach",
+      "mock-interviewer"
+    ],
+    "workflows": [],
+    "skills": [
+      "PyTorch & Triton Distributed Training Mechanics",
+      "Transformer Architecture & KV Cache Optimizations",
+      "Frontier AI Infrastructure & LLM Serving",
+      "AI Safety, Alignment & Scaling Laws"
+    ]
+  },
+  "oracle": {
+    "name": "Oracle",
+    "agents": [
+      "oracle-interview-coach",
+      "mock-interviewer",
+      "database-engineer",
+      "system-design-coach"
+    ],
+    "workflows": [],
+    "skills": [
+      "CS Fundamentals (OS, Networking)",
+      "Database Internals & SQL Design",
+      "Algorithmic Problem-Solving",
+      "Multi-Round Endurance"
+    ]
+  },
+  "salesforce": {
+    "name": "Salesforce",
+    "agents": [
+      "salesforce-interview-coach",
+      "mock-interviewer",
+      "system-design-coach"
+    ],
+    "workflows": [],
+    "skills": [
+      "Core Values & Trust Alignment",
+      "Customer Success Orientation",
+      "System Architecture & SaaS Scaling",
+      "Data Structures & Algorithms"
+    ]
+  },
+  "stripe": {
+    "name": "Stripe",
+    "agents": [
+      "stripe-interview-coach",
+      "code-reviewer",
+      "backend-architect",
+      "technical-interview-coach",
+      "mock-interviewer"
+    ],
+    "workflows": [],
+    "skills": [
+      "Practical API & SDK Ergonomics Design",
+      "Codebase Refactoring & Defensive Error Handling",
+      "Financial System Design & Idempotency",
+      "Backward Compatibility & Integration Testing"
+    ]
+  },
+  "uber": {
+    "name": "Uber",
+    "agents": [
+      "uber-interview-coach",
+      "system-design-coach",
+      "database-engineer",
+      "mock-interviewer"
+    ],
+    "workflows": [],
+    "skills": [
+      "Geohashing and spatial search coordinates index (H3, S2)",
+      "Real-time stream message scheduling",
+      "High write concurrency structures",
+      "Fault-tolerance modeling"
+    ]
+  }
+}

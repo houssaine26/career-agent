@@ -1,0 +1,28 @@
+{
+  "id": "nvidia",
+  "name": "Nvidia",
+  "interview_process": [
+    "Recruiter screening phone call (30 min)",
+    "Technical phone screen: C++ Systems Programming / Parallel Algorithms (60 min)",
+    "Onsite loop: 4-5 rounds covering CUDA Kernel Optimization, Systems C++, GPU Architecture & Interconnects, and AI Hardware Acceleration"
+  ],
+  "skills": [
+    "C++ Systems Programming & Memory Alignment",
+    "CUDA Parallel Computing & SIMT Execution Model",
+    "GPU Hardware Architecture & NVLink Topology",
+    "Deep Learning Acceleration & TensorRT Quantization"
+  ],
+  "preparation_workflow": "faang-preparation",
+  "agents": [
+    "nvidia-interview-coach",
+    "nvidia-ai-coach",
+    "technical-interview-coach",
+    "system-design-coach",
+    "mock-interviewer"
+  ],
+  "resources": [
+    "Nvidia CUDA Programming Guide",
+    "Nvidia Developer Blog",
+    "TensorRT & NCCL Documentation"
+  ]
+}

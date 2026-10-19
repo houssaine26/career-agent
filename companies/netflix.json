@@ -1,0 +1,28 @@
+{
+  "id": "netflix",
+  "name": "Netflix",
+  "interview_process": [
+    "Recruiter screening phone call (30 min)",
+    "Technical phone screen: High-concurrency systems / Senior coding (60 min)",
+    "Onsite loop: 4-5 rounds covering Senior Distributed System Design, Microservices Resilience & Chaos Engineering, Technical Deep-Dive, and Freedom & Responsibility Culture"
+  ],
+  "skills": [
+    "Freedom & Responsibility Culture Alignment",
+    "High-Concurrency Distributed Microservices",
+    "Chaos Engineering & Fault Isolation",
+    "Global Streaming & Edge CDN Architectures"
+  ],
+  "preparation_workflow": "faang-preparation",
+  "agents": [
+    "netflix-interview-coach",
+    "netflix-swe-coach",
+    "behavioral-interview-specialist",
+    "system-design-coach",
+    "mock-interviewer"
+  ],
+  "resources": [
+    "Netflix Tech Blog (netflixtechblog.com)",
+    "Netflix Culture Memo (jobs.netflix.com/culture)",
+    "Netflix Chaos Engineering Principles"
+  ]
+}

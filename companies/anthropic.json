@@ -1,0 +1,28 @@
+{
+  "id": "anthropic",
+  "name": "Anthropic",
+  "interview_process": [
+    "Recruiter screen & research alignment call (30 min)",
+    "Technical screen: PyTorch / Deep Learning Math & Systems Coding (60 min)",
+    "Onsite loop: 4-5 rounds covering Neural Network Coding, High-Scale ML Systems Architecture, Alignment & Constitutional AI Frameworks, and Research Culture"
+  ],
+  "skills": [
+    "AI Safety & Constitutional AI Frameworks",
+    "Transformer Scaling & Memory Bandwidth Profiling",
+    "PyTorch & Distributed Training Mechanics (FSDP)",
+    "Empirical Research & Experiment Design"
+  ],
+  "preparation_workflow": "faang-preparation",
+  "agents": [
+    "anthropic-interview-coach",
+    "anthropic-ai-coach",
+    "technical-interview-coach",
+    "system-design-coach",
+    "mock-interviewer"
+  ],
+  "resources": [
+    "Anthropic Research Papers & Technical Blog",
+    "Constitutional AI & RLHF Framework Documentation",
+    "Transformer Interpretability Publications"
+  ]
+}
