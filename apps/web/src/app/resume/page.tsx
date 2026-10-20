@@ -4,27 +4,19 @@ import { useState, useCallback, useEffect } from "react";
 import { useDropzone } from "react-dropzone";
 import { motion, AnimatePresence } from "framer-motion";
 import {
-  FileText, Upload, CheckCircle, AlertCircle, AlertTriangle,
-  Download, Loader2, Zap, X, ChevronDown, ChevronUp, Target,
-  Sparkles, ArrowRight, Copy, Globe, Users, GitBranch, Eye, Send, Printer
+  FileText, Upload, CheckCircle, AlertCircle,
+  Loader2, X, Target, Sparkles, ArrowRight, Eye
 } from "lucide-react";
 import { toast } from "sonner";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { Input } from "@/components/ui/input";
-import { Progress } from "@/components/ui/progress";
 import { Topbar } from "@/components/layout/topbar";
 import { useStore } from "@/lib/store";
 import { useGatewayStore } from "@/lib/gateway-store";
 import { analyzeResumeText } from "@/lib/resume-engine";
-import { cn, scoreToColor, scoreToGrade, scoreToBgColor, resolveApiKey } from "@/lib/utils";
-import { AtsComparison } from "@/components/resume/AtsComparison";
-import { StarBulletEnhancer } from "@/components/resume/StarBulletEnhancer";
-import { JobDescriptionMatcher } from "@/components/resume/JobDescriptionMatcher";
-import { RecruiterOutreachGenerator } from "@/components/resume/RecruiterOutreachGenerator";
+import { cn, scoreToGrade, scoreToBgColor } from "@/lib/utils";
 import { LiveResumePreviewModal } from "@/components/resume/LiveResumePreviewModal";
-import type { ResumeAnalysis } from "@/types";
 
 const ROLE_OPTIONS = [
   { id: "software-engineer", label: "Software Engineer", category: "Engineering" },
@@ -44,17 +36,7 @@ const ROLE_OPTIONS = [
   { id: "startup-founder", label: "Startup Founder", category: "Entrepreneurship" },
 ];
 
-const AGENT_OPTIONS = [
-  { id: "ats-resume-reviewer", name: "ATS Resume Reviewer", description: "Forensic line-by-line ATS auditor" },
-  { id: "product-manager-coach", name: "Product Manager Coach", description: "Product metrics & roadmap reviewer" },
-  { id: "ai-engineer-career-coach", name: "AI Engineer Coach", description: "LLMs, RAG & MLOps auditor" },
-  { id: "backend-architect", name: "Backend Architect", description: "System design & API architecture auditor" },
-  { id: "career-pivot-to-tech-advisor", name: "Tech Pivot Advisor", description: "Transition & transferable skills coach" },
-  { id: "graduate-career-advisor", name: "Graduate Advisor", description: "Early-career & entry level specialist" },
-];
-
 type Step = "upload" | "analyzing" | "results";
-type ResultTab = "audit" | "enhancer" | "matcher" | "outreach";
 
 export default function ResumePage() {
   const resumeAnalysis = useStore((s) => s.resumeAnalysis);
@@ -63,25 +45,15 @@ export default function ResumePage() {
   const profile = useStore((s) => s.profile);
 
   const [step, setStep] = useState<Step>(resumeAnalysis ? "results" : "upload");
-  const [resultTab, setResultTab] = useState<ResultTab>("audit");
   const [previewOpen, setPreviewOpen] = useState(false);
 
   const [analyzing, setAnalyzing] = useState(false);
   const [targetRole, setTargetRole] = useState(profile?.targetRole || "software-engineer");
-  const [agentId, setAgentId] = useState("ats-resume-reviewer");
   const [jobDescription, setJobDescription] = useState("");
   const [showJdInput, setShowJdInput] = useState(false);
 
   const [pasteMode, setPasteMode] = useState(false);
-  const [urlMode, setUrlMode] = useState(false);
-  const [resumeUrl, setResumeUrl] = useState("");
   const [pastedText, setPastedText] = useState("");
-  const [expandedBullets, setExpandedBullets] = useState(false);
-  const [aiRewriting, setAiRewriting] = useState(false);
-
-  const [cloudOpen, setCloudOpen] = useState(false);
-  const [cloudPlatform, setCloudPlatform] = useState<"google" | "dropbox" | null>(null);
-  const [cloudConnecting, setCloudConnecting] = useState(false);
 
   // Sync step with store when page mounts or rehydrates
   useEffect(() => {
@@ -93,7 +65,6 @@ export default function ResumePage() {
   const processText = useCallback(async (text: string, name: string = "resume.txt", customRole?: string) => {
     const roleToUse = customRole || targetRole;
     const jdToUse = jobDescription;
-    const agentToUse = agentId;
 
     setStep("analyzing");
     setAnalyzing(true);
@@ -111,7 +82,6 @@ export default function ResumePage() {
       const analysis = await analyzeResumeText(text, name, gatewayConfig as any, {
         targetRole: roleToUse,
         jobDescription: jdToUse,
-        agentId: agentToUse,
       });
       setResumeAnalysis(analysis);
       setStep("results");
@@ -123,105 +93,7 @@ export default function ResumePage() {
     } finally {
       setAnalyzing(false);
     }
-  }, [targetRole, jobDescription, agentId, setResumeAnalysis, settings.keys, settings.baseUrls, settings.aiProvider]);
-
-  async function handleUrlImport() {
-    if (!resumeUrl.trim()) return;
-    setStep("analyzing");
-    setAnalyzing(true);
-    try {
-      const res = await fetch("/api/parse-file/url", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ url: resumeUrl.trim() }),
-      });
-      const data = await res.json();
-      if (!data.success) throw new Error(data.error || "Failed to download and parse URL.");
-      await processText(data.text, data.filename || "downloaded-resume");
-    } catch (err: any) {
-      toast.error(err.message || "Failed to import from URL.");
-      setStep("upload");
-      setAnalyzing(false);
-    }
-  }
-
-  async function handleGitHubImport() {
-    setStep("analyzing");
-    setAnalyzing(true);
-    try {
-      const username = profile?.githubUsername || "candidate";
-      const sampleResume = `# Executive Profile: ${profile?.name || "Senior Software Engineer"}
-Email: ${profile?.email || "candidate@engineer.dev"} | Phone: +1 (555) 234-5678 | GitHub: github.com/${username}
-
-## Executive Summary
-Senior Software Engineer with 6+ years of experience architecting high-scale distributed systems and cloud infrastructure. Proven track record of reducing P99 latency by 42% and scaling microservices.
-
-## Technical Skills & Core Competencies
-TypeScript, JavaScript, Python, Next.js, React, Node.js, PostgreSQL, Redis, Docker, Kubernetes, AWS, GraphQL, REST API, System Design, CI/CD.
-
-## Professional Experience
-Senior Software Engineer — Apex Cloud Systems (2022 — Present)
-- Architected and deployed high-throughput event processing pipelines using Go and Kafka, processing 15M+ daily events with 99.99% service availability.
-- Overhauled database query indexing on a 500M-row PostgreSQL cluster, slashing infrastructure costs by $55,000/year and reducing P99 API response times by 42%.
-- Led a squad of 5 engineers delivering core microservices architecture on Kubernetes with automated CI/CD canary deployments.
-
-## Education & Academic Background
-University of California, Berkeley — B.S. in Computer Science & Engineering (2016 — 2020)
-
-## Key Engineering Projects
-Career-Agents Intelligence Platform (TypeScript, Next.js, Python, OpenAI, Redis)
-- Built multi-agent copilot orchestrating 167 AI agent personas with real-time ATS resume scoring and automated recruiter outreach.
-`;
-      await processText(sampleResume, `github-${username}-portfolio.md`);
-    } catch (err) {
-      toast.error("GitHub import failed.");
-      setStep("upload");
-      setAnalyzing(false);
-    }
-  }
-
-  async function handleLinkedInImport() {
-    setStep("analyzing");
-    setAnalyzing(true);
-    try {
-      const sampleResume = `# Executive Profile: ${profile?.name || "Engineering Leader"}
-Email: ${profile?.email || "candidate@engineer.dev"} | Phone: +1 (555) 234-5678 | LinkedIn: linkedin.com/in/candidate
-
-## Executive Summary
-Senior Full Stack Engineer with expertise in building responsive web applications, scalable REST APIs, and microservices architecture. Skilled in TypeScript, React, Node.js, and cloud deployments.
-
-## Technical Skills & Core Competencies
-TypeScript, React, Next.js, Node.js, Python, PostgreSQL, Redis, AWS, Docker, GraphQL, REST API, Tailwind CSS, System Design, Web Vitals.
-
-## Professional Experience
-Senior Full Stack Engineer — Nexus Technologies (2020 — Present)
-- Spearheaded development of enterprise web application in React and Node.js, accelerating release velocity by 35% across 120k+ active users.
-- Implemented multi-tier caching layer using Redis and CDN edge invalidation, achieving sub-20ms average response time globally.
-- Reduced initial page render time by 50% by optimizing Web Vitals and bundling efficiency.
-
-## Education & Academic Background
-Stanford University — B.S. in Software Engineering (2016 — 2020)
-
-## Key Engineering Projects
-Enterprise Analytics Dashboard (TypeScript, React, Node.js, PostgreSQL)
-- Developed real-time streaming analytics dashboard monitoring infrastructure metrics and system health.
-`;
-      await processText(sampleResume, "linkedin-profile.md");
-    } catch (err) {
-      toast.error("LinkedIn import failed.");
-      setStep("upload");
-      setAnalyzing(false);
-    }
-  }
-
-  async function triggerCloudLink(platform: "google" | "dropbox") {
-    setCloudPlatform(platform);
-    setCloudOpen(true);
-    setCloudConnecting(true);
-    setTimeout(() => {
-      setCloudConnecting(false);
-    }, 1000);
-  }
+  }, [targetRole, jobDescription, setResumeAnalysis, settings.keys, settings.baseUrls, settings.aiProvider]);
 
   const onDrop = useCallback(async (files: File[]) => {
     const file = files[0];
@@ -261,126 +133,20 @@ Enterprise Analytics Dashboard (TypeScript, React, Node.js, PostgreSQL)
     multiple: false,
   });
 
-  async function handleAIRewrite() {
-    if (!resumeAnalysis) return;
-    const activeProvider = useGatewayStore.getState().activeProvider;
-    const resolvedKey = resolveApiKey(activeProvider, settings);
-    const gatewayConfig = {
-      provider: activeProvider,
-      model: useGatewayStore.getState().activeModel,
-      apiKey: resolvedKey,
-      baseUrl: settings.baseUrls?.[activeProvider] || settings.aiProvider.baseUrl,
-      temperature: useGatewayStore.getState().temperature,
-      maxTokens: useGatewayStore.getState().maxTokens,
-    };
-    setAiRewriting(true);
-    try {
-      const res = await fetch("/api/resume/analyze", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          text: resumeAnalysis.rawText,
-          config: gatewayConfig,
-          targetRole: resumeAnalysis.targetRoleName || targetRole,
-          jobDescription: resumeAnalysis.jobDescription || jobDescription,
-        }),
-      });
-      if (!res.ok) throw new Error(await res.text());
-      const data = await res.json();
-      setResumeAnalysis({ ...resumeAnalysis, aiRewrite: data.rewrite });
-      toast.success("AI rewrite complete");
-    } catch (e: any) {
-      toast.error(e.message || "AI rewrite failed");
-    } finally {
-      setAiRewriting(false);
-    }
-  }
-
-  async function downloadReport(format: "markdown" | "json" | "html" | "doc" | "pdf" | "latex") {
-    if (!resumeAnalysis) return;
-    try {
-      const res = await fetch("/api/resume/export", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          format,
-          analysis: resumeAnalysis,
-          role: targetRole,
-        }),
-      });
-      if (!res.ok) throw new Error("Export failed");
-      const blob = await res.blob();
-      const url = window.URL.createObjectURL(blob);
-      const a = document.createElement("a");
-      a.href = url;
-      a.download = `ats-resume-${targetRole}.${format === "markdown" ? "md" : format === "doc" ? "docx" : format === "latex" ? "tex" : format}`;
-      a.click();
-      window.URL.revokeObjectURL(url);
-      toast.success(`Exported as ${format.toUpperCase()} successfully!`);
-    } catch (err: any) {
-      toast.error(err.message || "Export failed");
-    }
-  }
-
   const analysis = resumeAnalysis;
-
-  const previewData = analysis ? {
-    name: profile?.name || analysis.rawText?.split("\n").map(l => l.trim()).find(l => l.length > 0 && l.length < 40 && !l.startsWith("#") && !l.includes(":") && !l.includes("@")) || "Alex Morgan",
-    email: analysis.rawText?.match(/\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b/)?.[0] || profile?.email || "alex.morgan@engineer.dev",
-    phone: analysis.rawText?.match(/\+?\d[\d\s-]{8,14}\d/)?.[0]?.trim() || "+1 (555) 234-5678",
-    location: "San Francisco, CA",
-    linkedin: analysis.rawText?.match(/linkedin\.com\/in\/[\w-]+/i)?.[0] || profile?.linkedinUrl || "linkedin.com/in/alex-morgan",
-    github: analysis.rawText?.match(/github\.com\/[\w-]+/i)?.[0] || (profile?.githubUsername ? `github.com/${profile.githubUsername}` : "github.com/alexmorgan-dev"),
-    targetRole: analysis.targetRoleName || profile?.targetRole || "Senior Software Engineer",
-    summary: `Senior ${analysis.targetRoleName || "Software Engineer"} with proven track record of architecting distributed systems, improving release velocity, and scaling cloud infrastructure.`,
-    skills: analysis.detectedKeywords && analysis.detectedKeywords.length > 0
-      ? analysis.detectedKeywords
-      : ["TypeScript", "Next.js", "Go", "Python", "PostgreSQL", "Redis", "Kafka", "Docker", "Kubernetes", "AWS"],
-    experience: [
-      {
-        company: "Apex Cloud Systems",
-        role: analysis.targetRoleName || "Senior Software Engineer",
-        period: "2022 — Present",
-        location: "San Francisco, CA",
-        bullets: analysis.starAnalysis && analysis.starAnalysis.length > 0
-          ? analysis.starAnalysis.map((s) => s.bullet)
-          : [
-              "Architected and deployed high-throughput event processing pipelines using Go and Kafka, processing 15M+ daily events with 99.99% service availability.",
-              "Overhauled database query indexing on a 500M+ row PostgreSQL cluster, cutting P99 API response times by 42% and reducing compute costs by $55,000/yr.",
-              "Led a squad of 5 engineers delivering core microservices architecture on Kubernetes with automated CI/CD canary deployments.",
-            ],
-      },
-    ],
-    education: [
-      {
-        school: "University of California, Berkeley",
-        degree: "B.S. in Computer Science & Engineering",
-        year: "2016 — 2020",
-      },
-    ],
-    projects: [
-      {
-        name: `${analysis.targetRoleName || "Software"} Intelligence Platform`,
-        tech: (analysis.detectedKeywords || ["TypeScript", "Next.js", "Python"]).slice(0, 5).join(", "),
-        bullets: [
-          "Built multi-agent copilot orchestrating 167 AI agent personas and real-time ATS resume scoring.",
-        ],
-      },
-    ],
-  } : undefined;
 
   return (
     <div className="flex flex-col h-full overflow-auto bg-[#03060f] text-slate-100 font-sans">
       <Topbar
-        title="ATS Resume Studio & Career Radar"
-        subtitle="ATS score breakdown, role/JD keyword matching, bullet feedback, and recruiter outreach"
+        title="Resume Studio"
+        subtitle="Review your resume, find role-specific gaps, and improve your real content"
       />
 
-      {/* 1-Page ATS Live Preview Modal */}
+      {/* Preview only the resume text provided by the user. */}
       <LiveResumePreviewModal
         open={previewOpen}
         onClose={() => setPreviewOpen(false)}
-        resumeData={previewData}
+        resumeText={analysis?.rawText || ""}
       />
 
       <div className="flex-1 p-6 max-w-6xl mx-auto w-full space-y-6">
@@ -399,44 +165,27 @@ Enterprise Analytics Dashboard (TypeScript, React, Node.js, PostgreSQL)
                 <div className="w-14 h-14 rounded-2xl bg-cyan-500/15 border border-cyan-500/30 flex items-center justify-center mx-auto text-cyan-400 shadow-xl">
                   <FileText className="w-7 h-7" />
                 </div>
-                <h2 className="text-xl font-bold text-white">Get an ATS Resume Score & Job Match</h2>
+                <h2 className="text-xl font-bold text-white">Improve your resume for a target role</h2>
                 <p className="text-xs text-slate-400">
-                  Evidence-based estimate of role/JD keyword alignment, resume structure, experience, impact, and text readability. It is not a prediction from a specific ATS vendor.
+                  Review section coverage and role keywords. Use suggestions only when they accurately reflect your experience.
                 </p>
               </div>
 
-              {/* Target Role & Auditor Settings */}
+              {/* Target role and optional job description */}
               <Card className="glass border-cyan-500/30 p-4 space-y-3 bg-slate-900/60">
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                  <div>
-                    <label className="text-xs font-semibold text-slate-300 mb-1 block">Target Role Category</label>
-                    <select
-                      className="w-full px-3 py-2 rounded-xl bg-secondary/80 border border-border text-xs text-foreground focus:outline-none focus:ring-1 focus:ring-primary"
-                      value={targetRole}
-                      onChange={(e) => setTargetRole(e.target.value)}
-                    >
-                      {ROLE_OPTIONS.map((r) => (
-                        <option key={r.id} value={r.id}>
-                          {r.label}
-                        </option>
-                      ))}
-                    </select>
-                  </div>
-
-                  <div>
-                    <label className="text-xs font-semibold text-slate-300 mb-1 block">Auditor Persona</label>
-                    <select
-                      className="w-full px-3 py-2 rounded-xl bg-secondary/80 border border-border text-xs text-foreground focus:outline-none focus:ring-1 focus:ring-primary"
-                      value={agentId}
-                      onChange={(e) => setAgentId(e.target.value)}
-                    >
-                      {AGENT_OPTIONS.map((a) => (
-                        <option key={a.id} value={a.id}>
-                          {a.name}
-                        </option>
-                      ))}
-                    </select>
-                  </div>
+                <div>
+                  <label className="text-xs font-semibold text-slate-300 mb-1 block">Target role</label>
+                  <select
+                    className="w-full px-3 py-2 rounded-xl bg-secondary/80 border border-border text-xs text-foreground focus:outline-none focus:ring-1 focus:ring-primary"
+                    value={targetRole}
+                    onChange={(e) => setTargetRole(e.target.value)}
+                  >
+                    {ROLE_OPTIONS.map((r) => (
+                      <option key={r.id} value={r.id}>
+                        {r.label}
+                      </option>
+                    ))}
+                  </select>
                 </div>
 
                 {/* Optional JD toggle */}
@@ -446,13 +195,13 @@ Enterprise Analytics Dashboard (TypeScript, React, Node.js, PostgreSQL)
                     className="text-xs text-cyan-400 hover:underline flex items-center gap-1 font-semibold"
                   >
                     <Target className="w-3.5 h-3.5" />
-                    <span>{showJdInput ? "Hide Target Job Description" : "+ Add Specific Job Description for Keyword Match"}</span>
+                    <span>{showJdInput ? "Hide job description" : "Add a job description for a more specific match"}</span>
                   </button>
 
                   {showJdInput && (
                     <textarea
                       className="w-full h-24 mt-2 p-2.5 rounded-xl bg-secondary/50 border border-border text-xs text-foreground resize-none focus:outline-none focus:ring-1 focus:ring-primary leading-relaxed"
-                      placeholder="Paste target job description from LinkedIn/Greenhouse here to calculate exact ATS keyword match..."
+                      placeholder="Paste the job description to compare its requirements with your resume..."
                       value={jobDescription}
                       onChange={(e) => setJobDescription(e.target.value)}
                     />
@@ -470,27 +219,14 @@ Enterprise Analytics Dashboard (TypeScript, React, Node.js, PostgreSQL)
               >
                 <input {...getInputProps()} />
                 <Upload className="w-10 h-10 text-cyan-400 mx-auto mb-3 animate-bounce" />
-                <p className="text-sm font-bold text-white">Drag & drop your resume file here</p>
-                <p className="text-xs text-muted-foreground mt-1">Supports PDF, DOCX, DOC, Markdown, TXT, or JSON</p>
+                <p className="text-sm font-bold text-white">Choose or drop your resume</p>
+                <p className="text-xs text-muted-foreground mt-1">PDF, DOCX, DOC, Markdown, TXT, or JSON</p>
               </div>
 
-              {/* Alternative fast import tools */}
-              <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 pt-2">
-                <Button variant="outline" size="sm" className="text-xs h-9 rounded-xl border-border/60" onClick={handleLinkedInImport}>
-                  <Users className="w-3.5 h-3.5 mr-1 text-sky-400" />
-                  LinkedIn
-                </Button>
-                <Button variant="outline" size="sm" className="text-xs h-9 rounded-xl border-border/60" onClick={handleGitHubImport}>
-                  <GitBranch className="w-3.5 h-3.5 mr-1 text-indigo-400" />
-                  GitHub Portfolio
-                </Button>
-                <Button variant="outline" size="sm" className="text-xs h-9 rounded-xl border-border/60" onClick={() => triggerCloudLink("google")}>
-                  <FileText className="w-3.5 h-3.5 mr-1 text-emerald-400" />
-                  Google Drive
-                </Button>
+              <div className="flex justify-center">
                 <Button variant="outline" size="sm" className="text-xs h-9 rounded-xl border-border/60" onClick={() => setPasteMode(!pasteMode)}>
                   <Sparkles className="w-3.5 h-3.5 mr-1 text-amber-400" />
-                  Paste Text
+                  {pasteMode ? "Hide paste option" : "Or paste resume text"}
                 </Button>
               </div>
 
@@ -551,12 +287,12 @@ Enterprise Analytics Dashboard (TypeScript, React, Node.js, PostgreSQL)
                   <div className={cn("p-4 rounded-2xl text-center border font-mono shrink-0", scoreToBgColor(analysis.overallScore))}>
                     <div className="text-3xl font-bold">{analysis.overallScore}%</div>
                     <div className="text-[10px] font-sans uppercase font-bold text-muted-foreground mt-0.5">
-                      {scoreToGrade(analysis.overallScore)} Rating
+                      {scoreToGrade(analysis.overallScore)} estimate
                     </div>
                   </div>
                   <div>
                     <div className="flex items-center gap-2">
-                      <h3 className="text-base font-bold text-white">ATS Resume Analysis Complete</h3>
+                      <h3 className="text-base font-bold text-white">Resume review complete</h3>
                       <Badge className="bg-cyan-500/20 text-cyan-300 border-cyan-500/40 text-[10px]">
                         {analysis.targetRoleName || targetRole}
                       </Badge>
@@ -574,14 +310,14 @@ Enterprise Analytics Dashboard (TypeScript, React, Node.js, PostgreSQL)
                     className="bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-600 hover:to-blue-700 text-white font-bold text-xs h-9 rounded-xl shadow-md"
                   >
                     <Eye className="w-3.5 h-3.5 mr-1.5" />
-                    <span>Live 1-Page ATS Preview</span>
+                    <span>Preview uploaded resume</span>
                   </Button>
 
                   <Button
                     size="sm"
                     variant="outline"
                     onClick={() => {
-                      setResumeAnalysis(null as any);
+                      setResumeAnalysis(null);
                       setStep("upload");
                     }}
                     className="text-xs h-9 rounded-xl border-border/80"
@@ -592,36 +328,7 @@ Enterprise Analytics Dashboard (TypeScript, React, Node.js, PostgreSQL)
                 </div>
               </div>
 
-              {/* Result Navigation Tabs */}
-              <div className="flex items-center gap-2 border-b border-border/60 pb-2 overflow-x-auto">
-                {[
-                  { id: "audit" as const, label: "Forensic Audit & Scorecard", icon: FileText },
-                  { id: "enhancer" as const, label: "Google XYZ Bullet Rewriter", icon: Sparkles },
-                  { id: "matcher" as const, label: "Target JD Keyword Matcher", icon: Target },
-                  { id: "outreach" as const, label: "Recruiter InMail Generator", icon: Send },
-                ].map((tab) => {
-                  const Icon = tab.icon;
-                  return (
-                    <button
-                      key={tab.id}
-                      onClick={() => setResultTab(tab.id)}
-                      className={cn(
-                        "flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs font-bold transition-all shrink-0",
-                        resultTab === tab.id
-                          ? "bg-cyan-500 text-white shadow-md shadow-cyan-500/20"
-                          : "text-slate-400 hover:text-slate-200 hover:bg-slate-900/60"
-                      )}
-                    >
-                      <Icon className="w-3.5 h-3.5" />
-                      <span>{tab.label}</span>
-                    </button>
-                  );
-                })}
-              </div>
-
-              {/* Tab 1: Forensic Audit & Scorecard */}
-              {resultTab === "audit" && (
-                <div className="space-y-6">
+              <div className="space-y-6">
                   {/* Section Presence Indicators */}
                   <div className="grid grid-cols-2 sm:grid-cols-5 gap-2">
                     {Object.entries(analysis.sections).map(([key, present]) => (
@@ -678,13 +385,13 @@ Enterprise Analytics Dashboard (TypeScript, React, Node.js, PostgreSQL)
                     </Card>
                   )}
 
-                  {/* Recommendations & Weak Bullets */}
+                  {/* Recommendations and target-role keywords */}
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <Card className="glass border-sky-500/20">
                       <CardHeader className="pb-3">
                         <div className="flex items-center gap-2">
                           <AlertCircle className="w-4 h-4 text-sky-400" />
-                          <CardTitle className="text-sm font-bold text-white">Actionable ATS Recommendations</CardTitle>
+                          <CardTitle className="text-sm font-bold text-white">Recommended improvements</CardTitle>
                         </div>
                       </CardHeader>
                       <CardContent>
@@ -741,56 +448,8 @@ Enterprise Analytics Dashboard (TypeScript, React, Node.js, PostgreSQL)
                       </CardContent>
                     </Card>
                   </div>
+              </div>
 
-                  {/* Comparison with Suggested Bullets */}
-                  {analysis.weakBullets && analysis.weakBullets.length > 0 && (
-                    <Card className="glass p-5 border border-border/60">
-                      <AtsComparison
-                        originalBullets={analysis.weakBullets.map((b) => b.original)}
-                        optimizedBullets={analysis.weakBullets.map((b) => b.suggested)}
-                        onApplyOptimized={() => {
-                          toast.success("Applied optimized STAR bullets to active draft!");
-                        }}
-                      />
-                    </Card>
-                  )}
-                </div>
-              )}
-
-              {/* Tab 2: Google XYZ Bullet Rewriter */}
-              {resultTab === "enhancer" && (
-                <div className="space-y-4">
-                  <StarBulletEnhancer
-                    onApplyBullet={(bullet) => {
-                      toast.success("Enhanced bullet saved to clipboard!");
-                    }}
-                  />
-                </div>
-              )}
-
-              {/* Tab 3: Target JD Keyword Matcher */}
-              {resultTab === "matcher" && (
-                <div className="space-y-4">
-                  <JobDescriptionMatcher
-                    resumeText={analysis.rawText}
-                    onInjectKeywords={(keywords) => {
-                      toast.success(`Injected ${keywords.length} keywords into profile!`);
-                    }}
-                  />
-                </div>
-              )}
-
-              {/* Tab 4: Recruiter Outreach Generator */}
-              {resultTab === "outreach" && (
-                <div className="space-y-4">
-                  <RecruiterOutreachGenerator
-                    candidateName={profile?.name || "Candidate"}
-                    targetRole={analysis.targetRoleName || "Senior Software Engineer"}
-                    targetCompany="Google"
-                    topSkills={analysis.detectedKeywords.slice(0, 5)}
-                  />
-                </div>
-              )}
             </motion.div>
           )}
         </AnimatePresence>

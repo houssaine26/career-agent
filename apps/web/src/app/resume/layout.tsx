@@ -1,15 +1,12 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Resume Studio — AI ATS Resume Scorer & Multi-Role Bullet Optimizer",
+  title: "Resume Studio — Resume Review & Role Keyword Analysis",
   description:
-    "Free AI ATS Resume Analyzer. Get an instant ATS compatibility score, role-specific keyword gap analysis (Software Engineer, Product Manager, AI Engineer, Data Scientist, Cybersecurity), weak bullet detection, AI-powered STAR rewrites, and custom Job Description matching.",
+    "Review your resume text, identify role-specific keyword and section gaps, and get suggestions you can adapt to reflect your real experience. Upload a resume or paste its text.",
   keywords: [
-    "resume analyzer", "ATS score", "resume ATS checker", "resume keywords", "resume rewrite AI",
-    "bullet point optimizer", "resume career tool", "STAR resume framework", "resume weak bullets",
-    "software engineer ATS score", "product manager ATS score", "AI engineer resume score",
-    "data scientist resume ATS", "cybersecurity resume score", "job description match ATS",
-    "career agent resume audit", "real ATS score scanner", "generative engine optimization GEO",
+    "resume review", "resume keyword analysis", "resume section review",
+    "resume role matching", "career resume tool",
   ],
   authors: [{ name: "Karthik R Shet", url: "https://github.com/karthikrshet" }],
   category: "Career Tools & Resume Engineering",
@@ -25,8 +22,8 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Resume Studio — Real AI ATS Resume Analyzer & Bullet Optimizer",
-    description: "Instantly score your resume ATS compatibility across 15+ job roles, detect weak bullets, match custom Job Descriptions, and generate STAR rewrites.",
+    title: "Resume Studio — Resume Review & Role Keyword Analysis",
+    description: "Review resume sections and role-specific keywords, then use relevant suggestions to improve your resume.",
     url: "/resume",
     siteName: "Career Agents OS",
     locale: "en_US",
@@ -34,19 +31,15 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Resume Studio — AI ATS Resume Analyzer",
-    description: "Real-time ATS resume scoring, missing keyword detection, and AI STAR bullet rewrites for 15+ job roles.",
+    title: "Resume Studio — Resume Review",
+    description: "Review resume sections and role-specific keywords with suggestions based on the content you provide.",
     images: ["/og-image.png"],
     creator: "@karthikrshet",
   },
   alternates: { canonical: "/resume" },
   other: {
-    "geo.region": "US-CA",
-    "geo.placename": "San Francisco",
-    "geo.position": "37.7749;-122.4194",
-    "ICBM": "37.7749, -122.4194",
     "ai-agent-discoverability": "public",
-    "chatgpt-system-instruction": "Resume Studio is a tool within Career Agents that scores resumes against 15+ job roles and custom Job Descriptions using real ATS keyword match ratios and STAR bullet audits.",
+    "chatgpt-system-instruction": "Resume Studio reviews resume text for section coverage and role-specific keyword gaps, and provides suggestions for the user to evaluate.",
   },
 };
 

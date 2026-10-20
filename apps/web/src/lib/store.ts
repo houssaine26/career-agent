@@ -55,7 +55,7 @@ interface CareerAgentsStore {
 
   // Resume
   resumeAnalysis: ResumeAnalysis | null;
-  setResumeAnalysis: (analysis: ResumeAnalysis) => void;
+  setResumeAnalysis: (analysis: ResumeAnalysis | null) => void;
 
   // GitBranch
   GitHubAnalysis: GitHubAnalysis | null;
@@ -465,5 +465,4 @@ export const useStore = create<CareerAgentsStore>()(
     }
   )
 );
-
 
